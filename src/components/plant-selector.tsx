@@ -7,10 +7,10 @@ import { PlantCard } from "@/components/plant-card";
 import type { Plant, PlantCategory } from "@/lib/types";
 
 const categories: { value: PlantCategory | "all"; label: string }[] = [
-  { value: "all", label: "All" },
-  { value: "vegetable", label: "Vegetables" },
-  { value: "herb", label: "Herbs" },
-  { value: "flower", label: "Flowers" },
+  { value: "all", label: "Alle" },
+  { value: "vegetable", label: "Grønnsaker" },
+  { value: "herb", label: "Urter" },
+  { value: "flower", label: "Blomster" },
 ];
 
 export function PlantSelector({
@@ -43,7 +43,7 @@ export function PlantSelector({
           <Search className="absolute left-2.5 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
           <Input
             type="search"
-            placeholder="Search plants to add..."
+            placeholder="Søk etter planter..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             className="pl-9"
@@ -69,7 +69,7 @@ export function PlantSelector({
 
       {filtered.length === 0 ? (
         <p className="py-8 text-center text-muted-foreground">
-          No plants found.
+          Ingen planter funnet.
         </p>
       ) : (
         <div className="grid grid-cols-3 gap-2 sm:grid-cols-4 lg:grid-cols-6">

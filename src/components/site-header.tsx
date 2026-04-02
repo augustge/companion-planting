@@ -6,8 +6,8 @@ import { Leaf } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
-  { href: "/", label: "Planner" },
-  { href: "/browse", label: "Browse" },
+  { href: "/", label: "Planlegger" },
+  { href: "/browse", label: "Utforsk" },
 ];
 
 export function SiteHeader() {
@@ -19,7 +19,7 @@ export function SiteHeader() {
         <Link href="/" className="flex items-center gap-2">
           <Leaf className="h-5 w-5 text-emerald-600" />
           <span className="font-heading text-lg font-semibold">
-            Companion Planting
+            Samplanting
           </span>
         </Link>
         <nav className="flex gap-4">

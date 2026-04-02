@@ -38,13 +38,13 @@ export function PlantProfile({ plant }: { plant: Plant }) {
 
       <Card>
         <CardHeader>
-          <CardTitle>Growing Guide</CardTitle>
+          <CardTitle>Dyrkingsguide</CardTitle>
         </CardHeader>
         <CardContent>
           <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 text-sm">
             {calendar.sowIndoors && (
               <>
-                <dt className="font-medium">Sow indoors</dt>
+                <dt className="font-medium">Så inne</dt>
                 <dd className="text-muted-foreground">
                   {formatRange(calendar.sowIndoors)}
                 </dd>
@@ -52,7 +52,7 @@ export function PlantProfile({ plant }: { plant: Plant }) {
             )}
             {calendar.transplant && (
               <>
-                <dt className="font-medium">Transplant</dt>
+                <dt className="font-medium">Plante ut</dt>
                 <dd className="text-muted-foreground">
                   {formatRange(calendar.transplant)}
                 </dd>
@@ -60,7 +60,7 @@ export function PlantProfile({ plant }: { plant: Plant }) {
             )}
             {calendar.sowOutdoors && (
               <>
-                <dt className="font-medium">Sow outdoors</dt>
+                <dt className="font-medium">Så ute</dt>
                 <dd className="text-muted-foreground">
                   {formatRange(calendar.sowOutdoors)}
                 </dd>
@@ -68,19 +68,19 @@ export function PlantProfile({ plant }: { plant: Plant }) {
             )}
             {calendar.harvest && (
               <>
-                <dt className="font-medium">Harvest</dt>
+                <dt className="font-medium">Høsting</dt>
                 <dd className="text-muted-foreground">
                   {formatRange(calendar.harvest)}
                 </dd>
               </>
             )}
-            <dt className="font-medium">Spacing</dt>
+            <dt className="font-medium">Avstand</dt>
             <dd className="text-muted-foreground">{plant.spacing}</dd>
             {plant.harvestDays && (
               <>
-                <dt className="font-medium">Days to harvest</dt>
+                <dt className="font-medium">Dager til høsting</dt>
                 <dd className="text-muted-foreground">
-                  {plant.harvestDays} days
+                  {plant.harvestDays} dager
                 </dd>
               </>
             )}

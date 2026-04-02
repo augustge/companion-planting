@@ -77,10 +77,10 @@ export function GardenPlanner({
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-2xl font-bold">Garden Planner</h1>
+        <h1 className="text-2xl font-bold">Hageplanlegger</h1>
         <p className="mt-1 text-muted-foreground">
-          Select plants to see when to sow, transplant, and harvest — and which
-          ones grow well together.
+          Velg planter for å se når du kan så, plante ut og høste — og hvilke
+          som trives sammen.
         </p>
       </div>
 

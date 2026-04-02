@@ -78,15 +78,15 @@ export function CalendarLegend() {
     <div className="flex flex-wrap gap-4 text-xs text-muted-foreground">
       <span className="flex items-center gap-1.5">
         <span className="inline-block h-3 w-6 rounded-sm border-2 border-dashed border-indigo-400 bg-indigo-100" />
-        Sow indoors
+        Så inne
       </span>
       <span className="flex items-center gap-1.5">
         <span className="inline-block h-3 w-6 rounded-sm bg-emerald-400/80" />
-        Plant outdoors
+        Plante ut
       </span>
       <span className="flex items-center gap-1.5">
         <span className="inline-block h-3 w-6 rounded-sm bg-amber-400/80" />
-        Harvest
+        Høste
       </span>
     </div>
   );
@@ -98,9 +98,9 @@ export function PlantingCalendar({ plants }: { plants: Plant[] }) {
   return (
     <div className="space-y-3">
       <div className="flex items-baseline justify-between">
-        <h2 className="text-lg font-semibold">Planting Calendar</h2>
+        <h2 className="text-lg font-semibold">Plantekalender</h2>
         <span className="text-xs text-muted-foreground">
-          Timings for Oslo / Southern Norway
+          Tider for Oslo / Sør-Norge
         </span>
       </div>
 

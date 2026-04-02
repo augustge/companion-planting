@@ -5,9 +5,9 @@ import { PlantIcon } from "@/components/plant-icon";
 import type { Plant } from "@/lib/types";
 
 const categoryLabel: Record<Plant["category"], string> = {
-  vegetable: "Vegetable",
-  herb: "Herb",
-  flower: "Flower",
+  vegetable: "Grønnsak",
+  herb: "Urt",
+  flower: "Blomst",
 };
 
 type PlantCardProps = {
@@ -42,7 +42,7 @@ export function PlantCard({
         </Badge>
         {companionCount > 0 && (
           <span className="mt-2 text-xs text-muted-foreground">
-            {companionCount} companion{companionCount !== 1 ? "s" : ""}
+            {companionCount} kombinasjon{companionCount !== 1 ? "er" : ""}
           </span>
         )}
       </CardContent>

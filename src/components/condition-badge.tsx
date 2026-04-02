@@ -2,21 +2,21 @@ import { Sun, CloudSun, Cloud, Droplets, Snowflake } from "lucide-react";
 import type { SunRequirement, WaterNeed, FrostTolerance } from "@/lib/types";
 
 const sunConfig: Record<SunRequirement, { icon: typeof Sun; label: string }> = {
-  "full-sun": { icon: Sun, label: "Full sun" },
-  "partial-shade": { icon: CloudSun, label: "Partial shade" },
-  shade: { icon: Cloud, label: "Shade" },
+  "full-sun": { icon: Sun, label: "Full sol" },
+  "partial-shade": { icon: CloudSun, label: "Halvskygge" },
+  shade: { icon: Cloud, label: "Skygge" },
 };
 
 const waterConfig: Record<WaterNeed, string> = {
-  low: "Low water",
-  moderate: "Moderate water",
-  high: "High water",
+  low: "Lite vann",
+  moderate: "Middels vann",
+  high: "Mye vann",
 };
 
 const frostConfig: Record<FrostTolerance, string> = {
-  tender: "Frost tender",
-  "semi-hardy": "Semi-hardy",
-  hardy: "Frost hardy",
+  tender: "Frostøm",
+  "semi-hardy": "Halvherdig",
+  hardy: "Herdig",
 };
 
 export function SunBadge({ value }: { value: SunRequirement }) {

@@ -3,7 +3,7 @@ import { plants, getCompanions } from "@/lib/plants";
 import { PlantSearch } from "@/components/plant-search";
 
 export const metadata: Metadata = {
-  title: "Browse Plants",
+  title: "Utforsk planter",
 };
 
 export default function BrowsePage() {
@@ -15,9 +15,9 @@ export default function BrowsePage() {
   return (
     <div className="mx-auto max-w-5xl px-4 py-8">
       <div className="mb-8">
-        <h1 className="text-2xl font-bold">Browse Plants</h1>
+        <h1 className="text-2xl font-bold">Utforsk planter</h1>
         <p className="mt-1 text-muted-foreground">
-          Explore our full catalog of vegetables, herbs, and flowers.
+          Utforsk hele katalogen vår med grønnsaker, urter og blomster.
         </p>
       </div>
       <PlantSearch plants={plants} companionCounts={companionCounts} />

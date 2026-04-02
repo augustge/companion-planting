@@ -15,10 +15,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Companion Planting",
-    template: "%s — Companion Planting",
+    default: "Samplanting",
+    template: "%s — Samplanting",
   },
-  description: "Find plant combinations that thrive together",
+  description: "Finn plantekombinasjoner som trives sammen",
 };
 
 export default function RootLayout({
@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="nb"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col bg-background text-foreground">

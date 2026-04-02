@@ -18,19 +18,19 @@ const groups: {
 }[] = [
   {
     type: "companion",
-    label: "Good companions",
+    label: "Gode naboer",
     icon: CheckCircle,
     headerClass: "text-emerald-700",
   },
   {
     type: "helpful",
-    label: "Helpful nearby",
+    label: "Nyttig i nærheten",
     icon: Info,
     headerClass: "text-amber-700",
   },
   {
     type: "antagonist",
-    label: "Keep apart",
+    label: "Hold fra hverandre",
     icon: XCircle,
     headerClass: "text-red-700",
   },
@@ -45,7 +45,7 @@ export function CompanionList({
 
   return (
     <section>
-      <h2 className="mb-4 text-lg font-semibold">Companions &amp; Conflicts</h2>
+      <h2 className="mb-4 text-lg font-semibold">Samplanting &amp; konflikter</h2>
       <div className="space-y-6">
         {groups.map((group) => {
           const entries = companions.filter(

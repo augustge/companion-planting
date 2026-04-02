@@ -24,9 +24,9 @@ const dotColors = {
 };
 
 const dotLabels = {
-  companion: "Good companions — can share soil",
-  helpful: "Helpful nearby — plant close but not together",
-  antagonist: "Keep apart",
+  companion: "Gode naboer — kan dele jord",
+  helpful: "Nyttig i nærheten — plant nært, men ikke sammen",
+  antagonist: "Hold fra hverandre",
 };
 
 export function CompatibilityMatrix({
@@ -46,7 +46,7 @@ export function CompatibilityMatrix({
 
   return (
     <div className="space-y-3">
-      <h2 className="text-lg font-semibold">Compatibility</h2>
+      <h2 className="text-lg font-semibold">Kompatibilitet</h2>
 
       <div className="overflow-x-auto">
         <table className="border-collapse text-sm">
@@ -146,7 +146,7 @@ export function CompatibilityMatrix({
               <p className="text-muted-foreground">{activeCell.edge.reason}</p>
               {activeCell.edge.citations.length > 0 && (
                 <p className="text-xs text-muted-foreground/60">
-                  Sources:{" "}
+                  Kilder:{" "}
                   {activeCell.edge.citations.map((c, i) => (
                     <span key={i}>
                       {i > 0 && "; "}
@@ -169,7 +169,7 @@ export function CompatibilityMatrix({
             </div>
           ) : (
             <p className="mt-1 text-muted-foreground">
-              No known interaction between these plants.
+              Ingen kjent interaksjon mellom disse plantene.
             </p>
           )}
         </div>
@@ -179,19 +179,19 @@ export function CompatibilityMatrix({
       <div className="flex flex-wrap gap-4 text-xs text-muted-foreground">
         <span className="flex items-center gap-1.5">
           <span className="inline-block h-3 w-3 rounded-full bg-emerald-500" />
-          Companion
+          Samplanting
         </span>
         <span className="flex items-center gap-1.5">
           <span className="inline-block h-3 w-3 rounded-full bg-amber-400" />
-          Helpful nearby
+          Nyttig i nærheten
         </span>
         <span className="flex items-center gap-1.5">
           <span className="inline-block h-3 w-3 rounded-full bg-red-500" />
-          Keep apart
+          Hold fra hverandre
         </span>
         <span className="flex items-center gap-1.5">
           <span className="inline-block h-3 w-3 rounded-full bg-muted" />
-          Neutral
+          Nøytral
         </span>
       </div>
     </div>
