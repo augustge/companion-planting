@@ -17,7 +17,7 @@ export async function generateMetadata({
   const plant = getPlant(slug);
   if (!plant) return {};
   return {
-    title: `${plant.emoji} ${plant.name}`,
+    title: plant.name,
     description: plant.description,
   };
 }

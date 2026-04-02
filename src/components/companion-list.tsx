@@ -1,12 +1,13 @@
 import { CheckCircle, Info, XCircle } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { CompanionRow } from "@/components/companion-row";
-import type { Plant, Compatibility } from "@/lib/types";
+import type { Plant, Compatibility, Citation } from "@/lib/types";
 
 type CompanionEntry = {
   plant: Plant;
   compatibility: Compatibility;
   reason: string;
+  citations: Citation[];
 };
 
 const groups: {
@@ -66,6 +67,7 @@ export function CompanionList({
                     key={entry.plant.slug}
                     plant={entry.plant}
                     reason={entry.reason}
+                    citations={entry.citations}
                   />
                 ))}
               </div>

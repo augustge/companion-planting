@@ -5,15 +5,30 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { SunBadge, WaterBadge, FrostBadge } from "@/components/condition-badge";
-import type { Plant } from "@/lib/types";
+import { PlantIcon } from "@/components/plant-icon";
+import type { Plant, MonthRange } from "@/lib/types";
+
+const monthNames = [
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+];
+
+function formatRange(range: MonthRange): string {
+  return `${monthNames[range[0] - 1]}–${monthNames[range[1] - 1]}`;
+}
 
 export function PlantProfile({ plant }: { plant: Plant }) {
+  const { calendar } = plant;
+
   return (
     <section>
       <div className="mb-4">
-        <span className="text-5xl">{plant.emoji}</span>
+        <PlantIcon name={plant.icon} className="h-12 w-12 text-muted-foreground" />
       </div>
-      <h1 className="mb-2 text-2xl font-bold">{plant.name}</h1>
+      <h1 className="mb-1 text-2xl font-bold">{plant.name}</h1>
+      <p className="mb-3 text-sm italic text-muted-foreground">
+        {plant.species}
+      </p>
       <div className="mb-4 flex flex-wrap gap-2">
         <SunBadge value={plant.sun} />
         <WaterBadge value={plant.water} />
@@ -27,24 +42,46 @@ export function PlantProfile({ plant }: { plant: Plant }) {
         </CardHeader>
         <CardContent>
           <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 text-sm">
-            {plant.sowIndoors && (
+            {calendar.sowIndoors && (
               <>
                 <dt className="font-medium">Sow indoors</dt>
-                <dd className="text-muted-foreground">{plant.sowIndoors}</dd>
+                <dd className="text-muted-foreground">
+                  {formatRange(calendar.sowIndoors)}
+                </dd>
               </>
             )}
-            {plant.sowOutdoors && (
+            {calendar.transplant && (
+              <>
+                <dt className="font-medium">Transplant</dt>
+                <dd className="text-muted-foreground">
+                  {formatRange(calendar.transplant)}
+                </dd>
+              </>
+            )}
+            {calendar.sowOutdoors && (
               <>
                 <dt className="font-medium">Sow outdoors</dt>
-                <dd className="text-muted-foreground">{plant.sowOutdoors}</dd>
+                <dd className="text-muted-foreground">
+                  {formatRange(calendar.sowOutdoors)}
+                </dd>
+              </>
+            )}
+            {calendar.harvest && (
+              <>
+                <dt className="font-medium">Harvest</dt>
+                <dd className="text-muted-foreground">
+                  {formatRange(calendar.harvest)}
+                </dd>
               </>
             )}
             <dt className="font-medium">Spacing</dt>
             <dd className="text-muted-foreground">{plant.spacing}</dd>
             {plant.harvestDays && (
               <>
-                <dt className="font-medium">Harvest</dt>
-                <dd className="text-muted-foreground">{plant.harvestDays}</dd>
+                <dt className="font-medium">Days to harvest</dt>
+                <dd className="text-muted-foreground">
+                  {plant.harvestDays} days
+                </dd>
               </>
             )}
           </dl>
