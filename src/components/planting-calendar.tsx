@@ -14,8 +14,8 @@ function CalendarBar({
 }) {
   return (
     <div
-      className={`absolute inset-y-0.5 rounded-sm ${className} ${
-        dashed ? "border-2 border-dashed bg-transparent" : ""
+      className={`absolute inset-y-1 rounded-[2px] ${className} ${
+        dashed ? "border border-dashed bg-transparent" : ""
       }`}
       style={{
         left: `${((range[0] - 1) / 12) * 100}%`,
@@ -29,65 +29,45 @@ function CalendarRow({ plant }: { plant: Plant }) {
   const { calendar } = plant;
 
   return (
-    <div className="flex items-center gap-0">
-      <div className="flex w-32 shrink-0 items-center gap-2 pr-3 sm:w-40">
-        <PlantIcon name={plant.icon} className="h-4 w-4 shrink-0 text-muted-foreground" />
-        <span className="truncate text-sm font-medium">{plant.name}</span>
+    <div className="flex items-center">
+      <div className="flex w-28 shrink-0 items-center gap-1.5 pr-3 sm:w-36">
+        <PlantIcon name={plant.icon} className="h-3.5 w-3.5 shrink-0 text-clay" />
+        <span className="truncate text-sm">{plant.name}</span>
       </div>
-      <div className="relative flex h-6 flex-1">
-        {/* Grid lines */}
+      <div className="relative flex h-5 flex-1">
         {months.map((_, i) => (
           <div
             key={i}
-            className="absolute top-0 bottom-0 border-l border-border/30"
+            className="absolute top-0 bottom-0 border-l border-border/20"
             style={{ left: `${(i / 12) * 100}%` }}
           />
         ))}
         {calendar.sowIndoors && (
           <CalendarBar
             range={calendar.sowIndoors}
-            className="border-indigo-400 bg-indigo-100"
+            className="border-sage bg-transparent"
             dashed
           />
         )}
         {calendar.transplant && (
           <CalendarBar
             range={calendar.transplant}
-            className="bg-emerald-400/80"
+            className="bg-sage/40"
           />
         )}
         {calendar.sowOutdoors && (
           <CalendarBar
             range={calendar.sowOutdoors}
-            className="bg-emerald-400/80"
+            className="bg-sage/40"
           />
         )}
         {calendar.harvest && (
           <CalendarBar
             range={calendar.harvest}
-            className="bg-amber-400/80"
+            className="bg-amber-earth/40"
           />
         )}
       </div>
-    </div>
-  );
-}
-
-export function CalendarLegend() {
-  return (
-    <div className="flex flex-wrap gap-4 text-xs text-muted-foreground">
-      <span className="flex items-center gap-1.5">
-        <span className="inline-block h-3 w-6 rounded-sm border-2 border-dashed border-indigo-400 bg-indigo-100" />
-        Så inne
-      </span>
-      <span className="flex items-center gap-1.5">
-        <span className="inline-block h-3 w-6 rounded-sm bg-emerald-400/80" />
-        Plante ut
-      </span>
-      <span className="flex items-center gap-1.5">
-        <span className="inline-block h-3 w-6 rounded-sm bg-amber-400/80" />
-        Høste
-      </span>
     </div>
   );
 }
@@ -96,33 +76,30 @@ export function PlantingCalendar({ plants }: { plants: Plant[] }) {
   if (plants.length === 0) return null;
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-2">
       <div className="flex items-baseline justify-between">
         <h2 className="text-lg font-semibold">Plantekalender</h2>
-        <span className="text-xs text-muted-foreground">
-          Tider for Oslo / Sør-Norge
+        <span className="text-[11px] text-muted-foreground">
+          Oslo / Sør-Norge
         </span>
       </div>
 
       <div className="overflow-x-auto">
-        <div className="min-w-[500px]">
-          {/* Month header */}
+        <div className="min-w-[420px]">
           <div className="flex items-center">
-            <div className="w-32 shrink-0 sm:w-40" />
+            <div className="w-28 shrink-0 sm:w-36" />
             <div className="flex flex-1">
               {months.map((m, i) => (
                 <div
                   key={i}
-                  className="flex-1 text-center text-xs text-muted-foreground"
+                  className="flex-1 text-center text-[11px] text-muted-foreground"
                 >
                   {m}
                 </div>
               ))}
             </div>
           </div>
-
-          {/* Plant rows */}
-          <div className="mt-1 space-y-1">
+          <div className="mt-0.5 space-y-0.5">
             {plants.map((plant) => (
               <CalendarRow key={plant.slug} plant={plant} />
             ))}
@@ -130,7 +107,20 @@ export function PlantingCalendar({ plants }: { plants: Plant[] }) {
         </div>
       </div>
 
-      <CalendarLegend />
+      <div className="flex gap-4 pt-1 text-[11px] text-muted-foreground">
+        <span className="flex items-center gap-1.5">
+          <span className="inline-block h-2.5 w-4 rounded-[2px] border border-dashed border-sage" />
+          Så inne
+        </span>
+        <span className="flex items-center gap-1.5">
+          <span className="inline-block h-2.5 w-4 rounded-[2px] bg-sage/40" />
+          Plante ut
+        </span>
+        <span className="flex items-center gap-1.5">
+          <span className="inline-block h-2.5 w-4 rounded-[2px] bg-amber-earth/40" />
+          Høste
+        </span>
+      </div>
     </div>
   );
 }

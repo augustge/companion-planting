@@ -1,8 +1,6 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { Search } from "lucide-react";
-import { Input } from "@/components/ui/input";
 import { PlantCard } from "@/components/plant-card";
 import type { Plant, PlantCategory } from "@/lib/types";
 
@@ -15,10 +13,8 @@ const categories: { value: PlantCategory | "all"; label: string }[] = [
 
 export function PlantSearch({
   plants,
-  companionCounts,
 }: {
   plants: Plant[];
-  companionCounts: Record<string, number>;
 }) {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<PlantCategory | "all">("all");
@@ -34,26 +30,24 @@ export function PlantSearch({
 
   return (
     <div>
-      <div className="mb-6 space-y-3">
-        <div className="relative">
-          <Search className="absolute left-2.5 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
-          <Input
-            type="search"
-            placeholder="Søk etter planter..."
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            className="pl-9"
-          />
-        </div>
-        <div className="flex gap-2">
+      <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center">
+        <input
+          type="search"
+          placeholder="Søk etter planter..."
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          className="w-full rounded-sm border-0 border-b border-border bg-transparent px-0 py-1.5 text-sm placeholder:text-muted-foreground/60 focus:border-foreground focus:outline-none sm:w-64"
+        />
+        <div className="flex gap-3 text-sm">
           {categories.map((cat) => (
             <button
               key={cat.value}
+              type="button"
               onClick={() => setCategory(cat.value)}
-              className={`rounded-full px-3 py-1 text-sm font-medium transition-colors ${
+              className={`transition-colors ${
                 category === cat.value
-                  ? "bg-primary text-primary-foreground"
-                  : "bg-secondary text-secondary-foreground hover:bg-secondary/80"
+                  ? "text-foreground"
+                  : "text-muted-foreground hover:text-foreground"
               }`}
             >
               {cat.label}
@@ -63,16 +57,15 @@ export function PlantSearch({
       </div>
 
       {filtered.length === 0 ? (
-        <p className="py-12 text-center text-muted-foreground">
+        <p className="py-8 text-center text-sm text-muted-foreground">
           Ingen planter funnet.
         </p>
       ) : (
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+        <div className="grid grid-cols-3 gap-1 sm:grid-cols-4 md:grid-cols-5">
           {filtered.map((plant) => (
             <PlantCard
               key={plant.slug}
               plant={plant}
-              companionCount={companionCounts[plant.slug] ?? 0}
             />
           ))}
         </div>

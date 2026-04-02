@@ -18,14 +18,14 @@ function getEdge(
 }
 
 const dotColors = {
-  companion: "bg-emerald-500",
-  helpful: "bg-amber-400",
-  antagonist: "bg-red-500",
+  companion: "bg-sage",
+  helpful: "bg-amber-earth",
+  antagonist: "bg-terracotta",
 };
 
 const dotLabels = {
   companion: "Gode naboer — kan dele jord",
-  helpful: "Nyttig i nærheten — plant nært, men ikke sammen",
+  helpful: "Nyttig i nærheten",
   antagonist: "Hold fra hverandre",
 };
 
@@ -58,9 +58,9 @@ export function CompatibilityMatrix({
                   <div className="flex flex-col items-center gap-0.5">
                     <PlantIcon
                       name={p.icon}
-                      className="h-4 w-4 text-muted-foreground"
+                      className="h-3.5 w-3.5 text-clay"
                     />
-                    <span className="max-w-12 truncate text-[10px] font-normal text-muted-foreground">
+                    <span className="max-w-10 truncate text-[10px] font-normal text-muted-foreground">
                       {p.name}
                     </span>
                   </div>
@@ -71,21 +71,15 @@ export function CompatibilityMatrix({
           <tbody>
             {plants.map((rowPlant, ri) => (
               <tr key={rowPlant.slug}>
-                <td className="whitespace-nowrap pr-2 text-right text-xs font-medium">
-                  <span className="flex items-center justify-end gap-1.5">
-                    {rowPlant.name}
-                    <PlantIcon
-                      name={rowPlant.icon}
-                      className="h-3.5 w-3.5 text-muted-foreground"
-                    />
-                  </span>
+                <td className="whitespace-nowrap pr-2 text-right text-xs">
+                  {rowPlant.name}
                 </td>
                 {plants.map((colPlant, ci) => {
                   if (ri === ci) {
                     return (
-                      <td key={colPlant.slug} className="p-1">
-                        <div className="flex h-6 w-6 items-center justify-center">
-                          <div className="h-1.5 w-1.5 rounded-full bg-muted" />
+                      <td key={colPlant.slug} className="p-0.5">
+                        <div className="flex h-5 w-5 items-center justify-center">
+                          <div className="h-1 w-1 rounded-full bg-border" />
                         </div>
                       </td>
                     );
@@ -98,11 +92,11 @@ export function CompatibilityMatrix({
                   const isActive =
                     activeCell?.row === ri && activeCell?.col === ci;
                   return (
-                    <td key={colPlant.slug} className="p-1">
+                    <td key={colPlant.slug} className="p-0.5">
                       <button
                         type="button"
-                        className={`flex h-6 w-6 items-center justify-center rounded transition-colors hover:bg-muted ${
-                          isActive ? "ring-2 ring-ring" : ""
+                        className={`flex h-5 w-5 items-center justify-center rounded-sm transition-colors hover:bg-secondary ${
+                          isActive ? "bg-secondary" : ""
                         }`}
                         onClick={() =>
                           setActiveCell(
@@ -111,8 +105,8 @@ export function CompatibilityMatrix({
                         }
                       >
                         <div
-                          className={`h-3 w-3 rounded-full ${
-                            edge ? dotColors[edge.compatibility] : "bg-muted"
+                          className={`h-2.5 w-2.5 rounded-full ${
+                            edge ? dotColors[edge.compatibility] : "bg-border"
                           }`}
                         />
                       </button>
@@ -125,31 +119,29 @@ export function CompatibilityMatrix({
         </table>
       </div>
 
-      {/* Detail panel */}
       {activeCell && (
-        <div className="rounded-lg border bg-card p-3 text-sm">
-          <div className="flex items-center gap-2 font-medium">
+        <div className="text-sm">
+          <span className="font-medium">
             {plants[activeCell.row].name} + {plants[activeCell.col].name}
-          </div>
+          </span>
           {activeCell.edge ? (
-            <div className="mt-1 space-y-1">
-              <div className="flex items-center gap-1.5">
+            <div className="mt-1">
+              <div className="flex items-center gap-1.5 text-muted-foreground">
                 <div
-                  className={`h-2.5 w-2.5 rounded-full ${
+                  className={`h-2 w-2 rounded-full ${
                     dotColors[activeCell.edge.compatibility]
                   }`}
                 />
-                <span className="text-muted-foreground">
-                  {dotLabels[activeCell.edge.compatibility]}
-                </span>
+                {dotLabels[activeCell.edge.compatibility]}
               </div>
-              <p className="text-muted-foreground">{activeCell.edge.reason}</p>
+              <p className="mt-0.5 text-muted-foreground">
+                {activeCell.edge.reason}
+              </p>
               {activeCell.edge.citations.length > 0 && (
-                <p className="text-xs text-muted-foreground/60">
-                  Kilder:{" "}
+                <p className="mt-0.5 text-[11px] text-muted-foreground/50">
                   {activeCell.edge.citations.map((c, i) => (
                     <span key={i}>
-                      {i > 0 && "; "}
+                      {i > 0 && " · "}
                       {c.url ? (
                         <a
                           href={c.url}
@@ -168,30 +160,25 @@ export function CompatibilityMatrix({
               )}
             </div>
           ) : (
-            <p className="mt-1 text-muted-foreground">
-              Ingen kjent interaksjon mellom disse plantene.
+            <p className="mt-0.5 text-muted-foreground">
+              Ingen kjent interaksjon.
             </p>
           )}
         </div>
       )}
 
-      {/* Legend */}
-      <div className="flex flex-wrap gap-4 text-xs text-muted-foreground">
+      <div className="flex gap-4 text-[11px] text-muted-foreground">
         <span className="flex items-center gap-1.5">
-          <span className="inline-block h-3 w-3 rounded-full bg-emerald-500" />
+          <span className="inline-block h-2.5 w-2.5 rounded-full bg-sage" />
           Samplanting
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="inline-block h-3 w-3 rounded-full bg-amber-400" />
-          Nyttig i nærheten
+          <span className="inline-block h-2.5 w-2.5 rounded-full bg-amber-earth" />
+          I nærheten
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="inline-block h-3 w-3 rounded-full bg-red-500" />
-          Hold fra hverandre
-        </span>
-        <span className="flex items-center gap-1.5">
-          <span className="inline-block h-3 w-3 rounded-full bg-muted" />
-          Nøytral
+          <span className="inline-block h-2.5 w-2.5 rounded-full bg-terracotta" />
+          Unngå
         </span>
       </div>
     </div>

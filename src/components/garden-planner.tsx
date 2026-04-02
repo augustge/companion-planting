@@ -13,11 +13,9 @@ const MAX_SELECTED = 12;
 export function GardenPlanner({
   plants,
   companions,
-  companionCounts,
 }: {
   plants: Plant[];
   companions: CompanionEdge[];
-  companionCounts: Record<string, number>;
 }) {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -77,8 +75,8 @@ export function GardenPlanner({
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-2xl font-bold">Hageplanlegger</h1>
-        <p className="mt-1 text-muted-foreground">
+        <h1 className="text-2xl font-semibold italic">Hageplanlegger</h1>
+        <p className="mt-1 text-sm text-muted-foreground">
           Velg planter for å se når du kan så, plante ut og høste — og hvilke
           som trives sammen.
         </p>
@@ -90,7 +88,6 @@ export function GardenPlanner({
 
       <PlantSelector
         plants={plants}
-        companionCounts={companionCounts}
         selectedSlugs={selectedSlugs}
         onToggle={toggle}
       />

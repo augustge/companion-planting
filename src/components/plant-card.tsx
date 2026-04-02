@@ -1,18 +1,9 @@
 import Link from "next/link";
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { PlantIcon } from "@/components/plant-icon";
 import type { Plant } from "@/lib/types";
 
-const categoryLabel: Record<Plant["category"], string> = {
-  vegetable: "Grønnsak",
-  herb: "Urt",
-  flower: "Blomst",
-};
-
 type PlantCardProps = {
   plant: Plant;
-  companionCount: number;
 } & (
   | { selectable?: false; selected?: never; onToggle?: never }
   | { selectable: true; selected: boolean; onToggle: () => void }
@@ -20,33 +11,29 @@ type PlantCardProps = {
 
 export function PlantCard({
   plant,
-  companionCount,
   selectable,
   selected,
   onToggle,
 }: PlantCardProps) {
   const inner = (
-    <Card
-      className={`h-full transition-colors hover:bg-muted/50 ${
-        selected ? "ring-2 ring-primary bg-muted/50" : ""
+    <div
+      className={`flex flex-col items-center gap-1 rounded px-2 py-3 text-center transition-colors ${
+        selected
+          ? "bg-sage-light"
+          : "hover:bg-secondary"
       }`}
     >
-      <CardContent className="flex flex-col items-center text-center">
-        <PlantIcon
-          name={plant.icon}
-          className="mb-2 h-8 w-8 text-muted-foreground"
-        />
-        <span className="font-medium">{plant.name}</span>
-        <Badge variant="secondary" className="mt-1.5">
-          {categoryLabel[plant.category]}
-        </Badge>
-        {companionCount > 0 && (
-          <span className="mt-2 text-xs text-muted-foreground">
-            {companionCount} kombinasjon{companionCount !== 1 ? "er" : ""}
-          </span>
-        )}
-      </CardContent>
-    </Card>
+      <PlantIcon
+        name={plant.icon}
+        className={`mb-0.5 h-6 w-6 ${
+          selected ? "text-sage" : "text-muted-foreground"
+        }`}
+      />
+      <span className="text-sm font-medium leading-tight">{plant.name}</span>
+      <span className="text-[11px] italic text-muted-foreground">
+        {plant.species.split(" ").slice(0, 2).join(" ")}
+      </span>
+    </div>
   );
 
   if (selectable) {

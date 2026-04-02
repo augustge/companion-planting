@@ -1,7 +1,6 @@
 "use client";
 
 import { X } from "lucide-react";
-import { PlantIcon } from "@/components/plant-icon";
 import type { Plant } from "@/lib/types";
 
 export function SelectionBar({
@@ -18,14 +17,13 @@ export function SelectionBar({
       {plants.map((plant) => (
         <span
           key={plant.slug}
-          className="inline-flex items-center gap-1.5 rounded-full bg-secondary px-3 py-1 text-sm font-medium"
+          className="inline-flex items-center gap-1 rounded-sm bg-sage-light px-2 py-0.5 text-sm"
         >
-          <PlantIcon name={plant.icon} className="h-3.5 w-3.5 text-muted-foreground" />
           {plant.name}
           <button
             type="button"
             onClick={() => onRemove(plant.slug)}
-            className="ml-0.5 rounded-full p-0.5 text-muted-foreground hover:bg-muted hover:text-foreground"
+            className="ml-0.5 text-muted-foreground hover:text-foreground"
           >
             <X className="h-3 w-3" />
           </button>

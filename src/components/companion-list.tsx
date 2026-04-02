@@ -1,5 +1,3 @@
-import { CheckCircle, Info, XCircle } from "lucide-react";
-import { Separator } from "@/components/ui/separator";
 import { CompanionRow } from "@/components/companion-row";
 import type { Plant, Compatibility, Citation } from "@/lib/types";
 
@@ -13,27 +11,11 @@ type CompanionEntry = {
 const groups: {
   type: Compatibility;
   label: string;
-  icon: typeof CheckCircle;
-  headerClass: string;
+  color: string;
 }[] = [
-  {
-    type: "companion",
-    label: "Gode naboer",
-    icon: CheckCircle,
-    headerClass: "text-emerald-700",
-  },
-  {
-    type: "helpful",
-    label: "Nyttig i nærheten",
-    icon: Info,
-    headerClass: "text-amber-700",
-  },
-  {
-    type: "antagonist",
-    label: "Hold fra hverandre",
-    icon: XCircle,
-    headerClass: "text-red-700",
-  },
+  { type: "companion", label: "Gode naboer", color: "text-sage" },
+  { type: "helpful", label: "Nyttig i nærheten", color: "text-amber-earth" },
+  { type: "antagonist", label: "Hold fra hverandre", color: "text-terracotta" },
 ];
 
 export function CompanionList({
@@ -52,16 +34,12 @@ export function CompanionList({
             (c) => c.compatibility === group.type
           );
           if (entries.length === 0) return null;
-          const Icon = group.icon;
           return (
             <div key={group.type}>
-              <div
-                className={`mb-2 flex items-center gap-1.5 text-sm font-medium ${group.headerClass}`}
-              >
-                <Icon className="h-4 w-4" />
+              <h3 className={`mb-1 text-sm font-medium ${group.color}`}>
                 {group.label}
-              </div>
-              <div className="divide-y">
+              </h3>
+              <div>
                 {entries.map((entry) => (
                   <CompanionRow
                     key={entry.plant.slug}
@@ -71,7 +49,6 @@ export function CompanionList({
                   />
                 ))}
               </div>
-              <Separator className="mt-2" />
             </div>
           );
         })}

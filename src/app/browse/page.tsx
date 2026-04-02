@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { plants, getCompanions } from "@/lib/plants";
+import { plants } from "@/lib/plants";
 import { PlantSearch } from "@/components/plant-search";
 
 export const metadata: Metadata = {
@@ -7,20 +7,15 @@ export const metadata: Metadata = {
 };
 
 export default function BrowsePage() {
-  const companionCounts: Record<string, number> = {};
-  for (const plant of plants) {
-    companionCounts[plant.slug] = getCompanions(plant.slug).length;
-  }
-
   return (
-    <div className="mx-auto max-w-5xl px-4 py-8">
+    <div className="mx-auto max-w-3xl px-6 py-10">
       <div className="mb-8">
-        <h1 className="text-2xl font-bold">Utforsk planter</h1>
-        <p className="mt-1 text-muted-foreground">
-          Utforsk hele katalogen vår med grønnsaker, urter og blomster.
+        <h1 className="text-2xl font-semibold italic">Utforsk planter</h1>
+        <p className="mt-1 text-sm text-muted-foreground">
+          Hele katalogen — grønnsaker, urter og blomster.
         </p>
       </div>
-      <PlantSearch plants={plants} companionCounts={companionCounts} />
+      <PlantSearch plants={plants} />
     </div>
   );
 }

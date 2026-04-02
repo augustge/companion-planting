@@ -1,93 +1,78 @@
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { SunBadge, WaterBadge, FrostBadge } from "@/components/condition-badge";
 import { PlantIcon } from "@/components/plant-icon";
 import type { Plant, MonthRange } from "@/lib/types";
 
 const monthNames = [
-  "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+  "jan", "feb", "mar", "apr", "mai", "jun",
+  "jul", "aug", "sep", "okt", "nov", "des",
 ];
 
 function formatRange(range: MonthRange): string {
-  return `${monthNames[range[0] - 1]}–${monthNames[range[1] - 1]}`;
+  return `${monthNames[range[0] - 1]} – ${monthNames[range[1] - 1]}`;
 }
+
+const sunLabel = { "full-sun": "Full sol", "partial-shade": "Halvskygge", shade: "Skygge" } as const;
+const waterLabel = { low: "Lite vann", moderate: "Middels vann", high: "Mye vann" } as const;
+const frostLabel = { tender: "Frostøm", "semi-hardy": "Halvherdig", hardy: "Herdig" } as const;
 
 export function PlantProfile({ plant }: { plant: Plant }) {
   const { calendar } = plant;
 
   return (
     <section>
-      <div className="mb-4">
-        <PlantIcon name={plant.icon} className="h-12 w-12 text-muted-foreground" />
-      </div>
-      <h1 className="mb-1 text-2xl font-bold">{plant.name}</h1>
-      <p className="mb-3 text-sm italic text-muted-foreground">
+      <PlantIcon name={plant.icon} className="mb-4 h-10 w-10 text-clay" />
+      <h1 className="text-3xl font-semibold italic">{plant.name}</h1>
+      <p className="mt-0.5 text-sm italic text-muted-foreground">
         {plant.species}
       </p>
-      <div className="mb-4 flex flex-wrap gap-2">
-        <SunBadge value={plant.sun} />
-        <WaterBadge value={plant.water} />
-        <FrostBadge value={plant.frost} />
-      </div>
-      <p className="mb-6 text-muted-foreground">{plant.description}</p>
 
-      <Card>
-        <CardHeader>
-          <CardTitle>Dyrkingsguide</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 text-sm">
-            {calendar.sowIndoors && (
-              <>
-                <dt className="font-medium">Så inne</dt>
-                <dd className="text-muted-foreground">
-                  {formatRange(calendar.sowIndoors)}
-                </dd>
-              </>
-            )}
-            {calendar.transplant && (
-              <>
-                <dt className="font-medium">Plante ut</dt>
-                <dd className="text-muted-foreground">
-                  {formatRange(calendar.transplant)}
-                </dd>
-              </>
-            )}
-            {calendar.sowOutdoors && (
-              <>
-                <dt className="font-medium">Så ute</dt>
-                <dd className="text-muted-foreground">
-                  {formatRange(calendar.sowOutdoors)}
-                </dd>
-              </>
-            )}
-            {calendar.harvest && (
-              <>
-                <dt className="font-medium">Høsting</dt>
-                <dd className="text-muted-foreground">
-                  {formatRange(calendar.harvest)}
-                </dd>
-              </>
-            )}
-            <dt className="font-medium">Avstand</dt>
-            <dd className="text-muted-foreground">{plant.spacing}</dd>
-            {plant.harvestDays && (
-              <>
-                <dt className="font-medium">Dager til høsting</dt>
-                <dd className="text-muted-foreground">
-                  {plant.harvestDays} dager
-                </dd>
-              </>
-            )}
-          </dl>
-          <p className="mt-4 text-sm text-muted-foreground">{plant.tips}</p>
-        </CardContent>
-      </Card>
+      <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm text-muted-foreground">
+        <span>{sunLabel[plant.sun]}</span>
+        <span>{waterLabel[plant.water]}</span>
+        <span>{frostLabel[plant.frost]}</span>
+      </div>
+
+      <p className="mt-4 leading-relaxed">{plant.description}</p>
+
+      <div className="mt-8">
+        <h2 className="mb-3 text-lg font-semibold">Dyrkingsguide</h2>
+        <dl className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-1.5 text-sm">
+          {calendar.sowIndoors && (
+            <>
+              <dt className="text-muted-foreground">Så inne</dt>
+              <dd>{formatRange(calendar.sowIndoors)}</dd>
+            </>
+          )}
+          {calendar.transplant && (
+            <>
+              <dt className="text-muted-foreground">Plante ut</dt>
+              <dd>{formatRange(calendar.transplant)}</dd>
+            </>
+          )}
+          {calendar.sowOutdoors && (
+            <>
+              <dt className="text-muted-foreground">Så ute</dt>
+              <dd>{formatRange(calendar.sowOutdoors)}</dd>
+            </>
+          )}
+          {calendar.harvest && (
+            <>
+              <dt className="text-muted-foreground">Høsting</dt>
+              <dd>{formatRange(calendar.harvest)}</dd>
+            </>
+          )}
+          <dt className="text-muted-foreground">Avstand</dt>
+          <dd>{plant.spacing}</dd>
+          {plant.harvestDays && (
+            <>
+              <dt className="text-muted-foreground">Dager til høsting</dt>
+              <dd>{plant.harvestDays} dager</dd>
+            </>
+          )}
+        </dl>
+        <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
+          {plant.tips}
+        </p>
+      </div>
     </section>
   );
 }

@@ -34,7 +34,7 @@ export default async function PlantPage({
   const companions = getCompanions(slug);
 
   return (
-    <div className="mx-auto max-w-2xl space-y-8 px-4 py-8">
+    <div className="mx-auto max-w-xl space-y-10 px-6 py-10">
       <PlantProfile plant={plant} />
       <CompanionList companions={companions} />
     </div>
