@@ -1,7 +1,7 @@
 import type { Plant } from "@/lib/types";
 
 export const plants: Plant[] = [
-  // ── Groennsaker ───────────────────────────────────────────────
+  // ── Grønnsaker ───────────────────────────────────────────────
 
   {
     name: "Tomat",
@@ -11,7 +11,7 @@ export const plants: Plant[] = [
     family: "Solanaceae",
     icon: "cherry",
     description:
-      "Varmekjaer frukt som er en av de mest populaere hageplantene. Trives best i varme med jevn fuktighet og stoette.",
+      "Varmekjær frukt som er en av de mest populære hageplantene. Trives best i varme med jevn fuktighet og støtte.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -29,7 +29,7 @@ export const plants: Plant[] = [
     },
     spacing: "45-60 cm",
     harvestDays: "60-85",
-    tips: "Stoed plantene tidlig med stokk eller bur. Fjern sideskudd paa ubestemte sorter for stoerre frukter. Vann dypt og jevnt for aa unngaa blomstenderaate, og unngaa aa vaate bladene. Dekk rundt basen med bark for aa holde paa fuktigheten.",
+    tips: "Støtt plantene tidlig med stokk eller bur. Fjern sideskudd på ubestemte sorter for større frukter. Vann dypt og jevnt for å unngå blomstenderåte, og unngå å våte bladene. Dekk rundt basen med bark for å holde på fuktigheten.",
   },
   {
     name: "Ripatomat",
@@ -39,7 +39,7 @@ export const plants: Plant[] = [
     family: "Solanaceae",
     icon: "cherry",
     description:
-      "Tradisjonell kjoeттомат med utmerket smak og store, ribbeformede frukter. En av de mest populaere arvestortene.",
+      "Tradisjonell kjøttomat med utmerket smak og store, ribbeformede frukter. En av de mest populære arvestortene.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -57,7 +57,7 @@ export const plants: Plant[] = [
     },
     spacing: "50-70 cm",
     harvestDays: "80-100",
-    tips: "Ripatomater trenger ekstra lang sesong — saa tidlig innendoers. De er ubestemte og trenger solid stoette. Smaken er best naar fruktene faar modne fullt ut paa planten. Mottakelig for sprekking — vann jevnt og unngaa store svingninger i fuktighet.",
+    tips: "Ripatomater trenger ekstra lang sesong — så tidlig innendørs. De er ubestemte og trenger solid støtte. Smaken er best når fruktene får modne fullt ut på planten. Mottakelig for sprekking — vann jevnt og unngå store svingninger i fuktighet.",
   },
   {
     name: "Cherrytomat",
@@ -67,7 +67,7 @@ export const plants: Plant[] = [
     family: "Solanaceae",
     icon: "cherry",
     description:
-      "Smaa, soete tomater som modner raskt og produserer rikelig. Perfekt for snacks rett fra hagen.",
+      "Små, søte tomater som modner raskt og produserer rikelig. Perfekt for snacks rett fra hagen.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -85,7 +85,7 @@ export const plants: Plant[] = [
     },
     spacing: "40-50 cm",
     harvestDays: "55-70",
-    tips: "Cherrytomater er mer hardfoere enn store sorter og modner fortere. De kan bli svært hoye — knip toppskudd om planten blir for stoer. Hoest ofte for aa stimulere ny produksjon. Utmerket valg for nybegynnere og korte vekstsesonger.",
+    tips: "Cherrytomater er mer hardføre enn store sorter og modner fortere. De kan bli svært hoye — knip toppskudd om planten blir for stør. Høst ofte for å stimulere ny produksjon. Utmerket valg for nybegynnere og korte vekstsesonger.",
   },
   {
     name: "Paprika",
@@ -95,7 +95,7 @@ export const plants: Plant[] = [
     family: "Solanaceae",
     icon: "cherry",
     description:
-      "Varmekjaer plante som produserer soete eller milde frukter i mange farger. Trenger varm jord og lang vekstsesong.",
+      "Varmekjær plante som produserer søte eller milde frukter i mange farger. Trenger varm jord og lang vekstsesong.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -113,7 +113,7 @@ export const plants: Plant[] = [
     },
     spacing: "40-50 cm",
     harvestDays: "60-90",
-    tips: "Start innendoers tidlig — paprika trenger lang, varm sesong. Herd av godt foer utplanting. Unngaa mye nitrogengjodsel etter blomstring, ellers faar du mye bladverk men faa frukter. Hoest regelmessig for aa fremme fortsatt produksjon.",
+    tips: "Start innendørs tidlig — paprika trenger lang, varm sesong. Herd av godt før utplanting. Unngå mye nitrogengjødsel etter blomstring, ellers får du mye bladverk men få frukter. Høst regelmessig for å fremme fortsatt produksjon.",
   },
   {
     name: "Chilipepper",
@@ -123,7 +123,7 @@ export const plants: Plant[] = [
     family: "Solanaceae",
     icon: "cherry",
     description:
-      "Sterke paprikasorter som varierer fra mild til ekstremt sterk. Dyrkes lett i potter paa en solrik vinduskarm.",
+      "Sterke paprikasorter som varierer fra mild til ekstremt sterk. Dyrkes lett i potter på en solrik vinduskarm.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -141,7 +141,7 @@ export const plants: Plant[] = [
     },
     spacing: "35-45 cm",
     harvestDays: "70-100",
-    tips: "Saa chili tidlig — de trenger svært lang sesong. De sterkeste sortene trenger mest varme og tid. Stress som toerke og kulde kan faktisk oeke styrken. Modne frukter kan toerkes, fryses eller syltes. Vokser godt i potter i drivhus eller paa en solrik balkong.",
+    tips: "Så chili tidlig — de trenger svært lang sesong. De sterkeste sortene trenger mest varme og tid. Stress som tørke og kulde kan faktisk øke styrken. Modne frukter kan tørkes, fryses eller syltes. Vokser godt i potter i drivhus eller på en solrik balkong.",
   },
   {
     name: "Aubergine",
@@ -151,7 +151,7 @@ export const plants: Plant[] = [
     family: "Solanaceae",
     icon: "cherry",
     description:
-      "Tropisk plante dyrket som ettaarig sommergroennsat. Produserer blanke frukter i mange former og farger.",
+      "Tropisk plante dyrket som ettårig sommergrønnsat. Produserer blanke frukter i mange former og farger.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -169,7 +169,7 @@ export const plants: Plant[] = [
     },
     spacing: "45-60 cm",
     harvestDays: "65-80",
-    tips: "Aubergine krever varm jord — vent til nattetemperaturen holder seg over 15 °C foer utplanting. Bruk sort plastkdekke for aa varme opp jorda raskere. Hoest naar skinnet er blankt; matt skinn betyr at frukten er overmoden. Loppebiller er det vanligste skadedyret — bruk fiberduk tidlig i sesongen.",
+    tips: "Aubergine krever varm jord — vent til nattetemperaturen holder seg over 15 °C før utplanting. Bruk sort plastkdekke for å varme opp jorda raskere. Høst når skinnet er blankt; matt skinn betyr at frukten er overmoden. Loppebiller er det vanligste skadedyret — bruk fiberduk tidlig i sesongen.",
   },
   {
     name: "Agurk",
@@ -197,7 +197,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-45 cm",
     harvestDays: "50-70",
-    tips: "Leid rankene opp et espalier for aa spare plass og forbedre luftsirkulasjonen. Hold jorda jevnt fuktig — ujevn vanning gir bitre eller misdannede frukter. Plukk agurkene unge og ofte for aa holde planten produktiv. Vokser godt i drivhus i Soer-Norge.",
+    tips: "Leid rankene opp et espalier for å spare plass og forbedre luftsirkulasjonen. Hold jorda jevnt fuktig — ujevn vanning gir bitre eller misdannede frukter. Plukk agurkene unge og ofte for å holde planten produktiv. Vokser godt i drivhus i Sør-Norge.",
   },
   {
     name: "Squash",
@@ -225,7 +225,7 @@ export const plants: Plant[] = [
     },
     spacing: "60-90 cm",
     harvestDays: "45-55",
-    tips: "Hoest naar fruktene er 15-20 cm for best smak og tekstur — overvokste squash blir vatne og froerike. Hvis smaa frukter faller av, er daarlig pollinering sannsynlig aarsak; proev haandpollinering. Meldugg er vanlig sent i sesongen; sørg for god luftsirkulasjon og vann ved basen.",
+    tips: "Høst når fruktene er 15-20 cm for best smak og tekstur — overvokste squash blir vatne og frørike. Hvis små frukter faller av, er dårlig pollinering sannsynlig årsak; prøv håndpollinering. Meldugg er vanlig sent i sesongen; sørg for god luftsirkulasjon og vann ved basen.",
   },
   {
     name: "Gresskar",
@@ -235,7 +235,7 @@ export const plants: Plant[] = [
     family: "Cucurbitaceae",
     icon: "sprout",
     description:
-      "Vintergreskar med hardt skall som lagrer seg godt i maaneder. Kraftige ranker trenger rikelig med plass.",
+      "Vintergreskar med hardt skall som lagrer seg godt i måneder. Kraftige ranker trenger rikelig med plass.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -253,17 +253,17 @@ export const plants: Plant[] = [
     },
     spacing: "90-120 cm",
     harvestDays: "80-110",
-    tips: "Gi gresskar lang vekstsesong og rikelig med plass. Toerk fruktene i solen i 10-14 dager etter hoest for aa herde skallet for lagring. Knip av ranketupper sent i sesongen for aa rette energien mot modning. Plantene trenger mye naeringsstoffer — gjødsl godt ved planting.",
+    tips: "Gi gresskar lang vekstsesong og rikelig med plass. Tørk fruktene i solen i 10-14 dager etter høst for å herde skallet for lagring. Knip av ranketupper sent i sesongen for å rette energien mot modning. Plantene trenger mye næringsstoffer — gjødsl godt ved planting.",
   },
   {
-    name: "Boenner",
+    name: "Bønner",
     species: "Phaseolus vulgaris",
     slug: "boenner",
     category: "vegetable",
     family: "Fabaceae",
     icon: "bean",
     description:
-      "Nitrogenfikserende belgvekster tilgjengelig som busk- eller stangboenner. Lette aa dyrke og svært produktive i varmt vaer.",
+      "Nitrogenfikserende belgvekster tilgjengelig som busk- eller stangbønner. Lette å dyrke og svært produktive i varmt vær.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -281,7 +281,7 @@ export const plants: Plant[] = [
     },
     spacing: "10-15 cm",
     harvestDays: "50-65",
-    tips: "Direktesaa boenner — de liker ikke aa bli omplanted. Podemiddel kan oeke nitrogenfikseringen hvis du ikke har dyrket boenner i bedet foer. Stangboenner trenger solid espalier og produserer over lengre tid enn busktyper. Plukk regelmessig for aa holde produksjonen oppe.",
+    tips: "Direkteså bønner — de liker ikke å bli omplanted. Podemiddel kan øke nitrogenfikseringen hvis du ikke har dyrket bønner i bedet før. Stangbønner trenger solid espalier og produserer over lengre tid enn busktyper. Plukk regelmessig for å holde produksjonen oppe.",
   },
   {
     name: "Sukkererter",
@@ -291,7 +291,7 @@ export const plants: Plant[] = [
     family: "Fabaceae",
     icon: "bean",
     description:
-      "Delikate erter der hele belgen spises. Soete og sprø, perfekte rett fra hagen. En favoritt blant barn og voksne.",
+      "Delikate erter der hele belgen spises. Søte og sprø, perfekte rett fra hagen. En favoritt blant barn og voksne.",
     sun: "full-sun",
     water: "moderate",
     frost: "semi-hardy",
@@ -309,7 +309,7 @@ export const plants: Plant[] = [
     },
     spacing: "5-8 cm",
     harvestDays: "60-75",
-    tips: "Saa tidlig om vaaren saa snart jorda kan bearbeides. Sukkererter trenger klatrestoette — et nett eller noen pinner er nok. Hoest ofte mens belgene er flate og sprø for beste smak. Produksjonen stopper naar temperaturen overstiger 25 °C jevnlig. Sukkererter er nitrogen-fikserende og forbedrer jorda.",
+    tips: "Så tidlig om våren så snart jorda kan bearbeides. Sukkererter trenger klatrestøtte — et nett eller noen pinner er nok. Høst ofte mens belgene er flate og sprø for beste smak. Produksjonen stopper når temperaturen overstiger 25 °C jevnlig. Sukkererter er nitrogen-fikserende og forbedrer jorda.",
   },
   {
     name: "Erter",
@@ -319,7 +319,7 @@ export const plants: Plant[] = [
     family: "Fabaceae",
     icon: "bean",
     description:
-      "Kjølig-sesong belgvekst som fikserer nitrogen i jorda. Best dyrket om vaaren naar temperaturen er mild.",
+      "Kjølig-sesong belgvekst som fikserer nitrogen i jorda. Best dyrket om våren når temperaturen er mild.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -337,7 +337,7 @@ export const plants: Plant[] = [
     },
     spacing: "5-8 cm",
     harvestDays: "55-70",
-    tips: "Saa saa tidlig som jorda kan bearbeides — erter slutter aa produsere naar temperaturen jevnlig overstiger 25 °C. Sett opp stoette selv for korte sorter, da det forbedrer luftsirkulasjonen og gjor hostingen lettere. Hoest sukkerbelgerter ofte mens de fortsatt er flate.",
+    tips: "Så så tidlig som jorda kan bearbeides — erter slutter å produsere når temperaturen jevnlig overstiger 25 °C. Sett opp støtte selv for korte sorter, da det forbedrer luftsirkulasjonen og gjør høstingen lettere. Høst sukkerbelgerter ofte mens de fortsatt er flate.",
   },
   {
     name: "Mais",
@@ -347,7 +347,7 @@ export const plants: Plant[] = [
     family: "Poaceae",
     icon: "wheat",
     description:
-      "Vindpollinert kornsort som maa plantes i blokker for skikkelig pollinering. Klassisk del av de tre soestrene.",
+      "Vindpollinert kornsort som må plantes i blokker for skikkelig pollinering. Klassisk del av de tre søstrene.",
     sun: "full-sun",
     water: "high",
     frost: "tender",
@@ -365,7 +365,7 @@ export const plants: Plant[] = [
     },
     spacing: "25-30 cm",
     harvestDays: "60-100",
-    tips: "Plant i blokker paa minst fire rader for paalitelig vindpollinering. Mais er en kraftig naeringsforbruker — tilleggsgjødsl med nitrogen naar plantene er knehoye. Vannstress under pollinering gir daarlig fylte kolber. Det tradisjonelle De tre soestrene-systemet kombinerer mais med boenner og gresskar.",
+    tips: "Plant i blokker på minst fire rader for pålitelig vindpollinering. Mais er en kraftig næringsforbruker — tilleggsgjødsl med nitrogen når plantene er knehoye. Vannstress under pollinering gir dårlig fylte kolber. Det tradisjonelle De tre søstrene-systemet kombinerer mais med bønner og gresskar.",
   },
   {
     name: "Salat",
@@ -375,7 +375,7 @@ export const plants: Plant[] = [
     family: "Asteraceae",
     icon: "salad",
     description:
-      "Raskvoksende salatgroent som foretrekker kjoelig vaer. Suksesjonssaa hver annen uke for kontinuerlig hoest.",
+      "Raskvoksende salatgrønt som foretrekker kjølig vær. Suksesjonsså hver annen uke for kontinuerlig høst.",
     sun: "partial-shade",
     water: "moderate",
     frost: "semi-hardy",
@@ -393,7 +393,7 @@ export const plants: Plant[] = [
     },
     spacing: "15-25 cm",
     harvestDays: "30-60",
-    tips: "Salat gaar raskt i blomst i varme — gi ettermiddagsskygge og velg varmetolerante sorter for sommerssaaing. Hoest ytterblader etter behov eller kutt hele hodet. Lett, hyppig vanning holder bladene sprø og hindrer bitterhet. Suksesjonssaa hver 2-3 uker for uavbrutt forsyning.",
+    tips: "Salat går raskt i blomst i varme — gi ettermiddagsskygge og velg varmetolerante sorter for sommerssåing. Høst ytterblader etter behov eller kutt hele hodet. Lett, hyppig vanning holder bladene sprø og hindrer bitterhet. Suksesjonsså hver 2-3 uker for uavbrutt forsyning.",
   },
   {
     name: "Spinat",
@@ -403,7 +403,7 @@ export const plants: Plant[] = [
     family: "Amaranthaceae",
     icon: "leafy-green",
     description:
-      "Naeringsrik kjoligsesonggroent som gaar i blomst i varme. En av de foerste kulturene du kan saa om vaaren.",
+      "Næringsrik kjøligsesonggrønt som går i blomst i varme. En av de første kulturene du kan så om våren.",
     sun: "partial-shade",
     water: "moderate",
     frost: "hardy",
@@ -421,17 +421,17 @@ export const plants: Plant[] = [
     },
     spacing: "10-15 cm",
     harvestDays: "35-50",
-    tips: "Saa tidlig om vaaren eller sent paa sommeren for best resultat — spinat gaar raskt i blomst naar daglengden overstiger 14 timer. Klipp ytterblader for aa forlenge hoesten. Spinat trives i nitrogenrik jord med jevn fuktighet. For en hoestkultur, start froeer i lett skygge paa sensommeren.",
+    tips: "Så tidlig om våren eller sent på sommeren for best resultat — spinat går raskt i blomst når daglengden overstiger 14 timer. Klipp ytterblader for å forlenge høsten. Spinat trives i nitrogenrik jord med jevn fuktighet. For en høstkultur, start frøer i lett skygge på sensommeren.",
   },
   {
-    name: "Gronnkaal",
+    name: "Grønnkål",
     species: "Brassica oleracea var. sabellica",
     slug: "gronnkaal",
     category: "vegetable",
     family: "Brassicaceae",
     icon: "leafy-green",
     description:
-      "Kuldesterk kaalplante som faar bedre smak etter frost. Produserer over en lang sesong og taaler lett frost.",
+      "Kuldesterk kålplante som får bedre smak etter frost. Produserer over en lang sesong og tåler lett frost.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -449,7 +449,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-45 cm",
     harvestDays: "50-65",
-    tips: "Gronnkaal er en av de mest kuldetolerante kulturene og kan hoestes langt inn i vinteren. Plukk nedre blader foerst og la senteret fortsette aa vokse. Bladlus og kaalorm er vanlige — sjekk undersiden av bladene jevnlig. En lett frost soeter smaken, saa ikke forhast deg med aa trekke opp plantene om hoesten.",
+    tips: "Gronnkål er en av de mest kuldetolerante kulturene og kan høstes langt inn i vinteren. Plukk nedre blader først og la senteret fortsette å vokse. Bladlus og kålorm er vanlige — sjekk undersiden av bladene jevnlig. En lett frost søter smaken, så ikke forhast deg med å trekke opp plantene om høsten.",
   },
   {
     name: "Gulrot",
@@ -459,7 +459,7 @@ export const plants: Plant[] = [
     family: "Apiaceae",
     icon: "carrot",
     description:
-      "Rotgroennsat som trenger loes, steinfri jord for rett vekst. Direktesaas — gulroetter liker ikke omplanting.",
+      "Rotgrønnsat som trenger løs, steinfri jord for rett vekst. Direktesås — gulrøtter liker ikke omplanting.",
     sun: "full-sun",
     water: "moderate",
     frost: "semi-hardy",
@@ -477,17 +477,17 @@ export const plants: Plant[] = [
     },
     spacing: "5-8 cm",
     harvestDays: "60-80",
-    tips: "Forbered et dypt, loest bed uten stein og klumper for aa unngaa gaffelroetter. Froeene er smaa og langsomme til aa spire — hold jordoverflaten fuktig i 2-3 uker. Tynn ut tidlig for aa hindre trengsel. Gulroetter kan staa i jorda og hoestes etter behov; et lag med dekkbark beskytter mot lett frost.",
+    tips: "Forbered et dypt, løst bed uten stein og klumper for å unngå gaffelrøtter. Frøene er små og langsomme til å spire — hold jordoverflaten fuktig i 2-3 uker. Tynn ut tidlig for å hindre trengsel. Gulrøtter kan stå i jorda og høstes etter behov; et lag med dekkbark beskytter mot lett frost.",
   },
   {
-    name: "Loek",
+    name: "Løk",
     species: "Allium cepa",
     slug: "loek",
     category: "vegetable",
     family: "Amaryllidaceae",
     icon: "sprout",
     description:
-      "Loekdannende vekst som trenger riktig daglengdesort for din breddegrad. Kan dyrkes fra froe, settloek eller planter.",
+      "Løkdannende vekst som trenger riktig daglengdesort for din breddegrad. Kan dyrkes fra frø, settløk eller planter.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -505,17 +505,17 @@ export const plants: Plant[] = [
     },
     spacing: "10-15 cm",
     harvestDays: "90-120",
-    tips: "I Norge trenger du langdagssorter for skikkelig loekdanning. Slutt aa vanne naar toppene begynner aa falle over, og toerk loekene paa et varmt, toert, luftig sted i 2-3 uker foer lagring. Loek har grunne roetter, saa hold ugraset under kontroll.",
+    tips: "I Norge trenger du langdagssorter for skikkelig løkdanning. Slutt å vanne når toppene begynner å falle over, og tørk løkene på et varmt, tørt, luftig sted i 2-3 uker før lagring. Løk har grunne røtter, så hold ugraset under kontroll.",
   },
   {
-    name: "Hvitloek",
+    name: "Hvitløk",
     species: "Allium sativum",
     slug: "hvitloek",
     category: "vegetable",
     family: "Amaryllidaceae",
     icon: "sprout",
     description:
-      "Plant enkeltfedd om hoesten for sommerhoest. Hardneck-sorter produserer spiselige stilker (scapes) om vaaren.",
+      "Plant enkeltfedd om høsten for sommerhøst. Hardneck-sorter produserer spiselige stilker (scapes) om våren.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -533,7 +533,7 @@ export const plants: Plant[] = [
     },
     spacing: "12-15 cm",
     harvestDays: "240-270",
-    tips: "Plant de stoerste feddene fra hvert loek for stoerst mulig avling. Dekk godt med bark i kalde omraader for aa beskytte over vinteren. Klipp stilker fra hardneck-sorter om vaaren for aa rette energien mot loeken. Hoest naar den nedre tredjedelen av bladene har blitt brune, og toerk paa et toert, luftig sted i 3-4 uker.",
+    tips: "Plant de største feddene fra hvert løk for størst mulig avling. Dekk godt med bark i kalde områder for å beskytte over vinteren. Klipp stilker fra hardneck-sorter om våren for å rette energien mot løken. Høst når den nedre tredjedelen av bladene har blitt brune, og tørk på et tørt, luftig sted i 3-4 uker.",
   },
   {
     name: "Potet",
@@ -543,7 +543,7 @@ export const plants: Plant[] = [
     family: "Solanaceae",
     icon: "apple",
     description:
-      "Knollvekst som vokser under bakken. Hypp jord rundt stenglene etter hvert som de vokser for aa oeke avlingen.",
+      "Knollvekst som vokser under bakken. Hypp jord rundt stenglene etter hvert som de vokser for å øke avlingen.",
     sun: "full-sun",
     water: "moderate",
     frost: "semi-hardy",
@@ -561,7 +561,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-40 cm",
     harvestDays: "70-120",
-    tips: "Bruk sertifiserte settepotet for aa unngaa sykdom. Hypp jord eller bark rundt stenglene etterhvert som de vokser for aa holde knollene i moerket — groenne poteter inneholder solanin og boer ikke spises. Slutt aa vanne etter at bladverket visner, og vent 2 uker foer du graver opp. Lagre kjoelig og moerkt.",
+    tips: "Bruk sertifiserte settepotet for å unngå sykdom. Hypp jord eller bark rundt stenglene etterhvert som de vokser for å holde knollene i mørket — grønne poteter inneholder solanin og bør ikke spises. Slutt å vanne etter at bladverket visner, og vent 2 uker før du graver opp. Lagre kjølig og mørkt.",
   },
   {
     name: "Reddik",
@@ -571,7 +571,7 @@ export const plants: Plant[] = [
     family: "Brassicaceae",
     icon: "carrot",
     description:
-      "En av de raskeste kulturene fra froe til hoest. Ideell for aa fylle tomme plasser mellom langsommere planter.",
+      "En av de raskeste kulturene fra frø til høst. Ideell for å fylle tomme plasser mellom langsommere planter.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -589,17 +589,17 @@ export const plants: Plant[] = [
     },
     spacing: "3-5 cm",
     harvestDays: "22-30",
-    tips: "Reddiker modner raskt og blir treaktige hvis de staar for lenge i jorda — hoest umiddelbart ved riktig storrelse. Saa hver 10-14 dager for kontinuerlig forsyning. De er utmerkede radmarkerer naar de plantes sammen med langsomtspirende kulturer som gulrot. Unngaa mye nitrogen som gir frodige topper men daarlige roetter.",
+    tips: "Reddiker modner raskt og blir treaktige hvis de står for lenge i jorda — høst umiddelbart ved riktig storrelse. Så hver 10-14 dager for kontinuerlig forsyning. De er utmerkede radmarkerer når de plantes sammen med langsomtspirende kulturer som gulrot. Unngå mye nitrogen som gir frodige topper men dårlige røtter.",
   },
   {
-    name: "Roedbete",
+    name: "Rødbete",
     species: "Beta vulgaris",
     slug: "roedbete",
     category: "vegetable",
     family: "Amaranthaceae",
     icon: "carrot",
     description:
-      "Tobruksvekst — baade roten og de groennet bladene er spiselige. Foretrekker kjoelig vaer og jevn fuktighet.",
+      "Tobruksvekst — både roten og de grønnet bladene er spiselige. Foretrekker kjølig vær og jevn fuktighet.",
     sun: "full-sun",
     water: "moderate",
     frost: "semi-hardy",
@@ -617,17 +617,17 @@ export const plants: Plant[] = [
     },
     spacing: "8-10 cm",
     harvestDays: "50-70",
-    tips: "Roedbetfroeer er egentlig klynger med flere froe, saa tynn ut tidlig for aa unngaa trengsel. Bloetlegg froene over natten foer saaing for raskere spiring. Hoest roettene naar de er 5-7 cm i diameter for soetест smak. Bladene kan plukkes unge til salat eller stekes som mangold.",
+    tips: "Rødbetfrøer er egentlig klynger med flere frø, så tynn ut tidlig for å unngå trengsel. Bløtlegg frøne over natten før såing for raskere spiring. Høst røttene når de er 5-7 cm i diameter for søtест smak. Bladene kan plukkes unge til salat eller stekes som mangold.",
   },
   {
-    name: "Hodekaal",
+    name: "Hodekål",
     species: "Brassica oleracea var. capitata",
     slug: "hodekaal",
     category: "vegetable",
     family: "Brassicaceae",
     icon: "salad",
     description:
-      "Kjoligsesong kaalplante som danner et tett hode. Tilgjengelig i groenne, roede og savoykaalvarianter.",
+      "Kjøligsesong kålplante som danner et tett hode. Tilgjengelig i grønne, røde og savoykålvarianter.",
     sun: "full-sun",
     water: "high",
     frost: "hardy",
@@ -645,7 +645,7 @@ export const plants: Plant[] = [
     },
     spacing: "45-60 cm",
     harvestDays: "70-100",
-    tips: "Kaal er en kraftig naeringsforbruker som trenger naeringsrik, veldrenert jord. Bruk fiberduk for aa beskytte mot kaalmott og larver. Hoest naar hodene foeles faste og solide. Ujevn vanning kan faa hodene til aa sprekke — hold fuktigheten jevn. En andre saaning midt paa sommeren gir hoestkultur.",
+    tips: "Kål er en kraftig næringsforbruker som trenger næringsrik, veldrenert jord. Bruk fiberduk for å beskytte mot kålmott og larver. Høst når hodene føles faste og solide. Ujevn vanning kan få hodene til å sprekke — hold fuktigheten jevn. En andre såing midt på sommeren gir høstkultur.",
   },
   {
     name: "Brokkoli",
@@ -655,7 +655,7 @@ export const plants: Plant[] = [
     family: "Brassicaceae",
     icon: "salad",
     description:
-      "Kjoligsesong kaalplante som produserer et stort senterhode etterfulgt av mindre sideskudd. Foretrekker milde temperaturer.",
+      "Kjøligsesong kålplante som produserer et stort senterhode etterfulgt av mindre sideskudd. Foretrekker milde temperaturer.",
     sun: "full-sun",
     water: "high",
     frost: "semi-hardy",
@@ -673,17 +673,17 @@ export const plants: Plant[] = [
     },
     spacing: "45-60 cm",
     harvestDays: "60-80",
-    tips: "Hoest sentralhodet mens knoppene fortsatt er tette og foer gule blomster dukker opp. Etter kutting av hovedhodet, la planten staa — mange sorter vil produsere mindre sideskudd i flere uker. Brokkoli gaar raskt i blomst i varme, saa tidsbestem plantingen til kjoelig vaer. Fiberduk hindrer kaalorm effektivt.",
+    tips: "Høst sentralhodet mens knoppene fortsatt er tette og før gule blomster dukker opp. Etter kutting av hovedhodet, la planten stå — mange sorter vil produsere mindre sideskudd i flere uker. Brokkoli går raskt i blomst i varme, så tidsbestem plantingen til kjølig vær. Fiberduk hindrer kålorm effektivt.",
   },
   {
-    name: "Blomkaal",
+    name: "Blomkål",
     species: "Brassica oleracea var. botrytis",
     slug: "blomkaal",
     category: "vegetable",
     family: "Brassicaceae",
     icon: "salad",
     description:
-      "Kresent kaalplante som danner et hvitt, kompakt hode. Krever stabile forhold og taaler ikke store temperatursvingninger.",
+      "Kresent kålplante som danner et hvitt, kompakt hode. Krever stabile forhold og tåler ikke store temperatursvingninger.",
     sun: "full-sun",
     water: "high",
     frost: "semi-hardy",
@@ -701,17 +701,17 @@ export const plants: Plant[] = [
     },
     spacing: "50-60 cm",
     harvestDays: "70-100",
-    tips: "Blomkaal er mer kresent enn brokkoli — temperatursjokk, toerke eller naeringsmangel kan faa hodet til aa gaa i blomst for tidlig. Brekk ytterblader over hodet for aa bleke det hvitt. Hoest naar hodet er tett og kompakt. Jevn vanning og naeringsrik jord er avgjorende for suksess.",
+    tips: "Blomkål er mer kresent enn brokkoli — temperatursjokk, tørke eller næringsmangel kan få hodet til å gå i blomst for tidlig. Brekk ytterblader over hodet for å bleke det hvitt. Høst når hodet er tett og kompakt. Jevn vanning og næringsrik jord er avgjørende for suksess.",
   },
   {
-    name: "Rosenkaal",
+    name: "Rosenkål",
     species: "Brassica oleracea var. gemmifera",
     slug: "rosenkaal",
     category: "vegetable",
     family: "Brassicaceae",
     icon: "salad",
     description:
-      "Kuldesterk kaalplante med smaa hoder langs stengelen. Smaken forbedres betydelig etter frost.",
+      "Kuldesterk kålplante med små hoder langs stengelen. Smaken forbedres betydelig etter frost.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -729,7 +729,7 @@ export const plants: Plant[] = [
     },
     spacing: "50-60 cm",
     harvestDays: "90-130",
-    tips: "Rosenkaal trenger lang vekstsesong — start innendoers tidlig. Fjern de nedre bladene etter hvert som de gulner. Topping av planten 4-6 uker foer foerste frost faar alle smaakaalene til aa modne jevnere. Smaken blir soetere etter frost, saa ikke forhast deg med hostingen.",
+    tips: "Rosenkål trenger lang vekstsesong — start innendørs tidlig. Fjern de nedre bladene etter hvert som de gulner. Topping av planten 4-6 uker før første frost får alle småkålene til å modne jevnere. Smaken blir søtere etter frost, så ikke forhast deg med høstingen.",
   },
   {
     name: "Selleri",
@@ -739,7 +739,7 @@ export const plants: Plant[] = [
     family: "Apiaceae",
     icon: "leafy-green",
     description:
-      "Krevende groennsat som trenger lang, kjoelig vekstsesong og rikelig med vann. Brukes i alt fra supper til salater.",
+      "Krevende grønnsat som trenger lang, kjølig vekstsesong og rikelig med vann. Brukes i alt fra supper til salater.",
     sun: "partial-shade",
     water: "high",
     frost: "semi-hardy",
@@ -757,7 +757,7 @@ export const plants: Plant[] = [
     },
     spacing: "20-25 cm",
     harvestDays: "80-120",
-    tips: "Selleri krever mye vann og naering gjennom hele sesongen. Froene er smaa og spirer langsomt — start tidlig innendoers. Plantene taaler ikke varme — sett dem i halvskygge paa varmeste dager. Du kan bleke stenglene ved aa pakke dem inn med avis for mildere smak.",
+    tips: "Selleri krever mye vann og næring gjennom hele sesongen. Frøene er små og spirer langsomt — start tidlig innendørs. Plantene tåler ikke varme — sett dem i halvskygge på varmeste dager. Du kan bleke stenglene ved å pakke dem inn med avis for mildere smak.",
   },
   {
     name: "Purre",
@@ -767,7 +767,7 @@ export const plants: Plant[] = [
     family: "Amaryllidaceae",
     icon: "sprout",
     description:
-      "Mild loekslektning som brukes mye i norsk matlaging. Taaler frost godt og kan overvintres i milde omraader.",
+      "Mild løkslektning som brukes mye i norsk matlaging. Tåler frost godt og kan overvintres i milde områder.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -785,7 +785,7 @@ export const plants: Plant[] = [
     },
     spacing: "15-20 cm",
     harvestDays: "100-150",
-    tips: "Plant purre dypt i groper og fyll jord gradvis rundt for lange, hvite skaft. Purre er en langtidsvekst — start tidlig innendoers. Hypp jord rundt etterhvert som planten vokser for aa bleke meir av stengelen. Purre taaler frost godt og kan staa ute til langt utover hoesten i Soer-Norge.",
+    tips: "Plant purre dypt i groper og fyll jord gradvis rundt for lange, hvite skaft. Purre er en langtidsvekst — start tidlig innendørs. Hypp jord rundt etterhvert som planten vokser for å bleke meir av stengelen. Purre tåler frost godt og kan stå ute til langt utover høsten i Sør-Norge.",
   },
   {
     name: "Jordskokk",
@@ -795,7 +795,7 @@ export const plants: Plant[] = [
     family: "Asteraceae",
     icon: "sprout",
     description:
-      "Hardfoer knollplante i solsikkefamilien. Produserer smakfulle knoller som kan hoestes hele vinteren.",
+      "Hardfør knollplante i solsikkefamilien. Produserer smakfulle knoller som kan høstes hele vinteren.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -813,7 +813,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-40 cm",
     harvestDays: "120-150",
-    tips: "Jordskokk er svært hardfoer og nesten umulig aa bli kvitt naar den foerst er etablert — plant den et sted der den kan faa bre seg. Knollene kan hoestes etter foerste frost og gjennom vinteren. Plantene kan bli over 2 meter hoye og gir fin levegg. Lagre knollene i jorda — de holder seg best der.",
+    tips: "Jordskokk er svært hardfør og nesten umulig å bli kvitt når den først er etablert — plant den et sted der den kan få bre seg. Knollene kan høstes etter første frost og gjennom vinteren. Plantene kan bli over 2 meter hoye og gir fin levegg. Lagre knollene i jorda — de holder seg best der.",
   },
   {
     name: "Sukkermais",
@@ -823,7 +823,7 @@ export const plants: Plant[] = [
     family: "Poaceae",
     icon: "wheat",
     description:
-      "Soet maisvariant spesielt foredlet for aa spises fersk. Soetere og moerere enn vanlig mais.",
+      "Søt maisvariant spesielt foredlet for å spises fersk. Søtere og mørere enn vanlig mais.",
     sun: "full-sun",
     water: "high",
     frost: "tender",
@@ -841,7 +841,7 @@ export const plants: Plant[] = [
     },
     spacing: "25-30 cm",
     harvestDays: "70-90",
-    tips: "Sukkermais mister soetheten raskt etter hoest — spis eller frys den innen timer. Plant i blokker for god pollinering. Unngaa aa plante sammen med vanlig mais, da krysspollinering kan oedelegge soetheten. Trenger varm jord for spiring — vent til jorda er minst 15 °C.",
+    tips: "Sukkermais mister søtheten raskt etter høst — spis eller frys den innen timer. Plant i blokker for god pollinering. Unngå å plante sammen med vanlig mais, da krysspollinering kan ødelegge søtheten. Trenger varm jord for spiring — vent til jorda er minst 15 °C.",
   },
   {
     name: "Mangold",
@@ -851,7 +851,7 @@ export const plants: Plant[] = [
     family: "Amaranthaceae",
     icon: "leafy-green",
     description:
-      "Fargerik bladgroennsat med tykke, saftige stilker i roett, gult eller hvitt. Baade blader og stilker er spiselige.",
+      "Fargerik bladgrønnsat med tykke, saftige stilker i røtt, gult eller hvitt. Både blader og stilker er spiselige.",
     sun: "full-sun",
     water: "moderate",
     frost: "semi-hardy",
@@ -869,7 +869,7 @@ export const plants: Plant[] = [
     },
     spacing: "20-30 cm",
     harvestDays: "50-60",
-    tips: "Mangold er lettdyrket og produserer over lang tid. Hoest ytterblader foerst saa midten kan fortsette aa vokse. Planten taaler lett frost og kan staa til langt utover hoesten. De fargerike stilkene gjor mangold til en dekorativ plante i bed og potter. Smaken er mildere enn spinat.",
+    tips: "Mangold er lettdyrket og produserer over lang tid. Høst ytterblader først så midten kan fortsette å vokse. Planten tåler lett frost og kan stå til langt utover høsten. De fargerike stilkene gjør mangold til en dekorativ plante i bed og potter. Smaken er mildere enn spinat.",
   },
   {
     name: "Pastinakk",
@@ -879,7 +879,7 @@ export const plants: Plant[] = [
     family: "Apiaceae",
     icon: "carrot",
     description:
-      "Soet rotgroennsat som faar bedre smak etter frost. Langsom aa spire men enkel aa dyrke naar den foerst er etablert.",
+      "Søt rotgrønnsat som får bedre smak etter frost. Langsom å spire men enkel å dyrke når den først er etablert.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -897,7 +897,7 @@ export const plants: Plant[] = [
     },
     spacing: "10-15 cm",
     harvestDays: "100-130",
-    tips: "Bruk alltid ferskt froe — pastinakkfroe mister spireevnen raskt. Froene er langsomme til aa spire (opptil 3 uker), saa vaer taalmodig og hold jorda fuktig. Smaken blir soetere etter frost, saa la dem staa i jorda. Kan overvintre i milde vintre og hoestes etter behov. Krever dyp, loes jord som gulrot.",
+    tips: "Bruk alltid ferskt frø — pastinakkfrø mister spireevnen raskt. Frøene er langsomme til å spire (opptil 3 uker), så vær tålmodig og hold jorda fuktig. Smaken blir søtere etter frost, så la dem stå i jorda. Kan overvintre i milde vintre og høstes etter behov. Krever dyp, løs jord som gulrot.",
   },
   {
     name: "Nepe",
@@ -907,7 +907,7 @@ export const plants: Plant[] = [
     family: "Brassicaceae",
     icon: "carrot",
     description:
-      "Tradisjonell norsk rotgroennsat som vokser raskt i kjoelig klima. Baade roten og bladene er spiselige.",
+      "Tradisjonell norsk rotgrønnsat som vokser raskt i kjølig klima. Både roten og bladene er spiselige.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -925,7 +925,7 @@ export const plants: Plant[] = [
     },
     spacing: "10-15 cm",
     harvestDays: "40-60",
-    tips: "Neper vokser raskt og foretrekker kjoelig vaer — saa om vaaren eller sensommeren for best resultat. Hoest naar roettene er 5-8 cm i diameter foer de blir treaktige. Bladene kan brukes som gronnkaal-erstatning. Taaler frost godt og er en tradisjonell norsk vintergroennsat. Dyrk gjerne suksessivt for lang sesong.",
+    tips: "Neper vokser raskt og foretrekker kjølig vær — så om våren eller sensommeren for best resultat. Høst når røttene er 5-8 cm i diameter før de blir treaktige. Bladene kan brukes som gronnkål-erstatning. Tåler frost godt og er en tradisjonell norsk vintergrønnsat. Dyrk gjerne suksessivt for lang sesong.",
   },
   {
     name: "Ruccola",
@@ -935,7 +935,7 @@ export const plants: Plant[] = [
     family: "Brassicaceae",
     icon: "leafy-green",
     description:
-      "Peppersterk salatplante som vokser raskt i kjoelig vaer. Populaert tilbehoer til salater, pizza og pasta.",
+      "Peppersterk salatplante som vokser raskt i kjølig vær. Populært tilbehør til salater, pizza og pasta.",
     sun: "partial-shade",
     water: "moderate",
     frost: "semi-hardy",
@@ -953,17 +953,17 @@ export const plants: Plant[] = [
     },
     spacing: "5-10 cm",
     harvestDays: "25-40",
-    tips: "Ruccola spirer og vokser svært raskt — klar til hoest paa 3-4 uker. Gaar raskt i blomst i varme, saa saa helst i kjoelige perioder. Suksesjonssaa hver 2-3 uker for kontinuerlig tilgang. Hoest de yngste bladene for mildest smak. Gir seg selv videre gjennom selvssaaing hvis du lar noen planter blomstre.",
+    tips: "Ruccola spirer og vokser svært raskt — klar til høst på 3-4 uker. Går raskt i blomst i varme, så så helst i kjølige perioder. Suksesjonsså hver 2-3 uker for kontinuerlig tilgang. Høst de yngste bladene for mildest smak. Gir seg selv videre gjennom selvssåing hvis du lar noen planter blomstre.",
   },
   {
-    name: "Sjalottloek",
+    name: "Sjalottløk",
     species: "Allium cepa var. aggregatum",
     slug: "sjalottloek",
     category: "vegetable",
     family: "Amaryllidaceae",
     icon: "sprout",
     description:
-      "Mild og aromatisk loektype som danner klynger av smaa loek. Mye brukt i finere matlaging.",
+      "Mild og aromatisk løktype som danner klynger av små løk. Mye brukt i finere matlaging.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -981,7 +981,7 @@ export const plants: Plant[] = [
     },
     spacing: "15-20 cm",
     harvestDays: "90-120",
-    tips: "Plant settloek saa tidlig som jorda kan bearbeides om vaaren. Sjalottloek danner klynger av 5-10 smaa loek fra hvert settloek. Slutt aa vanne naar toppene begynner aa gulne, og toerk godt foer lagring. De har mildere og mer raffinert smak enn vanlig loek og lagrer seg utmerket.",
+    tips: "Plant settløk så tidlig som jorda kan bearbeides om våren. Sjalottløk danner klynger av 5-10 små løk fra hvert settløk. Slutt å vanne når toppene begynner å gulne, og tørk godt før lagring. De har mildere og mer raffinert smak enn vanlig løk og lagrer seg utmerket.",
   },
   {
     name: "Fennikel",
@@ -991,7 +991,7 @@ export const plants: Plant[] = [
     family: "Apiaceae",
     icon: "leaf",
     description:
-      "Aromatisk plante med anissmak som kan brukes som groennsat (knollfennikel) eller urte. Viktig aa plassere med omhu i hagen.",
+      "Aromatisk plante med anissmak som kan brukes som grønnsat (knollfennikel) eller urte. Viktig å plassere med omhu i hagen.",
     sun: "full-sun",
     water: "moderate",
     frost: "semi-hardy",
@@ -1009,7 +1009,7 @@ export const plants: Plant[] = [
     },
     spacing: "25-30 cm",
     harvestDays: "60-90",
-    tips: "VIKTIG: Fennikel hemmer veksten til mange andre planter — spesielt boenner, tomater og kaalvekster. Plant den for seg selv, gjerne i en egen del av hagen eller i potte. Knollfennikel hoestes naar knollen er paa storrelse med en tennisball. Froeene og bladene brukes ogsaa i matlaging.",
+    tips: "VIKTIG: Fennikel hemmer veksten til mange andre planter — spesielt bønner, tomater og kålvekster. Plant den for seg selv, gjerne i en egen del av hagen eller i potte. Knollfennikel høstes når knollen er på storrelse med en tennisball. Frøene og bladene brukes også i matlaging.",
   },
   {
     name: "Pepperrot",
@@ -1019,7 +1019,7 @@ export const plants: Plant[] = [
     family: "Brassicaceae",
     icon: "carrot",
     description:
-      "Sterk, flerraarig rotplante som er sveart hardfoer. Roettene rives og brukes som krydder til kjott og fisk.",
+      "Sterk, flerårig rotplante som er svært hardfør. Røttene rives og brukes som krydder til kjott og fisk.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -1037,20 +1037,20 @@ export const plants: Plant[] = [
     },
     spacing: "30-40 cm",
     harvestDays: "150-180",
-    tips: "Pepperrot er ekstremt hardfoer og sprer seg aggressivt — plant den i en beholer eller et avgrenseet omraade. Grav opp roetter om hoesten etter foerste frost for sterkest smak. Selv smaa rotbiter som blir igjen i jorda vil skyte nye planter. Revet pepperrot med eddik er en norsk klassiker til kokt kjott.",
+    tips: "Pepperrot er ekstremt hardfør og sprer seg aggressivt — plant den i en beholer eller et avgrenset område. Grav opp røtter om høsten etter første frost for sterkest smak. Selv små rotbiter som blir igjen i jorda vil skyte nye planter. Revet pepperrot med eddik er en norsk klassiker til kokt kjott.",
   },
 
-  // ── Nye groennsaker ───────────────────────────────────────────
+  // ── Nye grønnsaker ───────────────────────────────────────────
 
   {
-    name: "Ananaskirsebaer",
+    name: "Ananaskirsebær",
     species: "Physalis pruinosa",
     slug: "ananaskirsebaer",
     category: "vegetable",
     family: "Solanaceae",
     icon: "cherry",
     description:
-      "Liten, soet frukt innkapslet i papirtynt hylster. Smaken minner om ananas og har en tropisk soethet.",
+      "Liten, søt frukt innkapslet i papirtynt hylster. Smaken minner om ananas og har en tropisk søthet.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -1068,7 +1068,7 @@ export const plants: Plant[] = [
     },
     spacing: "45-60 cm",
     harvestDays: "65-80",
-    tips: "Fruktene er modne naar hylsteret toerker og fruktene faller til bakken. Start innendoers tidlig, da de trenger lang vekstsesong. Plantene er kompakte og egner seg godt i potter. La fruktene ligge noen dager etter plukking for aa utvikle full soethet.",
+    tips: "Fruktene er modne når hylsteret tørker og fruktene faller til bakken. Start innendørs tidlig, da de trenger lang vekstsesong. Plantene er kompakte og egner seg godt i potter. La fruktene ligge noen dager etter plukking for å utvikle full søthet.",
   },
   {
     name: "Asparges",
@@ -1078,7 +1078,7 @@ export const plants: Plant[] = [
     family: "Asparagaceae",
     icon: "sprout",
     description:
-      "Flerraarig groennsat som produserer i mange aar naar den foerst er etablert. Krever taalmodighet de foerste sesongene.",
+      "Flerårig grønnsat som produserer i mange år når den først er etablert. Krever tålmodighet de første sesongene.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -1096,17 +1096,17 @@ export const plants: Plant[] = [
     },
     spacing: "30-45 cm",
     harvestDays: "730-1095",
-    tips: "Asparges krever 2-3 aars taalmodighet foer foerste ordentlige hoest. Plant i dype groper med god kompost. Hoest kun i 4-6 uker de foerste produktive aarene. Et veletablert bed kan produsere i 15-20 aar. La bladverket staa over vinteren for aa naere rotene til neste sesong.",
+    tips: "Asparges krever 2-3 års tålmodighet før første ordentlige høst. Plant i dype groper med god kompost. Høst kun i 4-6 uker de første produktive årene. Et veletablert bed kan produsere i 15-20 år. La bladverket stå over vinteren for å nære rotene til neste sesong.",
   },
   {
-    name: "Bondeboenne",
+    name: "Bondebønne",
     species: "Vicia faba",
     slug: "bondebonne",
     category: "vegetable",
     family: "Fabaceae",
     icon: "bean",
     description:
-      "Tradisjonell belgvekst som taaler kulde og kan saas tidlig. Fikserer nitrogen og forbedrer jorda.",
+      "Tradisjonell belgvekst som tåler kulde og kan sås tidlig. Fikserer nitrogen og forbedrer jorda.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -1124,17 +1124,17 @@ export const plants: Plant[] = [
     },
     spacing: "15-20 cm",
     harvestDays: "80-100",
-    tips: "En av faa belgvekster som taaler kulde — saa tidlig paa vaaren. Knip av toppskuddene naar de foerste belgene er synlige for aa hemme svart boennelus. Busk plantene opp med jord for aa stoette de tunge stengene. Unge belger kan spises hele, mens modne froeер skrelles.",
+    tips: "En av få belgvekster som tåler kulde — så tidlig på våren. Knip av toppskuddene når de første belgene er synlige for å hemme svart bønnelus. Busk plantene opp med jord for å støtte de tunge stengene. Unge belger kan spises hele, mens modne frøер skrelles.",
   },
   {
-    name: "Buskboenne",
+    name: "Buskbønne",
     species: "Phaseolus vulgaris",
     slug: "buskbonne",
     category: "vegetable",
     family: "Fabaceae",
     icon: "bean",
     description:
-      "Kompakt boennesort som ikke trenger stoette. Produserer raskt og passer godt i smaa hager og potter.",
+      "Kompakt bønnesort som ikke trenger støtte. Produserer raskt og passer godt i små hager og potter.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -1152,7 +1152,7 @@ export const plants: Plant[] = [
     },
     spacing: "10-15 cm",
     harvestDays: "50-60",
-    tips: "Direktesaa naar jordtemperaturen er over 15 °C. Buskboenner modner raskt og kan suksesjonssaas for kontinuerlig hoest. Plukk belgene naar de er unge og sprø. Boenner fikserer nitrogen i jorda og er gode forfrukt for naeringskrevenende planter.",
+    tips: "Direkteså når jordtemperaturen er over 15 °C. Buskbønner modner raskt og kan suksesjonssås for kontinuerlig høst. Plukk belgene når de er unge og sprø. Bønner fikserer nitrogen i jorda og er gode forfrukt for næringskrevenende planter.",
   },
   {
     name: "Butternutgresskar",
@@ -1162,7 +1162,7 @@ export const plants: Plant[] = [
     family: "Cucurbitaceae",
     icon: "sprout",
     description:
-      "Populaert vintergreskar med nøtteaktig, soet smak og kremet konsistens. Lagrer seg godt i mange maaneder.",
+      "Populært vintergreskar med nøtteaktig, søt smak og kremet konsistens. Lagrer seg godt i mange måneder.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -1180,7 +1180,7 @@ export const plants: Plant[] = [
     },
     spacing: "90-120 cm",
     harvestDays: "100-120",
-    tips: "Butternut trenger lang varm sesong — start innendoers i Soer-Norge. Hoest naar stengelen begynner aa toerke og skallet er hardt. Toerk fruktene i solen i 1-2 uker foer lagring. Kan lagres i romtemperatur i 3-6 maaneder. Rankene trenger mye plass.",
+    tips: "Butternut trenger lang varm sesong — start innendørs i Sør-Norge. Høst når stengelen begynner å tørke og skallet er hardt. Tørk fruktene i solen i 1-2 uker før lagring. Kan lagres i romtemperatur i 3-6 måneder. Rankene trenger mye plass.",
   },
   {
     name: "Daikon",
@@ -1208,7 +1208,7 @@ export const plants: Plant[] = [
     },
     spacing: "15-20 cm",
     harvestDays: "50-70",
-    tips: "Daikon egner seg best som hoestkultur saadd paa sensommeren. Krever dyp, loes jord for rette roetter. Hoest foer hard frost. Roettene kan brukes i salater, supper, eller syltes som takuan. Bladene er ogsaa spiselige.",
+    tips: "Daikon egner seg best som høstkultur sådd på sensommeren. Krever dyp, løs jord for rette røtter. Høst før hard frost. Røttene kan brukes i salater, supper, eller syltes som takuan. Bladene er også spiselige.",
   },
   {
     name: "Endisvie",
@@ -1218,7 +1218,7 @@ export const plants: Plant[] = [
     family: "Asteraceae",
     icon: "salad",
     description:
-      "Kjoelig-sesong salatplante med lett bitter smak. Kan blekes for mildere smak ved aa dekke hodene.",
+      "Kjølig-sesong salatplante med lett bitter smak. Kan blekes for mildere smak ved å dekke hodene.",
     sun: "partial-shade",
     water: "moderate",
     frost: "semi-hardy",
@@ -1236,7 +1236,7 @@ export const plants: Plant[] = [
     },
     spacing: "25-30 cm",
     harvestDays: "45-60",
-    tips: "Blek hodene ved aa binde ytterblader sammen over senteret 2-3 uker foer hoest for mildere smak. Endisvie taaler mer varme enn salat og er et godt alternativ om sommeren. Kan ogsaa dyrkes som hoestkultur — taaler lett frost. De krusete bladene gir fin tekstur i salater.",
+    tips: "Blek hodene ved å binde ytterblader sammen over senteret 2-3 uker før høst for mildere smak. Endisvie tåler mer varme enn salat og er et godt alternativ om sommeren. Kan også dyrkes som høstkultur — tåler lett frost. De krusete bladene gir fin tekstur i salater.",
   },
   {
     name: "Feldsalat",
@@ -1246,7 +1246,7 @@ export const plants: Plant[] = [
     family: "Caprifoliaceae",
     icon: "leafy-green",
     description:
-      "Liten, hardfoer salatplante som trives i kjoelig vaer. Perfekt for tidlig vaar- og senhoestavlinger.",
+      "Liten, hardfør salatplante som trives i kjølig vær. Perfekt for tidlig vår- og senhøstavlinger.",
     sun: "partial-shade",
     water: "moderate",
     frost: "hardy",
@@ -1264,7 +1264,7 @@ export const plants: Plant[] = [
     },
     spacing: "8-10 cm",
     harvestDays: "40-60",
-    tips: "Feldsalat er en av faa salater som taaler frost og kan hoestes gjennom mye av vinteren med litt beskyttelse. Saa paa sensommeren for vinterhoest. Bladene har en mild, noetteaktig smak. Vokser sakte men krever svært lite stell. Perfekt som mellomkultur mellom hoeyere planter.",
+    tips: "Feldsalat er en av få salater som tåler frost og kan høstes gjennom mye av vinteren med litt beskyttelse. Så på sensommeren for vinterhøst. Bladene har en mild, nøtteaktig smak. Vokser sakte men krever svært lite stell. Perfekt som mellomkultur mellom høyere planter.",
   },
   {
     name: "Kai-lan",
@@ -1274,7 +1274,7 @@ export const plants: Plant[] = [
     family: "Brassicaceae",
     icon: "leafy-green",
     description:
-      "Kinesisk brokkoli med tykke, saftige stengler og moerke blader. Populaer i asiatisk matlaging.",
+      "Kinesisk brokkoli med tykke, saftige stengler og mørke blader. Populær i asiatisk matlaging.",
     sun: "full-sun",
     water: "moderate",
     frost: "semi-hardy",
@@ -1292,17 +1292,17 @@ export const plants: Plant[] = [
     },
     spacing: "20-25 cm",
     harvestDays: "55-70",
-    tips: "Hoest naar de foerste blomstene begynner aa vise seg. Kutt stengelen paa skraa for aa stimulere sideskudd. Kai-lan vokser raskt og kan suksesjonssaas for lang sesong. Smaken er mild og soet, og hele planten er spiselig. Taaler noe kulde men gaar i blomst i sterk varme.",
+    tips: "Høst når de første blomstene begynner å vise seg. Kutt stengelen på skrå for å stimulere sideskudd. Kai-lan vokser raskt og kan suksesjonssås for lang sesong. Smaken er mild og søt, og hele planten er spiselig. Tåler noe kulde men går i blomst i sterk varme.",
   },
   {
-    name: "Kinakaal",
+    name: "Kinakål",
     species: "Brassica rapa subsp. pekinensis",
     slug: "kinakaal",
     category: "vegetable",
     family: "Brassicaceae",
     icon: "salad",
     description:
-      "Mild og sprø kaaltype som danner avlange hoder. Mye brukt i asiatisk matlaging og kimchi.",
+      "Mild og sprø kåltype som danner avlange hoder. Mye brukt i asiatisk matlaging og kimchi.",
     sun: "partial-shade",
     water: "moderate",
     frost: "semi-hardy",
@@ -1320,17 +1320,17 @@ export const plants: Plant[] = [
     },
     spacing: "30-40 cm",
     harvestDays: "50-70",
-    tips: "Kinakaal gaar lett i blomst ved temperatursjokk — saa direkte paa sensommeren for best resultat. Taaler lett frost og egner seg som hoestkultur. Hold jorda jevnt fuktig for sprø blader. Bladene er mildere enn vanlig kaal og utmerkede i wok, supper og salater.",
+    tips: "Kinakål går lett i blomst ved temperatursjokk — så direkte på sensommeren for best resultat. Tåler lett frost og egner seg som høstkultur. Hold jorda jevnt fuktig for sprø blader. Bladene er mildere enn vanlig kål og utmerkede i wok, supper og salater.",
   },
   {
-    name: "Knutekaal",
+    name: "Knutekål",
     species: "Brassica oleracea var. gongylodes",
     slug: "knutekaal",
     category: "vegetable",
     family: "Brassicaceae",
     icon: "sprout",
     description:
-      "Uvanlig groennsat der den hovne stengelen over jorda spises. Mild, soet smak som minner om brokkoli-stilk.",
+      "Uvanlig grønnsat der den hovne stengelen over jorda spises. Mild, søt smak som minner om brokkoli-stilk.",
     sun: "full-sun",
     water: "moderate",
     frost: "semi-hardy",
@@ -1348,7 +1348,7 @@ export const plants: Plant[] = [
     },
     spacing: "15-20 cm",
     harvestDays: "45-60",
-    tips: "Hoest naar knuten er 6-8 cm i diameter — stoerre knutekaal blir treaktig. Kan saas i omganger for lang sesong. Knuten kan spises raa i salater eller tilberedt. Skrell den tykkeste delen av skallet. Knutekaal vokser raskt og er en undervurdert groennsat som fortjener mer oppmerksomhet.",
+    tips: "Høst når knuten er 6-8 cm i diameter — større knutekål blir treaktig. Kan sås i omganger for lang sesong. Knuten kan spises rå i salater eller tilberedt. Skrell den tykkeste delen av skallet. Knutekål vokser raskt og er en undervurdert grønnsat som fortjener mer oppmerksomhet.",
   },
   {
     name: "Majnepe",
@@ -1358,7 +1358,7 @@ export const plants: Plant[] = [
     family: "Brassicaceae",
     icon: "carrot",
     description:
-      "Raskvoksende liten nepe som saas om vaaren. Mild og soet med tynn, spiselig skall.",
+      "Raskvoksende liten nepe som sås om våren. Mild og søt med tynn, spiselig skall.",
     sun: "full-sun",
     water: "moderate",
     frost: "semi-hardy",
@@ -1376,7 +1376,7 @@ export const plants: Plant[] = [
     },
     spacing: "5-10 cm",
     harvestDays: "30-45",
-    tips: "Saa tidlig om vaaren for raskt resultat. Majneper er klare paa bare 4-6 uker. Hoest mens de er smaa og soete — storrelsen paa en golfball er ideell. Bladene kan ogsaa spises. En perfekt mellomkultur som fyller plassen mens andre vekster vokser seg store.",
+    tips: "Så tidlig om våren for raskt resultat. Majneper er klare på bare 4-6 uker. Høst mens de er små og søte — storrelsen på en golfball er ideell. Bladene kan også spises. En perfekt mellomkultur som fyller plassen mens andre vekster vokser seg store.",
   },
   {
     name: "Mizuna",
@@ -1404,7 +1404,7 @@ export const plants: Plant[] = [
     },
     spacing: "10-15 cm",
     harvestDays: "25-40",
-    tips: "Mizuna er en av de letteste asiatiske bladgroennsakene aa dyrke. Kan hoestes som baby-blader etter 3 uker eller som full plante. Taaler lett frost og egner seg som hoestkultur. Gaar saktere i blomst enn mange andre bladgroennsaker. Utmerket i salatmikser, wok og supper.",
+    tips: "Mizuna er en av de letteste asiatiske bladgrønnsakene å dyrke. Kan høstes som baby-blader etter 3 uker eller som full plante. Tåler lett frost og egner seg som høstkultur. Går saktere i blomst enn mange andre bladgrønnsaker. Utmerket i salatmikser, wok og supper.",
   },
   {
     name: "Pak choi",
@@ -1414,7 +1414,7 @@ export const plants: Plant[] = [
     family: "Brassicaceae",
     icon: "leafy-green",
     description:
-      "Asiatisk bladgroennsat med saftige, hvite stilker og moerkegroenne blader. Rask vekst og mild smak.",
+      "Asiatisk bladgrønnsat med saftige, hvite stilker og mørkegrønne blader. Rask vekst og mild smak.",
     sun: "partial-shade",
     water: "moderate",
     frost: "semi-hardy",
@@ -1432,17 +1432,17 @@ export const plants: Plant[] = [
     },
     spacing: "15-25 cm",
     harvestDays: "30-50",
-    tips: "Pak choi gaar lett i blomst ved temperatursjokk — saa direkte eller herd av godt foer utplanting. Best som sensommerkultur saadd i juli-august. Mini-pak choi er klar paa bare 30 dager. Kan hoestes som baby-blader eller full storrelse. Utmerket i wok og supper.",
+    tips: "Pak choi går lett i blomst ved temperatursjokk — så direkte eller herd av godt før utplanting. Best som sensommerkultur sådd i juli-august. Mini-pak choi er klar på bare 30 dager. Kan høstes som baby-blader eller full storrelse. Utmerket i wok og supper.",
   },
   {
-    name: "Palmekaal",
+    name: "Palmekål",
     species: "Brassica oleracea var. palmifolia",
     slug: "palmekaal",
     category: "vegetable",
     family: "Brassicaceae",
     icon: "leafy-green",
     description:
-      "Hoey, dekorativ kaalplante med lange, moerke blader som vokser i rosett paa toppen. Ogsaa kjent som toskansk kaal.",
+      "Høy, dekorativ kålplante med lange, mørke blader som vokser i rosett på toppen. Også kjent som toskansk kål.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -1460,7 +1460,7 @@ export const plants: Plant[] = [
     },
     spacing: "45-60 cm",
     harvestDays: "60-75",
-    tips: "Palmekaal kan bli over en meter hoey og ser nesten ut som et lite palmetrе. Hoest nedre blader foerst. Smaken blir soetere etter frost. Utmerket i italienske retter, spesielt ribollita. Plantene kan overvintre i milde vintre og vokse videre neste sesong.",
+    tips: "Palmekål kan bli over en meter høy og ser nesten ut som et lite palmetrе. Høst nedre blader først. Smaken blir søtere etter frost. Utmerket i italienske retter, spesielt ribollita. Plantene kan overvintre i milde vintre og vokse videre neste sesong.",
   },
   {
     name: "Patisson",
@@ -1488,7 +1488,7 @@ export const plants: Plant[] = [
     },
     spacing: "60-90 cm",
     harvestDays: "50-65",
-    tips: "Hoest naar fruktene er 8-12 cm i diameter for best smak. Overvokste frukter blir seige. Patisson er produktiv og trenger rikelig med plass. Plantene krever god pollinering — plasser naer blomster for aa tiltrekke bier. Kan fylles, grilles eller bakes med ost og urter.",
+    tips: "Høst når fruktene er 8-12 cm i diameter for best smak. Overvokste frukter blir seige. Patisson er produktiv og trenger rikelig med plass. Plantene krever god pollinering — plasser nær blomster for å tiltrekke bier. Kan fylles, grilles eller bakes med ost og urter.",
   },
   {
     name: "Rabarbra",
@@ -1498,7 +1498,7 @@ export const plants: Plant[] = [
     family: "Polygonaceae",
     icon: "leaf",
     description:
-      "Hardfoer flerraarig plante dyrket for sine syrlige, roede stilker. Bladene er giftige og skal ikke spises.",
+      "Hardfør flerårig plante dyrket for sine syrlige, røde stilker. Bladene er giftige og skal ikke spises.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -1516,17 +1516,17 @@ export const plants: Plant[] = [
     },
     spacing: "90-120 cm",
     harvestDays: "365-730",
-    tips: "Ikke hoest foerste aaret — la planten etablere seg. Fra andre aar, trekk (ikke kutt) stilkene forsiktig fra basen. Slutt aa hoeste etter midten av juli for aa la planten lagre energi til neste aar. Fjern blomsterstilker for aa rette energien mot stilkproduksjon. Bladene er giftige.",
+    tips: "Ikke høst første året — la planten etablere seg. Fra andre år, trekk (ikke kutt) stilkene forsiktig fra basen. Slutt å høste etter midten av juli for å la planten lagre energi til neste år. Fjern blomsterstilker for å rette energien mot stilkproduksjon. Bladene er giftige.",
   },
   {
-    name: "Savoykaal",
+    name: "Savoykål",
     species: "Brassica oleracea var. sabauda",
     slug: "savoykaal",
     category: "vegetable",
     family: "Brassicaceae",
     icon: "salad",
     description:
-      "Kaaltype med rynkete, myke blader og mildere smak enn vanlig hodekaal. Utmerket i gryteretter og rullade.",
+      "Kåltype med rynkete, myke blader og mildere smak enn vanlig hodekål. Utmerket i gryteretter og rullade.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -1544,7 +1544,7 @@ export const plants: Plant[] = [
     },
     spacing: "45-60 cm",
     harvestDays: "70-110",
-    tips: "Savoykaal taaler frost bedre enn vanlig hodekaal og kan staa ute lenger paa hoesten. De krusete bladene gjor den perfekt for kaalruletter. Smaken er mildere og soetere enn vanlig kaal, spesielt etter frost. Dyrkes paa same maate som hodekaal men taaler mer av norsk klima.",
+    tips: "Savoykål tåler frost bedre enn vanlig hodekål og kan stå ute lenger på høsten. De krusete bladene gjør den perfekt for kålruletter. Smaken er mildere og søtere enn vanlig kål, spesielt etter frost. Dyrkes på same måte som hodekål men tåler mer av norsk klima.",
   },
   {
     name: "Sennepsblad",
@@ -1554,7 +1554,7 @@ export const plants: Plant[] = [
     family: "Brassicaceae",
     icon: "leafy-green",
     description:
-      "Pepperskarp bladgroennsat som vokser raskt. Brukes i salater, wok og som groennsaksgarnityr.",
+      "Pepperskarp bladgrønnsat som vokser raskt. Brukes i salater, wok og som grønnsaksgarnityr.",
     sun: "partial-shade",
     water: "moderate",
     frost: "semi-hardy",
@@ -1572,17 +1572,17 @@ export const plants: Plant[] = [
     },
     spacing: "10-15 cm",
     harvestDays: "25-40",
-    tips: "Sennepsblad vokser ekstremt raskt og kan hoestes som baby-blader paa 3 uker. Gaar raskt i blomst i varme, saa saa i kjoelige perioder. Smaken er pepperaktig og skarp — mildest naar bladene er unge. Kan suksesjonssaas gjennom hele sesongen. Ogsaa fin som mellomkultur.",
+    tips: "Sennepsblad vokser ekstremt raskt og kan høstes som baby-blader på 3 uker. Går raskt i blomst i varme, så så i kjølige perioder. Smaken er pepperaktig og skarp — mildest når bladene er unge. Kan suksesjonssås gjennom hele sesongen. Også fin som mellomkultur.",
   },
   {
-    name: "Sibirsk bladkaal",
+    name: "Sibirsk bladkål",
     species: "Brassica napus var. pabularia",
     slug: "sibirsk-bladkaal",
     category: "vegetable",
     family: "Brassicaceae",
     icon: "leafy-green",
     description:
-      "Ekstremt kuldetolerant bladkaal med blaagroenne, flate blader. Taaler temperaturer ned til -15 °C.",
+      "Ekstremt kuldetolerant bladkål med blågrønne, flate blader. Tåler temperaturer ned til -15 °C.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -1600,7 +1600,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-40 cm",
     harvestDays: "50-65",
-    tips: "En av de mest kuldetolerante groennsakene som finnes — perfekt for norske forhold. Smaken blir stadig soetere etter frost. Kan hoestes langt inn i vinteren. Plukk nedre blader og la planten fortsette aa vokse. Mildere i smaken enn gronnkaal med en soetere, noetteaktig undertone.",
+    tips: "En av de mest kuldetolerante grønnsakene som finnes — perfekt for norske forhold. Smaken blir stadig søtere etter frost. Kan høstes langt inn i vinteren. Plukk nedre blader og la planten fortsette å vokse. Mildere i smaken enn gronnkål med en søtere, nøtteaktig undertone.",
   },
   {
     name: "Sommergresskar",
@@ -1610,7 +1610,7 @@ export const plants: Plant[] = [
     family: "Cucurbitaceae",
     icon: "sprout",
     description:
-      "Samlebegrep for sommersquash-typer som hoestes unrefe. Inkluderer zucchini, crookneck og rondtyper.",
+      "Samlebegrep for sommersquash-typer som høstes unrefe. Inkluderer zucchini, crookneck og rondtyper.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -1628,17 +1628,17 @@ export const plants: Plant[] = [
     },
     spacing: "60-90 cm",
     harvestDays: "45-55",
-    tips: "Hoest tidlig og ofte — fruktene vokser utrolig raskt i varmt vaer. En til to planter er ofte nok for en hel familie. God pollinering er viktig — plasser naer blomster. Blomstene er ogsaa spiselige og kan fylles og stekes. Meldugg er vanlig sent paa sommeren.",
+    tips: "Høst tidlig og ofte — fruktene vokser utrolig raskt i varmt vær. En til to planter er ofte nok for en hel familie. God pollinering er viktig — plasser nær blomster. Blomstene er også spiselige og kan fylles og stekes. Meldugg er vanlig sent på sommeren.",
   },
   {
-    name: "Stangboenne",
+    name: "Stangbønne",
     species: "Phaseolus vulgaris",
     slug: "stangbonne",
     category: "vegetable",
     family: "Fabaceae",
     icon: "bean",
     description:
-      "Klatrende boennesort som trenger solid stoette. Produserer over lengre tid enn buskboenner.",
+      "Klatrende bønnesort som trenger solid støtte. Produserer over lengre tid enn buskbønner.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -1656,7 +1656,7 @@ export const plants: Plant[] = [
     },
     spacing: "15-20 cm",
     harvestDays: "60-70",
-    tips: "Sett opp solide stoetter (minst 2 m hoye) foer saaing. Stangboenner produserer over en mye lengre periode enn buskboenner. Plukk belgene regelmessig for aa stimulere fortsatt produksjon. Froene er foeisomme for kulde — vent til jorda er varm. Kan kombineres med mais som naturlig stoette.",
+    tips: "Sett opp solide støtter (minst 2 m hoye) før såing. Stangbønner produserer over en mye lengre periode enn buskbønner. Plukk belgene regelmessig for å stimulere fortsatt produksjon. Frøene er følsomme for kulde — vent til jorda er varm. Kan kombineres med mais som naturlig støtte.",
   },
   {
     name: "Stangselleri",
@@ -1666,7 +1666,7 @@ export const plants: Plant[] = [
     family: "Apiaceae",
     icon: "leafy-green",
     description:
-      "Selleritype dyrket spesielt for tykke, sprø stengler. Krever mye vann og naering for beste kvalitet.",
+      "Selleritype dyrket spesielt for tykke, sprø stengler. Krever mye vann og næring for beste kvalitet.",
     sun: "partial-shade",
     water: "high",
     frost: "semi-hardy",
@@ -1684,7 +1684,7 @@ export const plants: Plant[] = [
     },
     spacing: "20-25 cm",
     harvestDays: "100-130",
-    tips: "Stangselleri er krevende men belonnende. Hold jorda konstant fuktig og gjodsl jevnlig. Blek stenglene ved aa pakke dem med papir eller jord for mildere smak og lysere farge. Start tidlig innendoers da vekstsesongen er lang. Hoest ytterstilker etter behov eller hele planten paa en gang.",
+    tips: "Stangselleri er krevende men belonnende. Hold jorda konstant fuktig og gjødsl jevnlig. Blek stenglene ved å pakke dem med papir eller jord for mildere smak og lysere farge. Start tidlig innendørs da vekstsesongen er lang. Høst ytterstilker etter behov eller hele planten på en gang.",
   },
   {
     name: "Sylteagurk",
@@ -1712,17 +1712,17 @@ export const plants: Plant[] = [
     },
     spacing: "30-40 cm",
     harvestDays: "50-65",
-    tips: "Hoest sylteagurker naar de er 5-8 cm for smaa sylteagurker eller opptil 12 cm for stoerre. Plukk daglig i hoeysesongen for aa holde produksjonen oppe. Leid opp espalier for aa spare plass og holde fruktene rene. Unngaa stress og ujevn vanning som gir bitre frukter.",
+    tips: "Høst sylteagurker når de er 5-8 cm for små sylteagurker eller opptil 12 cm for større. Plukk daglig i høysesongen for å holde produksjonen oppe. Leid opp espalier for å spare plass og holde fruktene rene. Unngå stress og ujevn vanning som gir bitre frukter.",
   },
   {
-    name: "Soetpotet",
+    name: "Søtpotet",
     species: "Ipomoea batatas",
     slug: "sotpotet",
     category: "vegetable",
     family: "Convolvulaceae",
     icon: "carrot",
     description:
-      "Tropisk knollvekst som kan dyrkes i Soer-Norge med forkultur. Krever lang, varm sesong og lett jord.",
+      "Tropisk knollvekst som kan dyrkes i Sør-Norge med forkultur. Krever lang, varm sesong og lett jord.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -1740,7 +1740,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-40 cm",
     harvestDays: "100-130",
-    tips: "Start med stiklinger fra spirede knoller innendoers. Vent med utplanting til jorda er godt oppvarmet — soetpotet taaler ingen frost. Bruk sort plastkdekke for aa varme jorda. Hoest foer foerste frost og toerk knollene i 1-2 uker foer lagring. Et eksperiment som loenner seg i gode somre.",
+    tips: "Start med stiklinger fra spirede knoller innendørs. Vent med utplanting til jorda er godt oppvarmet — søtpotet tåler ingen frost. Bruk sort plastkdekke for å varme jorda. Høst før første frost og tørk knollene i 1-2 uker før lagring. Et eksperiment som lønner seg i gode somre.",
   },
   {
     name: "Tatsoi",
@@ -1750,7 +1750,7 @@ export const plants: Plant[] = [
     family: "Brassicaceae",
     icon: "leafy-green",
     description:
-      "Flat rosettformende asiatisk bladgroennsat med moerke, skjeformede blader. Mild smak og sprø konsistens.",
+      "Flat rosettformende asiatisk bladgrønnsat med mørke, skjeformede blader. Mild smak og sprø konsistens.",
     sun: "partial-shade",
     water: "moderate",
     frost: "hardy",
@@ -1768,7 +1768,7 @@ export const plants: Plant[] = [
     },
     spacing: "15-20 cm",
     harvestDays: "30-50",
-    tips: "Tatsoi er overraskende kuldetolerant og kan hoestes langt ut paa hoesten. Vokser i en pen rosettform som gjor den dekorativ i bedet. Mild, lettsoet smak som passer baade raa i salater og tilberedt i wok. Kan hoestes som baby-blader eller full storrelse. Sveart lettdyrket og problemfri.",
+    tips: "Tatsoi er overraskende kuldetolerant og kan høstes langt ut på høsten. Vokser i en pen rosettform som gjør den dekorativ i bedet. Mild, lettsøt smak som passer både rå i salater og tilberedt i wok. Kan høstes som baby-blader eller full storrelse. Sveart lettdyrket og problemfri.",
   },
   {
     name: "Vannmelon",
@@ -1778,7 +1778,7 @@ export const plants: Plant[] = [
     family: "Cucurbitaceae",
     icon: "cherry",
     description:
-      "Varmekrevende frukt som kan dyrkes i drivhus eller paa varmeste steder i Soer-Norge. Krever lang, varm sesong.",
+      "Varmekrevende frukt som kan dyrkes i drivhus eller på varmeste steder i Sør-Norge. Krever lang, varm sesong.",
     sun: "full-sun",
     water: "high",
     frost: "tender",
@@ -1796,17 +1796,17 @@ export const plants: Plant[] = [
     },
     spacing: "90-150 cm",
     harvestDays: "80-100",
-    tips: "Vannmelon er utfordrende i norsk klima — velg tidlige, smaafruktige sorter som 'Sugar Baby'. Start innendoers og bruk sort plastkdekke eller drivhus. Fruktene er modne naar ranken naermest frukten toerker inn. Trenger mye plass og varme. Et morsomt eksperiment i varme somre.",
+    tips: "Vannmelon er utfordrende i norsk klima — velg tidlige, småfruktige sorter som 'Sugar Baby'. Start innendørs og bruk sort plastkdekke eller drivhus. Fruktene er modne når ranken nærmest frukten tørker inn. Trenger mye plass og varme. Et morsomt eksperiment i varme somre.",
   },
   {
-    name: "Vaarloek",
+    name: "Vårløk",
     species: "Allium fistulosum",
     slug: "varlok",
     category: "vegetable",
     family: "Amaryllidaceae",
     icon: "sprout",
     description:
-      "Flerraarig loekplante som ikke danner loek men hoestes for de groenne, roerformede bladene. Mild loeksmak.",
+      "Flerårig løkplante som ikke danner løk men høstes for de grønne, rørformede bladene. Mild løksmak.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -1824,7 +1824,7 @@ export const plants: Plant[] = [
     },
     spacing: "5-10 cm",
     harvestDays: "60-80",
-    tips: "Vaarloek er flerraarig og kan hoestes aar etter aar. Klipp bladene ved basen og la dem vokse opp igjen. Kan suksesjonssaas for kontinuerlig forsyning. Hardfoer og problemfri — taaler frost godt. Utmerket i salater, supper og som garnityr. Deler seg og danner klumper over tid.",
+    tips: "Vårløk er flerårig og kan høstes år etter år. Klipp bladene ved basen og la dem vokse opp igjen. Kan suksesjonssås for kontinuerlig forsyning. Hardfør og problemfri — tåler frost godt. Utmerket i salater, supper og som garnityr. Deler seg og danner klumper over tid.",
   },
   {
     name: "Melon",
@@ -1834,7 +1834,7 @@ export const plants: Plant[] = [
     family: "Cucurbitaceae",
     icon: "cherry",
     description:
-      "Varmekrevende frukt som kan gi soete, aromatiske frukter i drivhus eller paa varme, beskyttede steder.",
+      "Varmekrevende frukt som kan gi søte, aromatiske frukter i drivhus eller på varme, beskyttede steder.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -1852,7 +1852,7 @@ export const plants: Plant[] = [
     },
     spacing: "60-90 cm",
     harvestDays: "75-95",
-    tips: "Melon krever varme — drivhus anbefales i Norge. Start innendoers og plant ut i varm jord. Fruktene er modne naar de begynner aa dufte soett og losner lett fra stengelen. Reduser vanning naar fruktene nаermer seg modning for aa konsentrere soetheten. Velg tidlige, smaafruktige sorter.",
+    tips: "Melon krever varme — drivhus anbefales i Norge. Start innendørs og plant ut i varm jord. Fruktene er modne når de begynner å dufte søtt og losner lett fra stengelen. Reduser vanning når fruktene nаermer seg modning for å konsentrere søtheten. Velg tidlige, småfruktige sorter.",
   },
 
   // ── Urter ─────────────────────────────────────────────────────
@@ -1865,7 +1865,7 @@ export const plants: Plant[] = [
     family: "Lamiaceae",
     icon: "leaf",
     description:
-      "Aromatisk varmekjaer urt som er uunnvaerlig i middelhavsmat og asiatisk kjokken. Klassisk folgeplante for tomater.",
+      "Aromatisk varmekjær urt som er uunnværlig i middelhavsmat og asiatisk kjøkken. Klassisk folgeplante for tomater.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -1883,7 +1883,7 @@ export const plants: Plant[] = [
     },
     spacing: "20-30 cm",
     harvestDays: "50-75",
-    tips: "Knip av blomsterknopper saa snart de dukker opp for aa holde planten buskete og forlenge hoesten. Basilikum svartner ved foerste antydning til frost, saa hoest rikelig foer kulda kommer. Vann om morgenen saa bladverket toerker i loepet av dagen. Suksesjonssaainger sikrer friske blader hele sesongen.",
+    tips: "Knip av blomsterknopper så snart de dukker opp for å holde planten buskete og forlenge høsten. Basilikum svartner ved første antydning til frost, så høst rikelig før kulda kommer. Vann om morgenen så bladverket tørker i løpet av dagen. Suksesjonssåinger sikrer friske blader hele sesongen.",
   },
   {
     name: "Koriander",
@@ -1893,7 +1893,7 @@ export const plants: Plant[] = [
     family: "Apiaceae",
     icon: "leaf",
     description:
-      "Kjoligsesongurt som gaar raskt i blomst i varme. Froeene, kjent som korianderfroe, er like nyttige i matlagingen.",
+      "Kjøligsesongurt som går raskt i blomst i varme. Frøene, kjent som korianderfrø, er like nyttige i matlagingen.",
     sun: "partial-shade",
     water: "moderate",
     frost: "semi-hardy",
@@ -1911,7 +1911,7 @@ export const plants: Plant[] = [
     },
     spacing: "5-8 cm",
     harvestDays: "40-55",
-    tips: "Direktesaa koriander — den har en paalrot og taaler omplanting daarlig. Suksesjonssaa hver 2-3 uker siden den gaar raskt i blomst i varmt vaer. Gi ettermiddagsskygge om sommeren for aa bremse blomstringen. Blomstene er utmerkede for aa tiltrekke nytteinsekter til hagen.",
+    tips: "Direkteså koriander — den har en pålrot og tåler omplanting dårlig. Suksesjonsså hver 2-3 uker siden den går raskt i blomst i varmt vær. Gi ettermiddagsskygge om sommeren for å bremse blomstringen. Blomstene er utmerkede for å tiltrekke nytteinsekter til hagen.",
   },
   {
     name: "Dill",
@@ -1921,7 +1921,7 @@ export const plants: Plant[] = [
     family: "Apiaceae",
     icon: "leaf",
     description:
-      "Hoey, fjaerlett urt som brukes fersk eller toerket. Tiltrekker nytteinsekter og er essensiell for sylting.",
+      "Høy, fjærlett urt som brukes fersk eller tørket. Tiltrekker nytteinsekter og er essensiell for sylting.",
     sun: "full-sun",
     water: "moderate",
     frost: "semi-hardy",
@@ -1939,7 +1939,7 @@ export const plants: Plant[] = [
     },
     spacing: "15-25 cm",
     harvestDays: "40-60",
-    tips: "Direktesaa dill — den taaler ikke omplanting. Den saar seg selv villig, saa la noen planter gaa i froe for neste aar. Hoest bladene naar som helst og froehodene naar de begynner aa brune. Dill tiltrekker svalehalelarver — vurder aa plante ekstra for aa dele. Hold unna fennikel, da de kan krysspollinere.",
+    tips: "Direkteså dill — den tåler ikke omplanting. Den sår seg selv villig, så la noen planter gå i frø for neste år. Høst bladene når som helst og frøhodene når de begynner å brune. Dill tiltrekker svalehalelarver — vurder å plante ekstra for å dele. Hold unna fennikel, da de kan krysspollinere.",
   },
   {
     name: "Persille",
@@ -1949,7 +1949,7 @@ export const plants: Plant[] = [
     family: "Apiaceae",
     icon: "leaf",
     description:
-      "Toaarig urt dyrket som ettaarig for sine smakfulle flate eller krusete blader. Langsom spiring men langlivet naar den er etablert.",
+      "Toårig urt dyrket som ettårig for sine smakfulle flate eller krusete blader. Langsom spiring men langlivet når den er etablert.",
     sun: "partial-shade",
     water: "moderate",
     frost: "semi-hardy",
@@ -1967,7 +1967,7 @@ export const plants: Plant[] = [
     },
     spacing: "15-20 cm",
     harvestDays: "70-90",
-    tips: "Bloetlegg froene over natten for aa fremskynde den notorist langsomme spiringen. Hoest ytterstengger foerst og kutt ved basen for aa stimulere ny vekst fra midten. Persille overvintrer i milde klimaer og blomstrer i sitt andre aar. Bladpersille har generelt sterkere smak enn kruspersille.",
+    tips: "Bløtlegg frøne over natten for å fremskynde den notorist langsomme spiringen. Høst ytterstengger først og kutt ved basen for å stimulere ny vekst fra midten. Persille overvintrer i milde klimaer og blomstrer i sitt andre år. Bladpersille har generelt sterkere smak enn kruspersille.",
   },
   {
     name: "Rosmarin",
@@ -1977,7 +1977,7 @@ export const plants: Plant[] = [
     family: "Lamiaceae",
     icon: "shrub",
     description:
-      "Vedaktig middelhavsbusk med aromatiske naaleformede blader. Ekstremt toerketolerant naar den er etablert.",
+      "Vedaktig middelhavsbusk med aromatiske nåleformede blader. Ekstremt tørketolerant når den er etablert.",
     sun: "full-sun",
     water: "low",
     frost: "semi-hardy",
@@ -1995,7 +1995,7 @@ export const plants: Plant[] = [
     },
     spacing: "60-90 cm",
     harvestDays: "80-120",
-    tips: "Rosmarin hater vaate foetter — plant i veldrenert jord og unngaa overvanning. Det er lettere aa formere den fra stiklinger enn fra de langsomme, upaalitelige froeene. I kaldt klima, dyrk i potte og ta inn for vinteren. Beskjaer jevnlig etter blomstring for aa holde planten kompakt.",
+    tips: "Rosmarin hater våte føtter — plant i veldrenert jord og unngå overvanning. Det er lettere å formere den fra stiklinger enn fra de langsomme, upålitelige frøene. I kaldt klima, dyrk i potte og ta inn for vinteren. Beskjær jevnlig etter blomstring for å holde planten kompakt.",
   },
   {
     name: "Timian",
@@ -2005,7 +2005,7 @@ export const plants: Plant[] = [
     family: "Lamiaceae",
     icon: "shrub",
     description:
-      "Lavtvoksende flerraarig urt med smaa aromatiske blader. Utmerket som bunndekkeplante eller kantplante.",
+      "Lavtvoksende flerårig urt med små aromatiske blader. Utmerket som bunndekkeplante eller kantplante.",
     sun: "full-sun",
     water: "low",
     frost: "hardy",
@@ -2023,7 +2023,7 @@ export const plants: Plant[] = [
     },
     spacing: "20-30 cm",
     harvestDays: "70-90",
-    tips: "Timian trives i mager, veldrenert jord — naeringsrik jord gir slaskete vekst med mindre smak. Trim tilbake etter blomstring for aa holde kompakt form og stimulere frisk vekst. Formeres enkelt ved deling eller nedlegging av etablerte planter. Krypende sorter er utmerkede mellom heller og brostein.",
+    tips: "Timian trives i mager, veldrenert jord — næringsrik jord gir slaskete vekst med mindre smak. Trim tilbake etter blomstring for å holde kompakt form og stimulere frisk vekst. Formeres enkelt ved deling eller nedlegging av etablerte planter. Krypende sorter er utmerkede mellom heller og brostein.",
   },
   {
     name: "Salvie",
@@ -2033,7 +2033,7 @@ export const plants: Plant[] = [
     family: "Lamiaceae",
     icon: "shrub",
     description:
-      "Hardfoer flerraarig urt med myke, graagroenne blader og varm, pepperaktig smak. Klassiker til fjaerekre og fyll.",
+      "Hardfør flerårig urt med myke, grågrønne blader og varm, pepperaktig smak. Klassiker til fjærkre og fyll.",
     sun: "full-sun",
     water: "low",
     frost: "hardy",
@@ -2051,7 +2051,7 @@ export const plants: Plant[] = [
     },
     spacing: "45-60 cm",
     harvestDays: "75-90",
-    tips: "Salvie blir vedaktig etter noen aar — bytt ut planter hvert 3-4 aar eller beskjaer hardt om vaaren for aa forynge. Unngaa overvanning, spesielt om vinteren, da salvie er utsatt for rotraate i vassjuk jord. Hoest foer blomstring for mest intens smak. De lilla blomstene er attraktive for bier.",
+    tips: "Salvie blir vedaktig etter noen år — bytt ut planter hvert 3-4 år eller beskjær hardt om våren for å forynge. Unngå overvanning, spesielt om vinteren, da salvie er utsatt for rotråte i vassjuk jord. Høst før blomstring for mest intens smak. De lilla blomstene er attraktive for bier.",
   },
   {
     name: "Oregano",
@@ -2061,7 +2061,7 @@ export const plants: Plant[] = [
     family: "Lamiaceae",
     icon: "shrub",
     description:
-      "Kraftig flerraarig urt med robust smak som intensiveres naar den toerkes. Sprer seg villig i varme forhold.",
+      "Kraftig flerårig urt med robust smak som intensiveres når den tørkes. Sprer seg villig i varme forhold.",
     sun: "full-sun",
     water: "low",
     frost: "hardy",
@@ -2079,7 +2079,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-40 cm",
     harvestDays: "60-80",
-    tips: "Hoest rett foer planten blomstrer for sterkest smak — innholdet av eteriske oljer er hoeyest da. Oregano toerker veldig godt og beholder smaken bedre enn de fleste urter. Kutt planter ned til noen faa centimeter tidlig om vaaren for aa stimulere buskete nyvekst. Del klumper hvert 2-3 aar.",
+    tips: "Høst rett før planten blomstrer for sterkest smak — innholdet av eteriske oljer er høyest da. Oregano tørker veldig godt og beholder smaken bedre enn de fleste urter. Kutt planter ned til noen få centimeter tidlig om våren for å stimulere buskete nyvekst. Del klumper hvert 2-3 år.",
   },
   {
     name: "Mynte",
@@ -2089,7 +2089,7 @@ export const plants: Plant[] = [
     family: "Lamiaceae",
     icon: "vegan",
     description:
-      "Kraftig spredende flerraarig urt med forfriskende smak. Boer dyrkes i beholder for aa hindre at den tar over hagen.",
+      "Kraftig spredende flerårig urt med forfriskende smak. Bør dyrkes i beholder for å hindre at den tar over hagen.",
     sun: "partial-shade",
     water: "high",
     frost: "hardy",
@@ -2107,17 +2107,17 @@ export const plants: Plant[] = [
     },
     spacing: "30-45 cm",
     harvestDays: "60-90",
-    tips: "Dyrk alltid mynte i potte eller bed med nedgravde barrierer — den sprer seg aggressivt via underjordiske utloepere og vil kolonisere et helt bed. Hoest ofte for aa holde planten busket. Mynte er en av faa urter som foretrekker fuktig jord og halvskygge. Klipp ned til bakken om hoesten; den kommer kraftig tilbake om vaaren.",
+    tips: "Dyrk alltid mynte i potte eller bed med nedgravde barrierer — den sprer seg aggressivt via underjordiske utløpere og vil kolonisere et helt bed. Høst ofte for å holde planten busket. Mynte er en av få urter som foretrekker fuktig jord og halvskygge. Klipp ned til bakken om høsten; den kommer kraftig tilbake om våren.",
   },
   {
-    name: "Gressloek",
+    name: "Gressløk",
     species: "Allium schoenoprasum",
     slug: "gressloek",
     category: "herb",
     family: "Amaryllidaceae",
     icon: "leaf",
     description:
-      "Hardfoer flerraarig loekplante med mild loeksmak og spiselige lilla blomster. En av de enkleste urtene aa dyrke.",
+      "Hardfør flerårig løkplante med mild løksmak og spiselige lilla blomster. En av de enkleste urtene å dyrke.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -2135,7 +2135,7 @@ export const plants: Plant[] = [
     },
     spacing: "15-20 cm",
     harvestDays: "60-90",
-    tips: "Klipp bladene til ca. 5 cm over jorda for aa stimulere gjenvekst — aldri stripp en klump helt. Del klumper hvert 3-4 aar for aa holde dem produktive. De spiselige blomstene er utmerkede i salater. Gressloek plantet naer roser og gulroetter kan hjelpe mot bladlus.",
+    tips: "Klipp bladene til ca. 5 cm over jorda for å stimulere gjenvekst — aldri stripp en klump helt. Del klumper hvert 3-4 år for å holde dem produktive. De spiselige blomstene er utmerkede i salater. Gressløk plantet nær roser og gulrøtter kan hjelpe mot bladlus.",
   },
   {
     name: "Kamille",
@@ -2145,7 +2145,7 @@ export const plants: Plant[] = [
     family: "Asteraceae",
     icon: "flower",
     description:
-      "Prestekrageliknende urt dyrket for sine beroligende blomster brukt i te. Tysk kamille er ettaarig; romerkamille er flerraarig.",
+      "Prestekrageliknende urt dyrket for sine beroligende blomster brukt i te. Tysk kamille er ettårig; romerkamille er flerårig.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -2163,7 +2163,7 @@ export const plants: Plant[] = [
     },
     spacing: "20-25 cm",
     harvestDays: "60-65",
-    tips: "Stroe de smaa froeene paa jordoverflaten — de trenger lys for aa spire. Hoest blomster naar kronbladene er fullt aapne og begynner aa boye seg tilbake for mest potent te. Kamille saar seg selv villig, saa du trenger kanskje bare aa plante den en gang. Den kalles ofte plantedoktoren fordi den angivelig forbedrer helsen til naerliggende planter.",
+    tips: "Strø de små frøene på jordoverflaten — de trenger lys for å spire. Høst blomster når kronbladene er fullt åpne og begynner å boye seg tilbake for mest potent te. Kamille sår seg selv villig, så du trenger kanskje bare å plante den en gang. Den kalles ofte plantedoktoren fordi den angivelig forbedrer helsen til nærliggende planter.",
   },
   {
     name: "Sitronmelisse",
@@ -2173,7 +2173,7 @@ export const plants: Plant[] = [
     family: "Lamiaceae",
     icon: "clover",
     description:
-      "Sitronduftende flerraarig plante i myntefamilien. Brukes i te og som beroligende urteremedier.",
+      "Sitronduftende flerårig plante i myntefamilien. Brukes i te og som beroligende urteremedier.",
     sun: "partial-shade",
     water: "moderate",
     frost: "hardy",
@@ -2191,7 +2191,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-45 cm",
     harvestDays: "60-70",
-    tips: "Som sine mynteslektninger sprer sitronmelisse seg villig — vurder aa dyrke i beholder. Hoest bladene foer planten blomstrer for best sitronduft og smak. Kutt tilbake med halvparten midt paa sommeren for aa stimulere en frisk flush av vekst. Den saar seg selv aggressivt, saa fjern avblomstrete blomster med mindre du onsker overalt.",
+    tips: "Som sine mynteslektninger sprer sitronmelisse seg villig — vurder å dyrke i beholder. Høst bladene før planten blomstrer for best sitronduft og smak. Kutt tilbake med halvparten midt på sommeren for å stimulere en frisk flush av vekst. Den sår seg selv aggressivt, så fjern avblomstrete blomster med mindre du onsker overalt.",
   },
   {
     name: "Estragon",
@@ -2201,7 +2201,7 @@ export const plants: Plant[] = [
     family: "Asteraceae",
     icon: "leaf",
     description:
-      "Aromatisk flerraarig urt med en anisliknende smak. Viktig i fransk matlaging, spesielt til kylling og fisk.",
+      "Aromatisk flerårig urt med en anisliknende smak. Viktig i fransk matlaging, spesielt til kylling og fisk.",
     sun: "full-sun",
     water: "low",
     frost: "semi-hardy",
@@ -2219,7 +2219,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-40 cm",
     harvestDays: "60-75",
-    tips: "Velg fransk estragon (formeres kun vegetativt) — russisk estragon fra froe har mye svakere smak. Planten trenger veldrenert jord og taaler ikke vaate vintre. Dekk med bark eller loeav over vinteren i kalde omraader. Hoest bladene jevnlig for best smak, og del planten hvert 3-4 aar.",
+    tips: "Velg fransk estragon (formeres kun vegetativt) — russisk estragon fra frø har mye svakere smak. Planten trenger veldrenert jord og tåler ikke våte vintre. Dekk med bark eller løv over vinteren i kalde områder. Høst bladene jevnlig for best smak, og del planten hvert 3-4 år.",
   },
   {
     name: "Karve",
@@ -2229,7 +2229,7 @@ export const plants: Plant[] = [
     family: "Apiaceae",
     icon: "leaf",
     description:
-      "Tradisjonell norsk urt med aromatiske froe brukt i broed, ost og akevitt. Toaarig plante som blomstrer andre aar.",
+      "Tradisjonell norsk urt med aromatiske frø brukt i brød, ost og akevitt. Toårig plante som blomstrer andre år.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -2247,17 +2247,17 @@ export const plants: Plant[] = [
     },
     spacing: "15-20 cm",
     harvestDays: "60-70",
-    tips: "Karve er toaarig — den danner en rosett foerste aar og blomstrer og setter froe andre aar. Saa direkte paa friland, da den har paalerot og misliker omplanting. Hoest froehodene naar de begynner aa brune, foer de faller av. En ekte norsk klassiker brukt i alt fra karvekaal til karveost og akevitt.",
+    tips: "Karve er toårig — den danner en rosett første år og blomstrer og setter frø andre år. Så direkte på friland, da den har pålerot og misliker omplanting. Høst frøhodene når de begynner å brune, før de faller av. En ekte norsk klassiker brukt i alt fra karvekål til karveost og akevitt.",
   },
   {
-    name: "Loepstikke",
+    name: "Løpstikke",
     species: "Levisticum officinale",
     slug: "loepstikke",
     category: "herb",
     family: "Apiaceae",
     icon: "leaf",
     description:
-      "Stor, flerraarig urt med sterk selleriaktig smak. En tradisjonell nordisk kjokkenurt som kan bli opptil 2 meter hoey.",
+      "Stor, flerårig urt med sterk selleriaktig smak. En tradisjonell nordisk kjøkkenurt som kan bli opptil 2 meter høy.",
     sun: "partial-shade",
     water: "moderate",
     frost: "hardy",
@@ -2275,7 +2275,7 @@ export const plants: Plant[] = [
     },
     spacing: "60-90 cm",
     harvestDays: "80-100",
-    tips: "Loepstikke er en kraftig plante som kan bli svaert stor — gi den rikelig plass. Bladene har en intens selleriaktig smak og brukes i supper og gryteretter. Hoest unge blader for mildest smak. Planten er svaert hardfoer og kommer tilbake aar etter aar. Froene kan ogsaa brukes som krydder.",
+    tips: "Løpstikke er en kraftig plante som kan bli svært stor — gi den rikelig plass. Bladene har en intens selleriaktig smak og brukes i supper og gryteretter. Høst unge blader for mildest smak. Planten er svært hardfør og kommer tilbake år etter år. Frøene kan også brukes som krydder.",
   },
 
   // ── Nye urter ─────────────────────────────────────────────────
@@ -2306,17 +2306,17 @@ export const plants: Plant[] = [
     },
     spacing: "15-20 cm",
     harvestDays: "70-90",
-    tips: "Bladpersille har sterkere, mer kompleks smak enn kruspersille og er den foretrukne typen i de fleste kjokken. Dyrkes paa same maate som vanlig persille. Hoest ytterstilker foerst. Taaler noe frost og kan hoestes langt utover hoesten med litt beskyttelse.",
+    tips: "Bladpersille har sterkere, mer kompleks smak enn kruspersille og er den foretrukne typen i de fleste kjøkken. Dyrkes på same måte som vanlig persille. Høst ytterstilker først. Tåler noe frost og kan høstes langt utover høsten med litt beskyttelse.",
   },
   {
-    name: "Boenneurt",
+    name: "Bønneurt",
     species: "Satureja hortensis",
     slug: "bonneurt",
     category: "herb",
     family: "Lamiaceae",
     icon: "leaf",
     description:
-      "Ettaarig krydderurt med pepperaktig smak som passer utmerket til boenneretter. Ogsaa kjent som sar.",
+      "Ettårig krydderurt med pepperaktig smak som passer utmerket til bønneretter. Også kjent som sar.",
     sun: "full-sun",
     water: "low",
     frost: "tender",
@@ -2334,17 +2334,17 @@ export const plants: Plant[] = [
     },
     spacing: "15-20 cm",
     harvestDays: "50-70",
-    tips: "Boenneurt er den klassiske urten til boenne- og linseretter. Hoest rett foer eller under blomstring for sterkest aroma. Planten vokser kompakt og er perfekt i potter. Toerker godt og beholder smaken. En underskat urt som fortjener plass i enhver urtehage.",
+    tips: "Bønneurt er den klassiske urten til bønne- og linseretter. Høst rett før eller under blomstring for sterkest aroma. Planten vokser kompakt og er perfekt i potter. Tørker godt og beholder smaken. En underskatt urt som fortjener plass i enhver urtehage.",
   },
   {
-    name: "Kinagressloek",
+    name: "Kinagressløk",
     species: "Allium tuberosum",
     slug: "kinagresslok",
     category: "herb",
     family: "Amaryllidaceae",
     icon: "leaf",
     description:
-      "Flerraarig urte med flate blader og mild hvitloeksmak. Hvite blomster er dekorative og spiselige.",
+      "Flerårig urte med flate blader og mild hvitløksmak. Hvite blomster er dekorative og spiselige.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -2362,17 +2362,17 @@ export const plants: Plant[] = [
     },
     spacing: "15-20 cm",
     harvestDays: "60-90",
-    tips: "Kinagressloek har en mild hvitloeksmak som passer utmerket i asiatiske retter. Klipp bladene jevnlig for ny vekst. De hvite blomstene er vakre og spiselige. Kan spre seg via froe — fjern blomster foer de setter froe for aa begrense spredningen. Sveart hardfoer og problemfri.",
+    tips: "Kinagressløk har en mild hvitløksmak som passer utmerket i asiatiske retter. Klipp bladene jevnlig for ny vekst. De hvite blomstene er vakre og spiselige. Kan spre seg via frø — fjern blomster før de setter frø for å begrense spredningen. Sveart hardfør og problemfri.",
   },
   {
-    name: "Kjoervel",
+    name: "Kjørvel",
     species: "Anthriscus cerefolium",
     slug: "kjorvel",
     category: "herb",
     family: "Apiaceae",
     icon: "leaf",
     description:
-      "Delikat urt med fin anissmak, viktig i det franske fines herbes-blandingen. Foretrekker kjoelig, skyggefullt voksested.",
+      "Delikat urt med fin anissmak, viktig i det franske fines herbes-blandingen. Foretrekker kjølig, skyggefullt voksested.",
     sun: "partial-shade",
     water: "moderate",
     frost: "semi-hardy",
@@ -2390,7 +2390,7 @@ export const plants: Plant[] = [
     },
     spacing: "10-15 cm",
     harvestDays: "40-60",
-    tips: "Kjoervel mister smaken ved varmebehandling — tilsett alltid til slutt. Saa direkte, da den har paalerot og misliker omplanting. Gaar raskt i blomst i varme — saa i halvskygge for lengre sesong. Smaken er delikat og anispreget. Suksesjonssaa for kontinuerlig forsyning.",
+    tips: "Kjørvel mister smaken ved varmebehandling — tilsett alltid til slutt. Så direkte, da den har pålerot og misliker omplanting. Går raskt i blomst i varme — så i halvskygge for lengre sesong. Smaken er delikat og anispreget. Suksesjonsså for kontinuerlig forsyning.",
   },
 
   // ── Blomster ──────────────────────────────────────────────────
@@ -2403,7 +2403,7 @@ export const plants: Plant[] = [
     family: "Asteraceae",
     icon: "flower-2",
     description:
-      "Spiselig medisinsk blomst ogsaa kjent som potteringblomst. Tiltrekker nytteinsekter og gir farge i hagen.",
+      "Spiselig medisinsk blomst også kjent som potteringblomst. Tiltrekker nytteinsekter og gir farge i hagen.",
     sun: "full-sun",
     water: "moderate",
     frost: "semi-hardy",
@@ -2421,7 +2421,7 @@ export const plants: Plant[] = [
     },
     spacing: "20-30 cm",
     harvestDays: null,
-    tips: "Ringblomstens kronblader er spiselige og kan brukes som safranerstatning for farge i matlaging. De klissete blomstene fanger bladlus og kvitfly, noe som gjor dem til nyttige folgevekster. Fjern avblomstrete blomster for aa forlenge blomstringen, eller la noen saa seg selv. Ringblomst trives best i kjolig vaer.",
+    tips: "Ringblomstens kronblader er spiselige og kan brukes som safranerstatning for farge i matlaging. De klissete blomstene fanger bladlus og kvitfly, noe som gjør dem til nyttige folgevekster. Fjern avblomstrete blomster for å forlenge blomstringen, eller la noen så seg selv. Ringblomst trives best i kjolig vær.",
   },
   {
     name: "Tagetes",
@@ -2431,7 +2431,7 @@ export const plants: Plant[] = [
     family: "Asteraceae",
     icon: "flower-2",
     description:
-      "Fargerik ettaarig blomst som avviser mange hageskadedyr. Floeyelsblomster er spesielt nyttige som folgevekster.",
+      "Fargerik ettårig blomst som avviser mange hageskadedyr. Fløyelsblomster er spesielt nyttige som folgevekster.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -2449,7 +2449,7 @@ export const plants: Plant[] = [
     },
     spacing: "20-30 cm",
     harvestDays: null,
-    tips: "Tagetes-roetter avgir et stoff som undertrykker rotgallnematoder — plant dem tett i problemomraader. Fjern visne blomster jevnlig for aa forlenge blomstringsperioden. Tagetes er en av de aller beste allround-folgevekstene, og avskrekker kvitfly, bladlus og andre skadedyr naar de plantes mellom groennsaker.",
+    tips: "Tagetes-røtter avgir et stoff som undertrykker rotgallnematoder — plant dem tett i problemområder. Fjern visne blomster jevnlig for å forlenge blomstringsperioden. Tagetes er en av de aller beste allround-folgevekstene, og avskrekker kvitfly, bladlus og andre skadedyr når de plantes mellom grønnsaker.",
   },
   {
     name: "Blomkarse",
@@ -2459,7 +2459,7 @@ export const plants: Plant[] = [
     family: "Tropaeolaceae",
     icon: "flower-2",
     description:
-      "Spiselig blomstrende ettaarig som fungerer som utmerket fellefangstplante for bladlus. Baade blader og blomster har en pepperskarp smak.",
+      "Spiselig blomstrende ettårig som fungerer som utmerket fellefangstplante for bladlus. Både blader og blomster har en pepperskarp smak.",
     sun: "full-sun",
     water: "low",
     frost: "tender",
@@ -2477,7 +2477,7 @@ export const plants: Plant[] = [
     },
     spacing: "25-30 cm",
     harvestDays: null,
-    tips: "Blomkarse trives i mager jord — for mye naering gir masse bladverk men faa blomster. Bruk dem som fellefangst for aa trekke bladlus bort fra mer verdifulle planter. Alle deler er spiselige med en pepperskarp, karseligнende smak. Hengende sorter er vakre som bunndekke, mens klatrende typer kan ledes opp espalier.",
+    tips: "Blomkarse trives i mager jord — for mye næring gir masse bladverk men få blomster. Bruk dem som fellefangst for å trekke bladlus bort fra mer verdifulle planter. Alle deler er spiselige med en pepperskarp, karseligнende smak. Hengende sorter er vakre som bunndekke, mens klatrende typer kan ledes opp espalier.",
   },
   {
     name: "Solsikke",
@@ -2487,7 +2487,7 @@ export const plants: Plant[] = [
     family: "Asteraceae",
     icon: "flower",
     description:
-      "Hoey, lystig ettaarig som tiltrekker pollinatorer og gir froe til fugler. Fungerer som naturlig espalier for klatrende boenner.",
+      "Høy, lystig ettårig som tiltrekker pollinatorer og gir frø til fugler. Fungerer som naturlig espalier for klatrende bønner.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -2505,7 +2505,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-45 cm",
     harvestDays: null,
-    tips: "Direktesaa solsikker der de skal vokse — de utvikler en dyp paalerot som misliker forstyrrelse. Stoett hoye sorter paa vindfulle steder. Saa i omganger for blomster gjennom hele sommeren. La froehodene staa for fuglene etter blomstring, eller hoest naar baksiden av hodet er brunt. De fungerer som naturlig espalier for klatrende boenner.",
+    tips: "Direkteså solsikker der de skal vokse — de utvikler en dyp pålerot som misliker forstyrrelse. Støtt hoye sorter på vindfulle steder. Så i omganger for blomster gjennom hele sommeren. La frøhodene stå for fuglene etter blomstring, eller høst når baksiden av hodet er brunt. De fungerer som naturlig espalier for klatrende bønner.",
   },
   {
     name: "Agurkurt",
@@ -2515,7 +2515,7 @@ export const plants: Plant[] = [
     family: "Boraginaceae",
     icon: "flower",
     description:
-      "Stjerneformede blaa blomster som er svaert attraktive for bier. En av de beste pollinator-plantene for groennsakshagen.",
+      "Stjerneformede blå blomster som er svært attraktive for bier. En av de beste pollinator-plantene for grønnsakshagen.",
     sun: "full-sun",
     water: "moderate",
     frost: "semi-hardy",
@@ -2533,7 +2533,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-40 cm",
     harvestDays: null,
-    tips: "Agurkurt er en magnet for bier og andre pollinatorer — plant naer fruktbaerende kulturer som squash, agurk og tomat for aa forbedre pollineringsraten. De blaa blomstene og unge bladene er spiselige med en mild agurksmak. Den saar seg selv ivrig, saa du vil sannsynligvis ha agurkurt i aarevis. Plantene kan bli store, saa gi dem nok plass.",
+    tips: "Agurkurt er en magnet for bier og andre pollinatorer — plant nær fruktbærende kulturer som squash, agurk og tomat for å forbedre pollineringsraten. De blå blomstene og unge bladene er spiselige med en mild agurksmak. Den sår seg selv ivrig, så du vil sannsynligvis ha agurkurt i årevis. Plantene kan bli store, så gi dem nok plass.",
   },
   {
     name: "Lavendel",
@@ -2543,7 +2543,7 @@ export const plants: Plant[] = [
     family: "Lamiaceae",
     icon: "flower-2",
     description:
-      "Duftende middelhavsbusk verdsatt for sin duft, blomster og evne til aa tiltrekke pollinatorer.",
+      "Duftende middelhavsbusk verdsatt for sin duft, blomster og evne til å tiltrekke pollinatorer.",
     sun: "full-sun",
     water: "low",
     frost: "semi-hardy",
@@ -2561,7 +2561,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-45 cm",
     harvestDays: null,
-    tips: "Lavendel krever skarp drenering — bland tung jord med grus eller perlite. Beskjaer aarlig om vaaren, kutt i groenn vekst men aldri i gammelt ved, for aa holde plantene kompakte. Hoest blomsterstilker rett naar de foerste knoppene aapner seg for sterkest duft. Engelske lavendelsorter er hardfoerere enn franske eller spanske typer.",
+    tips: "Lavendel krever skarp drenering — bland tung jord med grus eller perlite. Beskjær årlig om våren, kutt i grønn vekst men aldri i gammelt ved, for å holde plantene kompakte. Høst blomsterstilker rett når de første knoppene åpner seg for sterkest duft. Engelske lavendelsorter er hardførere enn franske eller spanske typer.",
   },
   {
     name: "Zinnia",
@@ -2571,7 +2571,7 @@ export const plants: Plant[] = [
     family: "Asteraceae",
     icon: "flower",
     description:
-      "Fargerik varmesesong ettaarig som tiltrekker sommerfugler og gir langvarige snittblomster. Enkel aa dyrke fra direktesaadd froe.",
+      "Fargerik varmesesong ettårig som tiltrekker sommerfugler og gir langvarige snittblomster. Enkel å dyrke fra direktesådd frø.",
     sun: "full-sun",
     water: "moderate",
     frost: "tender",
@@ -2589,7 +2589,7 @@ export const plants: Plant[] = [
     },
     spacing: "15-30 cm",
     harvestDays: null,
-    tips: "Direktesaaing er enklest — zinnia spirer raskt i varm jord. Aa klippe blomster til vasen stimulerer faktisk flere blomster. Gi plantene god plass for luftsirkulasjon, da zinnia er utsatt for meldugg. Vann ved basen, ikke ovenfra. Fjern visne blomster jevnlig for aa holde blomstringen gaaende til frost.",
+    tips: "Direktesåing er enklest — zinnia spirer raskt i varm jord. Å klippe blomster til vasen stimulerer faktisk flere blomster. Gi plantene god plass for luftsirkulasjon, da zinnia er utsatt for meldugg. Vann ved basen, ikke ovenfra. Fjern visne blomster jevnlig for å holde blomstringen gående til frost.",
   },
   {
     name: "Strandkarse",
@@ -2599,7 +2599,7 @@ export const plants: Plant[] = [
     family: "Brassicaceae",
     icon: "flower",
     description:
-      "Lavtvoksende, duftende ettaarig som danner et tett teppe av smaa blomster. Fremragende bunndekke og nytteinsekttiltrekker.",
+      "Lavtvoksende, duftende ettårig som danner et tett teppe av små blomster. Fremragende bunndekke og nytteinsekttiltrekker.",
     sun: "full-sun",
     water: "moderate",
     frost: "semi-hardy",
@@ -2617,7 +2617,7 @@ export const plants: Plant[] = [
     },
     spacing: "15-20 cm",
     harvestDays: null,
-    tips: "Strandkarse er en av de beste plantene for aa tiltrekke blomsterfluer og snylteveps, som spiser bladlus. Saa den som levende jorddekke under hoyere groennsaker. Klipp plantene ned med halvparten hvis de blir ranglete midt paa sommeren — de vokser raskt tilbake. Den saar seg selv villig og kommer ofte tilbake aar etter aar uten ny saaing.",
+    tips: "Strandkarse er en av de beste plantene for å tiltrekke blomsterfluer og snylteveps, som spiser bladlus. Så den som levende jorddekke under hoyere grønnsaker. Klipp plantene ned med halvparten hvis de blir ranglete midt på sommeren — de vokser raskt tilbake. Den sår seg selv villig og kommer ofte tilbake år etter år uten ny såing.",
   },
   {
     name: "Kornblomst",
@@ -2627,7 +2627,7 @@ export const plants: Plant[] = [
     family: "Asteraceae",
     icon: "flower-2",
     description:
-      "Sjarmerende ettaarig med knallblaa blomster som tiltrekker pollinatorer. Tradisjonell akerblomst som er lett aa dyrke.",
+      "Sjarmerende ettårig med knallblå blomster som tiltrekker pollinatorer. Tradisjonell akerblomst som er lett å dyrke.",
     sun: "full-sun",
     water: "low",
     frost: "hardy",
@@ -2645,7 +2645,7 @@ export const plants: Plant[] = [
     },
     spacing: "15-25 cm",
     harvestDays: null,
-    tips: "Direktesaa kornblomst om vaaren — den spirer lett og trives i mager jord. Fjern visne blomster for lengre blomstringsperiode. Kornblomst er svaert tiltrekkende for bier og andre pollinatorer. Blomstene kan toerkes og brukes i buketter. Den saar seg selv og kan dukke opp igjen aar etter aar.",
+    tips: "Direkteså kornblomst om våren — den spirer lett og trives i mager jord. Fjern visne blomster for lengre blomstringsperiode. Kornblomst er svært tiltrekkende for bier og andre pollinatorer. Blomstene kan tørkes og brukes i buketter. Den sår seg selv og kan dukke opp igjen år etter år.",
   },
   {
     name: "Kosmea",
@@ -2655,7 +2655,7 @@ export const plants: Plant[] = [
     family: "Asteraceae",
     icon: "flower",
     description:
-      "Luftig, grasioes ettaarig med fint bladverk og rikelig blomstring i rosa, hvitt og roett. Enkel og takknemlig.",
+      "Luftig, grasiøs ettårig med fint bladverk og rikelig blomstring i rosa, hvitt og røtt. Enkel og takknemlig.",
     sun: "full-sun",
     water: "low",
     frost: "tender",
@@ -2673,7 +2673,7 @@ export const plants: Plant[] = [
     },
     spacing: "25-35 cm",
     harvestDays: null,
-    tips: "Kosmea trives i mager jord — for mye gjodsel gir hoye, slafsete planter med faa blomster. Knip toppskuddene naar plantene er 30 cm hoye for aa faa buskete planter. Blomstene er utmerkede til snitt og tiltrekker sommerfugler og bier. Fjern visne blomster jevnlig, eller la noen saa seg selv til neste aar.",
+    tips: "Kosmea trives i mager jord — for mye gjødsel gir hoye, slafsete planter med få blomster. Knip toppskuddene når plantene er 30 cm hoye for å få buskete planter. Blomstene er utmerkede til snitt og tiltrekker sommerfugler og bier. Fjern visne blomster jevnlig, eller la noen så seg selv til neste år.",
   },
   {
     name: "Lupiner",
@@ -2683,7 +2683,7 @@ export const plants: Plant[] = [
     family: "Fabaceae",
     icon: "flower-2",
     description:
-      "Staselige flerraarige blomster med hoye, fargerike blomsteraks. Nitrogenfikserende og bra for jorda.",
+      "Staselige flerårige blomster med hoye, fargerike blomsteraks. Nitrogenfikserende og bra for jorda.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -2701,7 +2701,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-45 cm",
     harvestDays: null,
-    tips: "Bloetlegg froene over natten eller skrap froeoverflaten foer saaing for aa forbedre spiringen. Lupiner er belgvekster og fikserer nitrogen i jorda, noe som gjoer dem til gode naboer for mange planter. Fjern avblomstrete stilker for mulig andre blomstring. De kan vaere kortlivede — la noen saa seg selv for aa sikre bestanden.",
+    tips: "Bløtlegg frøne over natten eller skrap frøoverflaten før såing for å forbedre spiringen. Lupiner er belgvekster og fikserer nitrogen i jorda, noe som gjør dem til gode nabør for mange planter. Fjern avblomstrete stilker for mulig andre blomstring. De kan være kortlivede — la noen så seg selv for å sikre bestanden.",
   },
   {
     name: "Kappertblomst",
@@ -2711,7 +2711,7 @@ export const plants: Plant[] = [
     family: "Tropaeolaceae",
     icon: "flower",
     description:
-      "Klatrende ettaarig med smaa, kanariegule blomster som minner om smaa fugler. Raskvoksende og dekorativ paa espalier.",
+      "Klatrende ettårig med små, kanariegule blomster som minner om små fugler. Raskvoksende og dekorativ på espalier.",
     sun: "partial-shade",
     water: "moderate",
     frost: "tender",
@@ -2729,7 +2729,7 @@ export const plants: Plant[] = [
     },
     spacing: "25-30 cm",
     harvestDays: null,
-    tips: "Kappertblomst klatrer raskt og kan dekke et espalier eller gjerde paa kort tid. Foretrekker noe skygge midt paa dagen i varme perioder. Blomstrer rikelig fra midsommer til frost. Slektning av blomkarse og har lignende egenskaper som fellefangstplante for bladlus. Saa froene direkte eller start innendoers for tidligere blomstring.",
+    tips: "Kappertblomst klatrer raskt og kan dekke et espalier eller gjerde på kort tid. Foretrekker noe skygge midt på dagen i varme perioder. Blomstrer rikelig fra midsommer til frost. Slektning av blomkarse og har lignende egenskaper som fellefangstplante for bladlus. Så frøne direkte eller start innendørs for tidligere blomstring.",
   },
   {
     name: "Solhatt",
@@ -2739,7 +2739,7 @@ export const plants: Plant[] = [
     family: "Asteraceae",
     icon: "flower-2",
     description:
-      "Staaelig flerraarig med store, purpurfargede blomster. Kjent medisinplante som ogsaa tiltrekker pollinatorer og sommerfugler.",
+      "Ståelig flerårig med store, purpurfargede blomster. Kjent medisinplante som også tiltrekker pollinatorer og sommerfugler.",
     sun: "full-sun",
     water: "low",
     frost: "hardy",
@@ -2757,7 +2757,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-45 cm",
     harvestDays: null,
-    tips: "Solhatt er toerketolerant og trives i de fleste jordtyper naar den foerst er etablert. Froene trenger kaldbehandling for aa spire — saa om hoesten eller legg froene i kjoeleskapet i 4-6 uker. La froehodene staa over vinteren — fuglene setter pris paa dem. Planten blir sterkere og mer blomstrende for hvert aar.",
+    tips: "Solhatt er tørketolerant og trives i de fleste jordtyper når den først er etablert. Frøene trenger kaldbehandling for å spire — så om høsten eller legg frøne i kjøleskapet i 4-6 uker. La frøhodene stå over vinteren — fuglene setter pris på dem. Planten blir sterkere og mer blomstrende for hvert år.",
   },
   {
     name: "Hagereseda",
@@ -2767,7 +2767,7 @@ export const plants: Plant[] = [
     family: "Resedaceae",
     icon: "flower",
     description:
-      "Uanselig men intenst duftende ettaarig som har vaert dyrket i norske hager i generasjoner. Tiltrekker bier og nytteinsekter.",
+      "Uanselig men intenst duftende ettårig som har vært dyrket i norske hager i generasjoner. Tiltrekker bier og nytteinsekter.",
     sun: "full-sun",
     water: "moderate",
     frost: "semi-hardy",
@@ -2785,7 +2785,7 @@ export const plants: Plant[] = [
     },
     spacing: "15-20 cm",
     harvestDays: null,
-    tips: "Hagereseda er ikke den vakreste blomsten, men duften er uovertruffet — plant den naer sitteplasser og gangveier. Direktesaa gjerne, da den har paalerot og misliker omplanting. Blomstene er rike paa nektar og svaert populaere blant bier. En gammeldags favoritt i norske bondehager som fortjener en renessanse.",
+    tips: "Hagereseda er ikke den vakreste blomsten, men duften er uovertruffet — plant den nær sitteplasser og gangveier. Direkteså gjerne, da den har pålerot og misliker omplanting. Blomstene er rike på nektar og svært populære blant bier. En gammeldags favoritt i norske bondehager som fortjener en renessanse.",
   },
   {
     name: "Sommeraster",
@@ -2795,7 +2795,7 @@ export const plants: Plant[] = [
     family: "Asteraceae",
     icon: "flower-2",
     description:
-      "Elegant ettaarig med store, fyllede blomster i mange farger. Populaer snittblomst som blomstrer sent paa sommeren.",
+      "Elegant ettårig med store, fyllede blomster i mange farger. Populær snittblomst som blomstrer sent på sommeren.",
     sun: "full-sun",
     water: "moderate",
     frost: "semi-hardy",
@@ -2813,20 +2813,20 @@ export const plants: Plant[] = [
     },
     spacing: "20-30 cm",
     harvestDays: null,
-    tips: "Sommeraster er foelsom for visnesyke — roter planteplasseringen og unngaa aa plante paa samme sted aar etter aar. Saa innendoers for tidligst mulig blomstring. Stoett hoye sorter med pinner. Blomstene varer lenge i vase og kommer i et utrolig utvalg av farger og former. Klipp for vasen naar blomstene er halvveis aapne.",
+    tips: "Sommeraster er følsom for visnesyke — roter planteplasseringen og unngå å plante på samme sted år etter år. Så innendørs for tidligst mulig blomstring. Støtt hoye sorter med pinner. Blomstene varer lenge i vase og kommer i et utrolig utvalg av farger og former. Klipp for vasen når blomstene er halvveis åpne.",
   },
 
-  // ── Baer ──────────────────────────────────────────────────────
+  // ── Bær ──────────────────────────────────────────────────────
 
   {
-    name: "Blaabaer",
+    name: "Blåbær",
     species: "Vaccinium corymbosum",
     slug: "blaabaer",
     category: "berry",
     family: "Ericaceae",
     icon: "grape",
     description:
-      "Flerraarig baerbusk som krever sur jord for aa trives. Gir rikelige avlinger av soete, naeringsrike baer.",
+      "Flerårig bærbusk som krever sur jord for å trives. Gir rikelige avlinger av søte, næringsrike bær.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -2844,17 +2844,17 @@ export const plants: Plant[] = [
     },
     spacing: "120-150 cm",
     harvestDays: "365-730",
-    tips: "Blaabaer krever sur jord (pH 4,5-5,5) — bruk surbedsjord og gjodsl med svovel ved behov. Plant minst to sorter for bedre pollinering og stoerre avlinger. Beskjaer ut gammelt ved etter 3-4 aar for aa stimulere ny vekst. Dekk med nett for aa beskytte mot fugler. Gir best avling etter 3-4 aar.",
+    tips: "Blåbær krever sur jord (pH 4,5-5,5) — bruk surbedsjord og gjødsl med svovel ved behov. Plant minst to sorter for bedre pollinering og større avlinger. Beskjær ut gammelt ved etter 3-4 år for å stimulere ny vekst. Dekk med nett for å beskytte mot fugler. Gir best avling etter 3-4 år.",
   },
   {
-    name: "Bringebaer",
+    name: "Bringebær",
     species: "Rubus idaeus",
     slug: "bringebaer",
     category: "berry",
     family: "Rosaceae",
     icon: "grape",
     description:
-      "Hardfoer flerraarig baerbusk som gir rikelige avlinger. Tilgjengelig som sommer- og hoestbaerende sorter.",
+      "Hardfør flerårig bærbusk som gir rikelige avlinger. Tilgjengelig som sommer- og høstbærende sorter.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -2872,17 +2872,17 @@ export const plants: Plant[] = [
     },
     spacing: "40-60 cm",
     harvestDays: "365-730",
-    tips: "Sett opp solid espalier med strammer. Sommersorter baerer paa fjoraarets skudd — klipp ned baerende skudd etter hoest. Hoestsorter baerer paa aarets skudd og kan klippes helt ned om vaaren. Bringebaer sprer seg via rotskudd — kontroller spredningen. Gi rikelig med kompost for store avlinger.",
+    tips: "Sett opp solid espalier med strammer. Sommersorter bærer på fjorårets skudd — klipp ned bærende skudd etter høst. Høstsorter bærer på årets skudd og kan klippes helt ned om våren. Bringebær sprer seg via rotskudd — kontroller spredningen. Gi rikelig med kompost for store avlinger.",
   },
   {
-    name: "Jordbaer",
+    name: "Jordbær",
     species: "Fragaria x ananassa",
     slug: "jordbaer",
     category: "berry",
     family: "Rosaceae",
     icon: "cherry",
     description:
-      "Folkekjaer flerraarig baerplante som er enkel aa dyrke. Produserer soete, roede baer fra forsommeren.",
+      "Folkekjær flerårig bærplante som er enkel å dyrke. Produserer søte, røde bær fra forsommeren.",
     sun: "full-sun",
     water: "moderate",
     frost: "hardy",
@@ -2900,7 +2900,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-40 cm",
     harvestDays: "365",
-    tips: "Forny jordbaerbedet hvert 3-4 aar med nye planter fra utloepere. Dekk jorda med halm for aa holde baerene rene og hindre raatning. Fjern utloepere foerste aar for aa styrke morplanten. Bruk fiberduk for aa beskytte mot fugler. Velg tidlige, mellomtidlige og sene sorter for lang sesong.",
+    tips: "Forny jordbærbedet hvert 3-4 år med nye planter fra utløpere. Dekk jorda med halm for å holde bærene rene og hindre råtning. Fjern utløpere første år for å styrke morplanten. Bruk fiberduk for å beskytte mot fugler. Velg tidlige, mellomtidlige og sene sorter for lang sesong.",
   },
 
   // ── Stueplanter ───────────────────────────────────────────────
@@ -2913,7 +2913,7 @@ export const plants: Plant[] = [
     family: "Araceae",
     icon: "leaf",
     description:
-      "Ekstremt hardfoer stueplante med blanke, moerke blader. Taaler toerke, lite lys og vanstell bedre enn de fleste planter.",
+      "Ekstremt hardfør stueplante med blanke, mørke blader. Tåler tørke, lite lys og vanstell bedre enn de fleste planter.",
     sun: "shade",
     water: "low",
     frost: "tender",
@@ -2931,7 +2931,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-45 cm",
     harvestDays: null,
-    tips: "ZZ-planten er nesten umulig aa drepe. La jorda toerke helt ut mellom vanningene — overvandig er den vanligste feilen. Trives i lite lys men vokser raskere med mer. Rengjor bladene med fuktig klut for aa holde dem blanke. Giftig ved svelging — hold unna barn og dyr.",
+    tips: "ZZ-planten er nesten umulig å drepe. La jorda tørke helt ut mellom vanningene — overvandig er den vanligste feilen. Trives i lite lys men vokser raskere med mer. Rengjør bladene med fuktig klut for å holde dem blanke. Giftig ved svelging — hold unna barn og dyr.",
   },
   {
     name: "Aglaonema",
@@ -2941,7 +2941,7 @@ export const plants: Plant[] = [
     family: "Araceae",
     icon: "leaf",
     description:
-      "Dekorativ stueplante med fargerike, moenstrede blader. Tilgjengelig i mange varianter fra groent til rosa og roett.",
+      "Dekorativ stueplante med fargerike, mønstrede blader. Tilgjengelig i mange varianter fra grønt til rosa og røtt.",
     sun: "shade",
     water: "moderate",
     frost: "tender",
@@ -2959,7 +2959,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-40 cm",
     harvestDays: null,
-    tips: "Aglaonema trives i indirekte lys og taaler skyggefulle plasseringer godt. Vann naar den oeverste centimeteren av jorda er toerr. Unngaa kald trekk og temperaturer under 15 °C. De fargerike sortene trenger litt mer lys for aa beholde fargene. Rengjor bladene jevnlig.",
+    tips: "Aglaonema trives i indirekte lys og tåler skyggefulle plasseringer godt. Vann når den øverste centimeteren av jorda er tørr. Unngå kald trekk og temperaturer under 15 °C. De fargerike sortene trenger litt mer lys for å beholde fargene. Rengjør bladene jevnlig.",
   },
   {
     name: "Aloe vera",
@@ -2969,7 +2969,7 @@ export const plants: Plant[] = [
     family: "Asphodelaceae",
     icon: "leaf",
     description:
-      "Sukkulent med tykke, gelefylte blader kjent for sine hudpleieegenskaper. Enkel aa dyrke paa en solrik vinduskarm.",
+      "Sukkulent med tykke, gelefylte blader kjent for sine hudpleieegenskaper. Enkel å dyrke på en solrik vinduskarm.",
     sun: "full-sun",
     water: "low",
     frost: "tender",
@@ -2987,7 +2987,7 @@ export const plants: Plant[] = [
     },
     spacing: "20-30 cm",
     harvestDays: null,
-    tips: "Bruk veldrenert kaktus-/sukkulentjord og potter med dreneringshull. La jorda toerke godt ut mellom vanningene. Geleen inne i bladene kan brukes paa smaа brannsaar og solbrenthet. Planten produserer sidesskudd som kan skilles og plantes separat. Gi rikelig sol for best vekst.",
+    tips: "Bruk veldrenert kaktus-/sukkulentjord og potter med dreneringshull. La jorda tørke godt ut mellom vanningene. Geleen inne i bladene kan brukes på smaа brannsår og solbrenthet. Planten produserer sidesskudd som kan skilles og plantes separat. Gi rikelig sol for best vekst.",
   },
   {
     name: "Bostonbregne",
@@ -3015,17 +3015,17 @@ export const plants: Plant[] = [
     },
     spacing: "40-60 cm",
     harvestDays: null,
-    tips: "Bostonbregner elsker hoy luftfuktighet — spray jevnlig eller plasser paa et brett med fuktige steiner. Hold jorda jevnt fuktig men aldri vassjuk. Trives best i indirekte lys. De lange bladfanene gjor den perfekt i ampel. Kan miste blader i toerr inneluft om vinteren — oek luftfuktigheten.",
+    tips: "Bostonbregner elsker hoy luftfuktighet — spray jevnlig eller plasser på et brett med fuktige steiner. Hold jorda jevnt fuktig men aldri vassjuk. Trives best i indirekte lys. De lange bladfanene gjør den perfekt i ampel. Kan miste blader i tørr inneluft om vinteren — øk luftfuktigheten.",
   },
   {
-    name: "Boenneplante",
+    name: "Bønneplante",
     species: "Maranta leuconeura",
     slug: "bonneplante",
     category: "houseplant",
     family: "Marantaceae",
     icon: "leaf",
     description:
-      "Dekorativ stueplante med vakre bladmoenstre som folder bladene sammen om natten — derav kallenavnet boenneplante.",
+      "Dekorativ stueplante med vakre bladmønstre som folder bladene sammen om natten — derav kallenavnet bønneplante.",
     sun: "partial-shade",
     water: "moderate",
     frost: "tender",
@@ -3043,7 +3043,7 @@ export const plants: Plant[] = [
     },
     spacing: "25-35 cm",
     harvestDays: null,
-    tips: "Boenneplanten foretrekker indirekte lys og hoy luftfuktighet. Vann med romtemperert, gjerne avkalket vann. Bladene folder seg sammen om kvelden og aapner seg om morgenen. Unngaa direkte sol som bleiker de vakre bladmoenstrenе. Trivselen oeker med jevnlig spraying.",
+    tips: "Bønneplanten foretrekker indirekte lys og hoy luftfuktighet. Vann med romtemperert, gjerne avkalket vann. Bladene folder seg sammen om kvelden og åpner seg om morgenen. Unngå direkte sol som bleiker de vakre bladmønstrenе. Trivselen øker med jevnlig spraying.",
   },
   {
     name: "Calathea orbifolia",
@@ -3053,7 +3053,7 @@ export const plants: Plant[] = [
     family: "Marantaceae",
     icon: "leaf",
     description:
-      "Storslagen stueplante med store, runde blader med soelvfargede striper. Krever litt ekstra omsorg med fuktighet.",
+      "Storslagen stueplante med store, runde blader med sølvfargede striper. Krever litt ekstra omsorg med fuktighet.",
     sun: "partial-shade",
     water: "moderate",
     frost: "tender",
@@ -3071,7 +3071,7 @@ export const plants: Plant[] = [
     },
     spacing: "40-60 cm",
     harvestDays: null,
-    tips: "Calathea orbifolia er foelsom for kalk i vannet — bruk regnvann eller avkalket vann. Hold luftfuktigheten hoy for aa unngaa brune bladkanter. Trives i indirekte lys; direkte sol gir bladskader. Jorda boer vaere jevnt fuktig men aldri vassjuk. En av de mest dekorative, men ogsaa mer krevende stueplantene.",
+    tips: "Calathea orbifolia er følsom for kalk i vannet — bruk regnvann eller avkalket vann. Hold luftfuktigheten hoy for å unngå brune bladkanter. Trives i indirekte lys; direkte sol gir bladskader. Jorda bør være jevnt fuktig men aldri vassjuk. En av de mest dekorative, men også mer krevende stueplantene.",
   },
   {
     name: "Draketre",
@@ -3081,7 +3081,7 @@ export const plants: Plant[] = [
     family: "Asparagaceae",
     icon: "shrub",
     description:
-      "Elegant stueplante med tynn stamme og smale, moerke blader med roed kant. Kan bli svаert hoey over tid.",
+      "Elegant stueplante med tynn stamme og smale, mørke blader med rød kant. Kan bli svаert høy over tid.",
     sun: "partial-shade",
     water: "low",
     frost: "tender",
@@ -3099,7 +3099,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-50 cm",
     harvestDays: null,
-    tips: "Draketre taaler toerrere luft enn mange stueplanter. Vann sparsomt — la jorda toerke ut mellom vanningene. Bladtap nederst paa stammen er normalt. Kan beskjaeres for aa stimulere forgrening. Unngaa direkte sol som kan bleke bladene. En av NASAs anbefalte luftrensende planter.",
+    tips: "Draketre tåler tørrere luft enn mange stueplanter. Vann sparsomt — la jorda tørke ut mellom vanningene. Bladtap nederst på stammen er normalt. Kan beskjæres for å stimulere forgrening. Unngå direkte sol som kan bleke bladene. En av NASAs anbefalte luftrensende planter.",
   },
   {
     name: "Echeveria",
@@ -3109,7 +3109,7 @@ export const plants: Plant[] = [
     family: "Crassulaceae",
     icon: "leaf",
     description:
-      "Kompakt sukkulent som danner vakre rosetter i blaagroent til rosa. Perfekt for solrike vinduskarmer og terrarium.",
+      "Kompakt sukkulent som danner vakre rosetter i blågrønt til rosa. Perfekt for solrike vinduskarmer og terrarium.",
     sun: "full-sun",
     water: "low",
     frost: "tender",
@@ -3127,17 +3127,17 @@ export const plants: Plant[] = [
     },
     spacing: "10-15 cm",
     harvestDays: null,
-    tips: "Gi echeveria saa mye sol som mulig for kompakt vekst og beste farger. Vann sparsomt — la jorda toerke helt ut mellom vanningene. Unngaa aa faa vann paa rosetten da det kan foraarsake raatne. Danner sidesskudd som enkelt kan skilles og plantes. Bruk veldrenert sukkulentjord.",
+    tips: "Gi echeveria så mye sol som mulig for kompakt vekst og beste farger. Vann sparsomt — la jorda tørke helt ut mellom vanningene. Unngå å få vann på rosetten da det kan forårsake råtne. Danner sidesskudd som enkelt kan skilles og plantes. Bruk veldrenert sukkulentjord.",
   },
   {
-    name: "Elefantoere",
+    name: "Elefantøre",
     species: "Pilea peperomioides",
     slug: "elefantore",
     category: "houseplant",
     family: "Urticaceae",
     icon: "leaf",
     description:
-      "Populaer stueplante med runde, blanke blader paa tynne stilker. Ogsaa kalt Kinesisk pengeplante eller misjonaerplante.",
+      "Populær stueplante med runde, blanke blader på tynne stilker. Også kalt Kinesisk pengeplante eller misjonærplante.",
     sun: "partial-shade",
     water: "moderate",
     frost: "tender",
@@ -3155,7 +3155,7 @@ export const plants: Plant[] = [
     },
     spacing: "20-30 cm",
     harvestDays: null,
-    tips: "Pilea peperomioides produserer mange smaaplanter som enkelt kan deles og gis bort. Roter potten jevnlig saa planten vokser jevnt. Trives i lyst, indirekte lys. La jorda toerke litt mellom vanningene. En av de mest populaere stueplantene de siste aarene, og med god grunn.",
+    tips: "Pilea peperomioides produserer mange småplanter som enkelt kan deles og gis bort. Roter potten jevnlig så planten vokser jevnt. Trives i lyst, indirekte lys. La jorda tørke litt mellom vanningene. En av de mest populære stueplantene de siste årene, og med god grunn.",
   },
   {
     name: "Fiolinfiken",
@@ -3165,7 +3165,7 @@ export const plants: Plant[] = [
     family: "Moraceae",
     icon: "shrub",
     description:
-      "Spektakulaer stueplante med store, fiolinformede blader. Et levende skulpturelt element i hjemmet.",
+      "Spektakulær stueplante med store, fiolinformede blader. Et levende skulpturelt element i hjemmet.",
     sun: "partial-shade",
     water: "moderate",
     frost: "tender",
@@ -3183,7 +3183,7 @@ export const plants: Plant[] = [
     },
     spacing: "60-100 cm",
     harvestDays: null,
-    tips: "Fiolinfiken liker ikke aa bli flyttet — finn en fast plass med lyst, indirekte lys. Vann naar den oeverste 3-4 cm av jorda er toerr. Rengjor de store bladene jevnlig for aa fjerne stoev. Kan beskjaeres for aa stimulere forgrening. Unngaa kalde trekk og plutselige temperaturendringer.",
+    tips: "Fiolinfiken liker ikke å bli flyttet — finn en fast plass med lyst, indirekte lys. Vann når den øverste 3-4 cm av jorda er tørr. Rengjør de store bladene jevnlig for å fjerne støv. Kan beskjæres for å stimulere forgrening. Unngå kalde trekk og plutselige temperaturendringer.",
   },
   {
     name: "Flamingoblomst",
@@ -3193,7 +3193,7 @@ export const plants: Plant[] = [
     family: "Araceae",
     icon: "flower",
     description:
-      "Elegant stueplante med hjerteformede, blanke blomsterskjermer i roett, rosa eller hvitt. Blomstrer nesten hele aaret.",
+      "Elegant stueplante med hjerteformede, blanke blomsterskjermer i røtt, rosa eller hvitt. Blomstrer nesten hele året.",
     sun: "partial-shade",
     water: "moderate",
     frost: "tender",
@@ -3211,7 +3211,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-40 cm",
     harvestDays: null,
-    tips: "Flamingoblomst trenger hoy luftfuktighet for aa trives. Plasser i lyst, indirekte lys for best blomstring. Vann naar den oeverste centimeteren av jorda er toerr. Bruk godt drenert jord med mye organisk materiale. Gjodsl maanedlig i vekstsesongen for flere blomster.",
+    tips: "Flamingoblomst trenger hoy luftfuktighet for å trives. Plasser i lyst, indirekte lys for best blomstring. Vann når den øverste centimeteren av jorda er tørr. Bruk godt drenert jord med mye organisk materiale. Gjodsl månedlig i vekstsesongen for flere blomster.",
   },
   {
     name: "Fredslilje",
@@ -3221,7 +3221,7 @@ export const plants: Plant[] = [
     family: "Araceae",
     icon: "flower",
     description:
-      "Populaer stueplante med elegante, hvite blomsterskjermer. Kjent for aa rense inneluften og taale lite lys.",
+      "Populær stueplante med elegante, hvite blomsterskjermer. Kjent for å rense inneluften og tåle lite lys.",
     sun: "shade",
     water: "moderate",
     frost: "tender",
@@ -3239,7 +3239,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-45 cm",
     harvestDays: null,
-    tips: "Fredsliljen gir tydelig signal naar den trenger vann — bladene haenger. Trives i lite lys men blomstrer bedre med mer. En av de beste luftrensende plantene ifølge NASA. Vann med romtemperert vann og spray jevnlig. Giftig for dyr — hold utenfor rekkevidde for kjaeledyr.",
+    tips: "Fredsliljen gir tydelig signal når den trenger vann — bladene henger. Trives i lite lys men blomstrer bedre med mer. En av de beste luftrensende plantene ifølge NASA. Vann med romtemperert vann og spray jevnlig. Giftig for dyr — hold utenfor rekkevidde for kjæledyr.",
   },
   {
     name: "Fugleredebregne",
@@ -3249,7 +3249,7 @@ export const plants: Plant[] = [
     family: "Aspleniaceae",
     icon: "leaf",
     description:
-      "Elegant bregne med brede, lysgroenne, boelgete blader som vokser i en rosettrformasjon. Trives i fuktige omgivelser.",
+      "Elegant bregne med brede, lysgrønne, bølgete blader som vokser i en rosettrformasjon. Trives i fuktige omgivelser.",
     sun: "partial-shade",
     water: "moderate",
     frost: "tender",
@@ -3267,7 +3267,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-45 cm",
     harvestDays: null,
-    tips: "Unngaa aa faa vann i midten av rosetten, da det kan foraarsake raatne. Hold luftfuktigheten hoy og unngaa direkte sol. De boelgete bladene er foelsomme — unngaa aa beroere dem for mye. Trives godt paa bad med naturlig lys. Vann jevnt men la aldri potten staa i vann.",
+    tips: "Unngå å få vann i midten av rosetten, da det kan forårsake råtne. Hold luftfuktigheten hoy og unngå direkte sol. De bølgete bladene er følsomme — unngå å berøre dem for mye. Trives godt på bad med naturlig lys. Vann jevnt men la aldri potten stå i vann.",
   },
   {
     name: "Gullpalme",
@@ -3277,7 +3277,7 @@ export const plants: Plant[] = [
     family: "Arecaceae",
     icon: "shrub",
     description:
-      "Elegant palme med gullgroenne, buete blader. Gir et tropisk preg til ethvert rom og er god til aa rense luften.",
+      "Elegant palme med gullgrønne, buete blader. Gir et tropisk preg til ethvert rom og er god til å rense luften.",
     sun: "partial-shade",
     water: "moderate",
     frost: "tender",
@@ -3295,7 +3295,7 @@ export const plants: Plant[] = [
     },
     spacing: "60-100 cm",
     harvestDays: null,
-    tips: "Gullpalmen er en av de beste luftrensende plantene. Trives i lyst, indirekte lys. Vann naar den oeverste 2-3 cm av jorda er toerr. Spray bladene jevnlig for aa oeke luftfuktigheten. Brune bladtupper skyldes ofte for toerr luft. Gjodsl i vekstsesongen med palmegjoedsel.",
+    tips: "Gullpalmen er en av de beste luftrensende plantene. Trives i lyst, indirekte lys. Vann når den øverste 2-3 cm av jorda er tørr. Spray bladene jevnlig for å øke luftfuktigheten. Brune bladtupper skyldes ofte for tørr luft. Gjodsl i vekstsesongen med palmegjødsel.",
   },
   {
     name: "Gullranke",
@@ -3305,7 +3305,7 @@ export const plants: Plant[] = [
     family: "Araceae",
     icon: "leaf",
     description:
-      "Sveart populaer hengende eller klatrende stueplante med hjerteformede blader. Nesten umulig aa drepe.",
+      "Sveart populær hengende eller klatrende stueplante med hjerteformede blader. Nesten umulig å drepe.",
     sun: "partial-shade",
     water: "moderate",
     frost: "tender",
@@ -3323,7 +3323,7 @@ export const plants: Plant[] = [
     },
     spacing: "20-30 cm",
     harvestDays: null,
-    tips: "Gullranke er en av de enkleste stueplantene. Taaler lite lys men faar penere bladmoenster i lyst, indirekte lys. La jorda toerke ut mellom vanningene. Rankene kan ledes opp stokker eller henges fra ampel. Formeres enkelt ved stiklinger i vann. Giftig for dyr.",
+    tips: "Gullranke er en av de enkleste stueplantene. Tåler lite lys men får penere bladmønster i lyst, indirekte lys. La jorda tørke ut mellom vanningene. Rankene kan ledes opp stokker eller henges fra ampel. Formeres enkelt ved stiklinger i vann. Giftig for dyr.",
   },
   {
     name: "Gummifiken",
@@ -3333,7 +3333,7 @@ export const plants: Plant[] = [
     family: "Moraceae",
     icon: "shrub",
     description:
-      "Robust stueplante med store, blanke, laerjaktige blader i moerkt groent eller burgundy. Vokser seg stor over tid.",
+      "Robust stueplante med store, blanke, lærjaktige blader i mørkt grønt eller burgundy. Vokser seg stor over tid.",
     sun: "partial-shade",
     water: "moderate",
     frost: "tender",
@@ -3351,7 +3351,7 @@ export const plants: Plant[] = [
     },
     spacing: "50-80 cm",
     harvestDays: null,
-    tips: "Gummifiken er lettere aa dyrke enn fiolinfiken. Rengjor de store bladene jevnlig for aa fjerne stoev. Vann naar den oeverste 2-3 cm av jorda er toerr. Kan beskjaeres for aa stimulere forgrening. Safsten er irriterende for hud — bruk hansker ved beskjaering. Trives i lyst, indirekte lys.",
+    tips: "Gummifiken er lettere å dyrke enn fiolinfiken. Rengjør de store bladene jevnlig for å fjerne støv. Vann når den øverste 2-3 cm av jorda er tørr. Kan beskjæres for å stimulere forgrening. Safsten er irriterende for hud — bruk hansker ved beskjæring. Trives i lyst, indirekte lys.",
   },
   {
     name: "Haworthia",
@@ -3361,7 +3361,7 @@ export const plants: Plant[] = [
     family: "Asphodelaceae",
     icon: "leaf",
     description:
-      "Liten, stripete sukkulent som danner kompakte rosetter. Perfekt for smaa potter og vinduskarmer.",
+      "Liten, stripete sukkulent som danner kompakte rosetter. Perfekt for små potter og vinduskarmer.",
     sun: "partial-shade",
     water: "low",
     frost: "tender",
@@ -3379,7 +3379,7 @@ export const plants: Plant[] = [
     },
     spacing: "10-15 cm",
     harvestDays: null,
-    tips: "Haworthia er en av faa sukkulenter som trives i indirekte lys. Vann sparsomt og la jorda toerke helt ut mellom vanningene. Danner smaа sideskudd som enkelt separeres. Bruk veldrenert sukkulentjord. En perfekt foerstegangssplante — nesten umulig aa feile med.",
+    tips: "Haworthia er en av få sukkulenter som trives i indirekte lys. Vann sparsomt og la jorda tørke helt ut mellom vanningene. Danner smaа sideskudd som enkelt separeres. Bruk veldrenert sukkulentjord. En perfekt førstegangssplante — nesten umulig å feile med.",
   },
   {
     name: "Hjertefilodendron",
@@ -3389,7 +3389,7 @@ export const plants: Plant[] = [
     family: "Araceae",
     icon: "leaf",
     description:
-      "Sjarmerende klatrende stueplante med hjerteformede blader. Enkel aa dyrke og perfekt for nybegynnere.",
+      "Sjarmerende klatrende stueplante med hjerteformede blader. Enkel å dyrke og perfekt for nybegynnere.",
     sun: "partial-shade",
     water: "moderate",
     frost: "tender",
@@ -3407,7 +3407,7 @@ export const plants: Plant[] = [
     },
     spacing: "20-30 cm",
     harvestDays: null,
-    tips: "Hjertefilodendron kan vokse som hengende plante eller ledes opp en mosestokk for stoerre blader. Taaler lite lys men trives best i indirekte lys. La toppen av jorda toerke mellom vanningene. Formeres enkelt ved stiklinger. De hjerteformede bladene gjor den til en populaer gave.",
+    tips: "Hjertefilodendron kan vokse som hengende plante eller ledes opp en mosestokk for større blader. Tåler lite lys men trives best i indirekte lys. La toppen av jorda tørke mellom vanningene. Formeres enkelt ved stiklinger. De hjerteformede bladene gjør den til en populær gave.",
   },
   {
     name: "Kentiapalme",
@@ -3417,7 +3417,7 @@ export const plants: Plant[] = [
     family: "Arecaceae",
     icon: "shrub",
     description:
-      "Elegant, saktevoksende palme med grasiose, buete blader. Taaler skyggefulle plasseringer bedre enn de fleste palmer.",
+      "Elegant, saktevoksende palme med grasiøse, buete blader. Tåler skyggefulle plasseringer bedre enn de fleste palmer.",
     sun: "partial-shade",
     water: "moderate",
     frost: "tender",
@@ -3435,7 +3435,7 @@ export const plants: Plant[] = [
     },
     spacing: "60-100 cm",
     harvestDays: null,
-    tips: "Kentiapalmen er saktevoksende men kan bli stor over tid. Taaler skyggefulle plasseringer bedre enn de fleste palmer. Vann jevnt men la jorda toerke litt mellom vanningene. Spray bladene for aa forebygge midd. Ikke ompott for ofte — den liker aa staa litt trangt. En klassisk kontorplante.",
+    tips: "Kentiapalmen er saktevoksende men kan bli stor over tid. Tåler skyggefulle plasseringer bedre enn de fleste palmer. Vann jevnt men la jorda tørke litt mellom vanningene. Spray bladene for å forebygge midd. Ikke ompott for ofte — den liker å stå litt trangt. En klassisk kontorplante.",
   },
   {
     name: "Klatrefilodendron",
@@ -3445,7 +3445,7 @@ export const plants: Plant[] = [
     family: "Araceae",
     icon: "leaf",
     description:
-      "Kraftig klatrefilodendron med store, moerke blader som ofte har roedlig underside. Imponerende stueplante for stoerre rom.",
+      "Kraftig klatrefilodendron med store, mørke blader som ofte har rødlig underside. Imponerende stueplante for større rom.",
     sun: "partial-shade",
     water: "moderate",
     frost: "tender",
@@ -3463,7 +3463,7 @@ export const plants: Plant[] = [
     },
     spacing: "40-60 cm",
     harvestDays: null,
-    tips: "Gi klatrefilodendron en mosestokk eller annen stoette for aa klatre paa — bladene blir stoerre naar planten faar klatre. Trives i lyst, indirekte lys. Vann naar den oeverste 2-3 cm av jorda er toerr. Spray jevnlig for hoy luftfuktighet. Populaere sorter inkluderer 'Pink Princess' og 'White Knight'.",
+    tips: "Gi klatrefilodendron en mosestokk eller annen støtte for å klatre på — bladene blir større når planten får klatre. Trives i lyst, indirekte lys. Vann når den øverste 2-3 cm av jorda er tørr. Spray jevnlig for hoy luftfuktighet. Populære sorter inkluderer 'Pink Princess' og 'White Knight'.",
   },
   {
     name: "Monstera",
@@ -3491,7 +3491,7 @@ export const plants: Plant[] = [
     },
     spacing: "60-100 cm",
     harvestDays: null,
-    tips: "Monstera trenger stoette for aa klatre — bruk mosestokk for stoerst mulige blader med flest hull. Trives i lyst, indirekte lys. Vann naar den oeverste 3-4 cm av jorda er toerr. Luftroettene kan ledes ned i jorda. Formeres enkelt ved stiklinger med en node. Tork bladene med en fuktig klut jevnlig.",
+    tips: "Monstera trenger støtte for å klatre — bruk mosestokk for størst mulige blader med flest hull. Trives i lyst, indirekte lys. Vann når den øverste 3-4 cm av jorda er tørr. Luftrøttene kan ledes ned i jorda. Formeres enkelt ved stiklinger med en node. Tork bladene med en fuktig klut jevnlig.",
   },
   {
     name: "Monstera adansonii",
@@ -3519,17 +3519,17 @@ export const plants: Plant[] = [
     },
     spacing: "30-45 cm",
     harvestDays: null,
-    tips: "Monstera adansonii vokser raskt og kan enten henge eller klatre. Bladene faar flere hull med alderen. Trives i lyst, indirekte lys og hoy luftfuktighet. La toppen av jorda toerke mellom vanningene. Formeres enkelt ved stiklinger. Kan bli svаert lang som hengende plante.",
+    tips: "Monstera adansonii vokser raskt og kan enten henge eller klatre. Bladene får flere hull med alderen. Trives i lyst, indirekte lys og hoy luftfuktighet. La toppen av jorda tørke mellom vanningene. Formeres enkelt ved stiklinger. Kan bli svаert lang som hengende plante.",
   },
   {
-    name: "Moellorkide",
+    name: "Møllorkidé",
     species: "Phalaenopsis spp.",
     slug: "mollorkide",
     category: "houseplant",
     family: "Orchidaceae",
     icon: "flower",
     description:
-      "Den mest populaere orkideen med elegante blomster som varer i maaneder. Lettere aa dyrke enn sitt rykte tilsier.",
+      "Den mest populære orkideen med elegante blomster som varer i måneder. Lettere å dyrke enn sitt rykte tilsier.",
     sun: "partial-shade",
     water: "low",
     frost: "tender",
@@ -3547,7 +3547,7 @@ export const plants: Plant[] = [
     },
     spacing: "15-25 cm",
     harvestDays: null,
-    tips: "Bruk spesiell orkidejord (bark) — aldri vanlig jord. Vann ved aa dyppe potten i vann i 10-15 minutter, la drenere godt. Vann sjeldnere om vinteren. Klipp avblomstret stengel over en node for mulig ny blomstring. Groenne roetter er sunne; brune eller blaute er raatne. Et fall i nattetemperatur stimulerer ny blomstring.",
+    tips: "Bruk spesiell orkidejord (bark) — aldri vanlig jord. Vann ved å dyppe potten i vann i 10-15 minutter, la drenere godt. Vann sjeldnere om vinteren. Klipp avblomstret stengel over en node for mulig ny blomstring. Grønne røtter er sunne; brune eller blaute er råtne. Et fall i nattetemperatur stimulerer ny blomstring.",
   },
   {
     name: "Paraplytre",
@@ -3575,7 +3575,7 @@ export const plants: Plant[] = [
     },
     spacing: "50-80 cm",
     harvestDays: null,
-    tips: "Paraplytreet er hardfoert og tilgivende. Trives i indirekte til direkte lys. Vann naar den oeverste 2-3 cm av jorda er toerr. Beskjaer for aa holde oensket form og storrelse. Kan bli svаert stort over tid — ompotting kontrollerer stoerrelsen. Rengjor bladene jevnlig.",
+    tips: "Paraplytreet er hardført og tilgivende. Trives i indirekte til direkte lys. Vann når den øverste 2-3 cm av jorda er tørr. Beskjær for å holde ønsket form og storrelse. Kan bli svаert stort over tid — ompotting kontrollerer størrelsen. Rengjør bladene jevnlig.",
   },
   {
     name: "Pengetre",
@@ -3585,7 +3585,7 @@ export const plants: Plant[] = [
     family: "Crassulaceae",
     icon: "shrub",
     description:
-      "Tradisjonell sukkulent stueplante med tykke, ovale blader og treaktig stamme. Sies aa bringe lykke og velstand.",
+      "Tradisjonell sukkulent stueplante med tykke, ovale blader og treaktig stamme. Sies å bringe lykke og velstand.",
     sun: "full-sun",
     water: "low",
     frost: "tender",
@@ -3603,7 +3603,7 @@ export const plants: Plant[] = [
     },
     spacing: "25-40 cm",
     harvestDays: null,
-    tips: "Pengetre er svаert langlivet og kan bli et godt bonsai-lignende tre over tid. Gi rikelig sol for kompakt vekst. Vann sparsomt og la jorda toerke ut mellom vanningene. Formeres enkelt ved bladstiklinger eller stengselstiklinger. Kan blomstre med smaa hvite eller rosa blomster naar den er moden.",
+    tips: "Pengetre er svаert langlivet og kan bli et godt bonsai-lignende tre over tid. Gi rikelig sol for kompakt vekst. Vann sparsomt og la jorda tørke ut mellom vanningene. Formeres enkelt ved bladstiklinger eller stengselstiklinger. Kan blomstre med små hvite eller rosa blomster når den er moden.",
   },
   {
     name: "Peperomia",
@@ -3613,7 +3613,7 @@ export const plants: Plant[] = [
     family: "Piperaceae",
     icon: "leaf",
     description:
-      "Kompakt stueplante med tykke, blanke blader. Finnes i mange varianter og er perfekt for smaa rom og vinduskarmer.",
+      "Kompakt stueplante med tykke, blanke blader. Finnes i mange varianter og er perfekt for små rom og vinduskarmer.",
     sun: "partial-shade",
     water: "low",
     frost: "tender",
@@ -3631,7 +3631,7 @@ export const plants: Plant[] = [
     },
     spacing: "15-20 cm",
     harvestDays: null,
-    tips: "Peperomia lagrer vann i sine tykke blader og trenger ikke mye vanning. La jorda toerke godt ut mellom vanningene. Trives i indirekte lys. Kompakt storrelse gjor den perfekt for vinduskarmer og skrivebord. Finnes i utallige varianter med ulike bladformer og farger. Formeres enkelt ved bladstiklinger.",
+    tips: "Peperomia lagrer vann i sine tykke blader og trenger ikke mye vanning. La jorda tørke godt ut mellom vanningene. Trives i indirekte lys. Kompakt storrelse gjør den perfekt for vinduskarmer og skrivebord. Finnes i utallige varianter med ulike bladformer og farger. Formeres enkelt ved bladstiklinger.",
   },
   {
     name: "Stuepalme",
@@ -3641,7 +3641,7 @@ export const plants: Plant[] = [
     family: "Arecaceae",
     icon: "shrub",
     description:
-      "Kompakt, saktevoksende palme som taaler lite lys. En av de mest populaere palmene for innendoers bruk.",
+      "Kompakt, saktevoksende palme som tåler lite lys. En av de mest populære palmene for innendørs bruk.",
     sun: "shade",
     water: "moderate",
     frost: "tender",
@@ -3659,7 +3659,7 @@ export const plants: Plant[] = [
     },
     spacing: "30-50 cm",
     harvestDays: null,
-    tips: "Stuepalmen er en av faa palmer som trives i lite lys. Vann jevnt men la toppen av jorda toerke mellom vanningene. Spray bladene for aa forebygge spinnmidd. Saktevoksende — trenger sjelden ompotting. Unngaa direkte sol som kan brenne bladene. En klassiker blant stueplanter.",
+    tips: "Stuepalmen er en av få palmer som trives i lite lys. Vann jevnt men la toppen av jorda tørke mellom vanningene. Spray bladene for å forebygge spinnmidd. Saktevoksende — trenger sjelden ompotting. Unngå direkte sol som kan brenne bladene. En klassiker blant stueplanter.",
   },
   {
     name: "Svigermors tunge",
@@ -3669,7 +3669,7 @@ export const plants: Plant[] = [
     family: "Asparagaceae",
     icon: "leaf",
     description:
-      "Ikonisk stueplante med opprette, sverdformede blader med karakteristisk groenngult baand. Nesten umulig aa drepe.",
+      "Ikonisk stueplante med opprette, sverdformede blader med karakteristisk grønngult bånd. Nesten umulig å drepe.",
     sun: "partial-shade",
     water: "low",
     frost: "tender",
@@ -3687,7 +3687,7 @@ export const plants: Plant[] = [
     },
     spacing: "20-30 cm",
     harvestDays: null,
-    tips: "Svigermors tunge er en av de hardfoereste stueplantene som finnes. Vann svаert sparsomt — overvandig er den eneste maaten aa drepe den paa. Taaler alt fra skygge til sol. En av NASAs beste luftrensende planter. Formeres ved deling eller bladstiklinger. Kan blomstre med duftende hvite blomster.",
+    tips: "Svigermors tunge er en av de hardføreste stueplantene som finnes. Vann svаert sparsomt — overvandig er den eneste måten å drepe den på. Tåler alt fra skygge til sol. En av NASAs beste luftrensende planter. Formeres ved deling eller bladstiklinger. Kan blomstre med duftende hvite blomster.",
   },
   {
     name: "Syngonium",
@@ -3715,7 +3715,7 @@ export const plants: Plant[] = [
     },
     spacing: "20-30 cm",
     harvestDays: null,
-    tips: "Syngonium endrer bladform med alderen — unge blader er pilformede, mens eldre blader blir delt i flere finner. Kan klatre opp mosestokk eller henge. Trives i lyst, indirekte lys. Finnes i mange fargvarianter fra groent til rosa og hvitt. Formeres lett ved stiklinger. Beskjaer for buskete vekst.",
+    tips: "Syngonium endrer bladform med alderen — unge blader er pilformede, mens eldre blader blir delt i flere finner. Kan klatre opp mosestokk eller henge. Trives i lyst, indirekte lys. Finnes i mange fargvarianter fra grønt til rosa og hvitt. Formeres lett ved stiklinger. Beskjær for buskete vekst.",
   },
   {
     name: "Voksblomst",
@@ -3743,6 +3743,6 @@ export const plants: Plant[] = [
     },
     spacing: "20-30 cm",
     harvestDays: null,
-    tips: "Voksblomst blomstrer paa de same sporene aar etter aar — klipp aldri av gamle blomsterstilker. Foretrekker aa staa litt trangt i potten for aa stimulere blomstring. La jorda toerke godt ut mellom vanningene. Kan bli svаert lang og ledes langs vinduer eller hyller. Blomstene er intenst duftende, spesielt om kvelden.",
+    tips: "Voksblomst blomstrer på de same sporene år etter år — klipp aldri av gamle blomsterstilker. Foretrekker å stå litt trangt i potten for å stimulere blomstring. La jorda tørke godt ut mellom vanningene. Kan bli svаert lang og ledes langs vinduer eller hyller. Blomstene er intenst duftende, spesielt om kvelden.",
   },
 ];

@@ -28,7 +28,9 @@ export function CompanionList({
 
   return (
     <section>
-      <h2 className="mb-4 text-lg font-semibold">Samplanting &amp; konflikter</h2>
+      <h2 className="mb-4 font-serif text-lg tracking-tight text-clay">
+        Samplanting &amp; konflikter
+      </h2>
       <div className="space-y-6">
         {groups.map((group) => {
           const entries = companions.filter(
@@ -37,7 +39,9 @@ export function CompanionList({
           if (entries.length === 0) return null;
           return (
             <div key={group.type}>
-              <h3 className={`mb-1 text-sm font-medium ${group.color}`}>
+              <h3
+                className={`mb-1 font-serif text-[13px] font-medium ${group.color}`}
+              >
                 {group.label}
               </h3>
               <div>

@@ -17,20 +17,18 @@ export function PlantCard({
 }: PlantCardProps) {
   const inner = (
     <div
-      className={`flex flex-col items-center gap-1 rounded px-2 py-3 text-center transition-colors ${
-        selected
-          ? "bg-sage-light"
-          : "hover:bg-secondary"
+      className={`flex flex-col items-center gap-0.5 rounded-sm px-1.5 py-2.5 text-center transition-colors ${
+        selected ? "bg-sage-light" : "hover:bg-linen"
       }`}
     >
       <PlantIcon
         name={plant.icon}
-        className={`mb-0.5 h-6 w-6 ${
-          selected ? "text-sage" : "text-muted-foreground"
-        }`}
+        className={`h-5 w-5 ${selected ? "text-sage" : "text-clay/40"}`}
       />
-      <span className="text-sm font-medium leading-tight">{plant.name}</span>
-      <span className="text-[11px] italic text-muted-foreground">
+      <span className="font-serif text-[13px] leading-tight text-clay">
+        {plant.name}
+      </span>
+      <span className="font-serif text-[10px] italic text-clay/40">
         {plant.species.split(" ").slice(0, 2).join(" ")}
       </span>
     </div>

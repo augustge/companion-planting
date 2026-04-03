@@ -8,8 +8,6 @@ import { PlantingCalendar } from "@/components/planting-calendar";
 import { CompatibilityMatrix } from "@/components/compatibility-matrix";
 import type { Plant, CompanionEdge } from "@/lib/types";
 
-const MAX_SELECTED = 12;
-
 export function GardenPlanner({
   plants,
   companions,
@@ -25,9 +23,7 @@ export function GardenPlanner({
     if (!param) return new Set<string>();
     const validSlugs = new Set(plants.map((p) => p.slug));
     return new Set(
-      param
-        .split(",")
-        .filter((s) => s && validSlugs.has(s))
+      param.split(",").filter((s) => s && validSlugs.has(s))
     );
   }, [searchParams, plants]);
 
@@ -50,7 +46,7 @@ export function GardenPlanner({
       const next = new Set(selectedSlugs);
       if (next.has(slug)) {
         next.delete(slug);
-      } else if (next.size < MAX_SELECTED) {
+      } else {
         next.add(slug);
       }
       updateSelection(next);
@@ -73,10 +69,12 @@ export function GardenPlanner({
   );
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-10">
       <div>
-        <h1 className="text-2xl font-semibold italic">Hageplanlegger</h1>
-        <p className="mt-1 text-sm text-muted-foreground">
+        <h1 className="font-serif text-3xl font-semibold italic tracking-tight text-clay">
+          Hageplanlegger
+        </h1>
+        <p className="mt-1.5 font-serif text-sm text-clay/60">
           Velg planter for å se når du kan så, plante ut og høste — og hvilke
           som trives sammen.
         </p>

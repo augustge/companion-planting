@@ -36,15 +36,15 @@ export function PlantSelector({
 
   return (
     <div>
-      <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center">
+      <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-center">
         <input
           type="search"
           placeholder="Søk etter planter..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="w-full rounded-sm border-0 border-b border-border bg-transparent px-0 py-1.5 text-sm placeholder:text-muted-foreground/60 focus:border-foreground focus:outline-none sm:w-64"
+          className="w-full border-0 border-b border-clay/10 bg-transparent px-0 py-1.5 font-serif text-sm text-clay placeholder:text-clay/30 focus:border-clay/30 focus:outline-none sm:w-56"
         />
-        <div className="flex gap-3 text-sm">
+        <div className="flex flex-wrap gap-x-3 gap-y-1 font-serif text-[13px]">
           {categories.map((cat) => (
             <button
               key={cat.value}
@@ -52,8 +52,8 @@ export function PlantSelector({
               onClick={() => setCategory(cat.value)}
               className={`transition-colors ${
                 category === cat.value
-                  ? "text-foreground"
-                  : "text-muted-foreground hover:text-foreground"
+                  ? "text-clay"
+                  : "text-clay/30 hover:text-clay/60"
               }`}
             >
               {cat.label}
@@ -63,11 +63,11 @@ export function PlantSelector({
       </div>
 
       {filtered.length === 0 ? (
-        <p className="py-8 text-center text-sm text-muted-foreground">
+        <p className="py-8 text-center font-serif text-sm text-clay/40">
           Ingen planter funnet.
         </p>
       ) : (
-        <div className="grid grid-cols-3 gap-1 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6">
+        <div className="grid grid-cols-3 gap-px sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6">
           {filtered.map((plant) => (
             <PlantCard
               key={plant.slug}

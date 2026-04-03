@@ -1049,7 +1049,7 @@ export const companions: CompanionEdge[] = [
     plants: ["erter", "karve"],
     compatibility: "companion",
     reason:
-      "Karve og erter er en tradisjonell norsk kombination; karve tiltrekker nytteinsekter som gagner erter.",
+      "Karve og erter er en tradisjonell norsk kombinasjon; karve tiltrekker nytteinsekter som gagner erter.",
     evidence: "moderate",
     citations: [
       { label: "Riotte, Carrots Love Tomatoes, 1998", url: null },
@@ -2159,7 +2159,7 @@ export const companions: CompanionEdge[] = [
     plants: ["erter", "lok"],
     compatibility: "antagonist",
     reason:
-      "Løk bremser ertevekst ved å forstyrre nitrogenfiskering i rotsonen.",
+      "Løk bremser ertevekst ved å forstyrre nitrogenfiksering i rotsonen.",
     evidence: "high",
     citations: [
       { label: "Riotte, Carrots Love Tomatoes, 1998", url: null },

@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: "/", label: "Planlegger" },
@@ -15,7 +14,10 @@ export function SiteHeader() {
   return (
     <header className="pb-2 pt-8">
       <div className="mx-auto flex max-w-3xl items-baseline justify-between px-6">
-        <Link href="/" className="text-xl font-semibold italic tracking-tight">
+        <Link
+          href="/"
+          className="font-serif text-xl font-semibold italic tracking-tight text-clay"
+        >
           Samplanting
         </Link>
         <nav className="flex gap-5">
@@ -28,12 +30,9 @@ export function SiteHeader() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={cn(
-                  "text-sm transition-colors",
-                  active
-                    ? "text-foreground"
-                    : "text-muted-foreground hover:text-foreground"
-                )}
+                className={`font-serif text-sm transition-colors ${
+                  active ? "text-clay" : "text-clay/40 hover:text-clay"
+                }`}
               >
                 {link.label}
               </Link>

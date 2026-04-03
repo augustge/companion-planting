@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { PlantIcon } from "@/components/plant-icon";
-import type { Plant, CompanionEdge } from "@/lib/types";
+import type { Plant, CompanionEdge, EvidenceLevel } from "@/lib/types";
 
 function getEdge(
   a: string,
@@ -29,6 +29,12 @@ const dotLabels = {
   antagonist: "Hold fra hverandre",
 };
 
+const evidenceLabel: Record<EvidenceLevel, string> = {
+  high: "sterk",
+  moderate: "middels",
+  low: "svak",
+};
+
 export function CompatibilityMatrix({
   plants,
   companions,
@@ -45,22 +51,24 @@ export function CompatibilityMatrix({
   if (plants.length < 2) return null;
 
   return (
-    <div className="space-y-3">
-      <h2 className="text-lg font-semibold">Kompatibilitet</h2>
+    <div className="space-y-4">
+      <h2 className="font-serif text-lg tracking-tight text-clay">
+        Kompatibilitet
+      </h2>
 
       <div className="overflow-x-auto">
-        <table className="border-collapse text-sm">
+        <table className="border-collapse">
           <thead>
             <tr>
               <th />
               {plants.map((p) => (
-                <th key={p.slug} className="px-1 pb-1">
+                <th key={p.slug} className="px-0.5 pb-2">
                   <div className="flex flex-col items-center gap-0.5">
                     <PlantIcon
                       name={p.icon}
-                      className="h-3.5 w-3.5 text-clay"
+                      className="h-3.5 w-3.5 text-clay/60"
                     />
-                    <span className="max-w-10 truncate text-[10px] font-normal text-muted-foreground">
+                    <span className="max-w-10 truncate font-serif text-[9px] font-normal italic text-clay/50">
                       {p.name}
                     </span>
                   </div>
@@ -71,7 +79,7 @@ export function CompatibilityMatrix({
           <tbody>
             {plants.map((rowPlant, ri) => (
               <tr key={rowPlant.slug}>
-                <td className="whitespace-nowrap pr-2 text-right text-xs">
+                <td className="whitespace-nowrap pr-2 text-right font-serif text-[11px] italic text-clay">
                   {rowPlant.name}
                 </td>
                 {plants.map((colPlant, ci) => {
@@ -79,7 +87,7 @@ export function CompatibilityMatrix({
                     return (
                       <td key={colPlant.slug} className="p-0.5">
                         <div className="flex h-5 w-5 items-center justify-center">
-                          <div className="h-1 w-1 rounded-full bg-border" />
+                          <div className="h-px w-2 bg-clay/10" />
                         </div>
                       </td>
                     );
@@ -95,8 +103,8 @@ export function CompatibilityMatrix({
                     <td key={colPlant.slug} className="p-0.5">
                       <button
                         type="button"
-                        className={`flex h-5 w-5 items-center justify-center rounded-sm transition-colors hover:bg-secondary ${
-                          isActive ? "bg-secondary" : ""
+                        className={`flex h-5 w-5 items-center justify-center rounded-sm transition-colors hover:bg-linen ${
+                          isActive ? "bg-linen" : ""
                         }`}
                         onClick={() =>
                           setActiveCell(
@@ -105,8 +113,10 @@ export function CompatibilityMatrix({
                         }
                       >
                         <div
-                          className={`h-2.5 w-2.5 rounded-full ${
-                            edge ? dotColors[edge.compatibility] : "bg-border"
+                          className={`rounded-full ${
+                            edge
+                              ? `h-2.5 w-2.5 ${dotColors[edge.compatibility]}`
+                              : "h-1 w-1 bg-clay/10"
                           }`}
                         />
                       </button>
@@ -119,68 +129,73 @@ export function CompatibilityMatrix({
         </table>
       </div>
 
+      {/* Detail panel */}
       {activeCell && (
-        <div className="text-sm">
-          <span className="font-medium">
+        <div className="font-serif text-sm text-clay">
+          <span className="italic">
             {plants[activeCell.row].name} + {plants[activeCell.col].name}
           </span>
           {activeCell.edge ? (
-            <div className="mt-1">
-              <div className="flex items-center gap-1.5 text-muted-foreground">
+            <div className="mt-1.5 space-y-1">
+              <div className="flex items-center gap-1.5 text-[13px]">
                 <div
                   className={`h-2 w-2 rounded-full ${
                     dotColors[activeCell.edge.compatibility]
                   }`}
                 />
-                {dotLabels[activeCell.edge.compatibility]}
+                <span className="text-clay/70">
+                  {dotLabels[activeCell.edge.compatibility]}
+                </span>
               </div>
-              <p className="mt-0.5 text-muted-foreground">
+              <p className="text-[13px] leading-relaxed text-clay/80">
                 {activeCell.edge.reason}
               </p>
-              <p className="mt-0.5 text-[11px] text-muted-foreground/60">
-                Evidens: {activeCell.edge.evidence === "high" ? "sterk" : activeCell.edge.evidence === "moderate" ? "middels" : "svak"}
+              <p className="text-[11px] text-clay/40">
+                Evidens: {evidenceLabel[activeCell.edge.evidence]}
+                {activeCell.edge.citations.length > 0 && (
+                  <span>
+                    {" · "}
+                    {activeCell.edge.citations.map((c, i) => (
+                      <span key={i}>
+                        {i > 0 && " · "}
+                        {c.url ? (
+                          <a
+                            href={c.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:underline"
+                          >
+                            {c.label}
+                          </a>
+                        ) : (
+                          c.label
+                        )}
+                      </span>
+                    ))}
+                  </span>
+                )}
               </p>
-              {activeCell.edge.citations.length > 0 && (
-                <p className="mt-0.5 text-[11px] text-muted-foreground/50">
-                  {activeCell.edge.citations.map((c, i) => (
-                    <span key={i}>
-                      {i > 0 && " · "}
-                      {c.url ? (
-                        <a
-                          href={c.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="hover:underline"
-                        >
-                          {c.label}
-                        </a>
-                      ) : (
-                        c.label
-                      )}
-                    </span>
-                  ))}
-                </p>
-              )}
             </div>
           ) : (
-            <p className="mt-0.5 text-muted-foreground">
+            <p className="mt-1 text-[13px] text-clay/50">
               Ingen kjent interaksjon.
             </p>
           )}
         </div>
       )}
 
-      <div className="flex gap-4 text-[11px] text-muted-foreground">
+      {/* Legend */}
+      <div className="flex flex-wrap gap-x-5 gap-y-1 font-serif text-[11px] text-clay/60">
         <span className="flex items-center gap-1.5">
-          <span className="inline-block h-2.5 w-2.5 rounded-full bg-sage" />
+          <span className="inline-block h-1.5 w-1.5 rounded-full bg-sage" />
           Samplanting
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="inline-block h-2.5 w-2.5 rounded-full bg-amber-earth" />
+          <span className="inline-block h-1.5 w-1.5 rounded-full bg-amber-earth" />
           I nærheten
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="inline-block h-2.5 w-2.5 rounded-full bg-terracotta" />
+          <span className="inline-block h-1.5 w-1.5 rounded-full bg-terracotta" />
           Unngå
         </span>
       </div>

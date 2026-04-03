@@ -8,12 +8,6 @@ const evidenceLabel: Record<EvidenceLevel, string> = {
   low: "svak",
 };
 
-const evidenceColor: Record<EvidenceLevel, string> = {
-  high: "text-sage",
-  moderate: "text-muted-foreground/60",
-  low: "text-muted-foreground/40",
-};
-
 export function CompanionRow({
   plant,
   reason,
@@ -30,24 +24,24 @@ export function CompanionRow({
       <div className="flex items-baseline gap-2">
         <Link
           href={`/plant/${plant.slug}`}
-          className="inline-flex items-center gap-1.5 font-medium hover:underline"
+          className="inline-flex items-center gap-1.5 font-serif text-[13px] font-medium text-clay hover:underline"
         >
           <PlantIcon
             name={plant.icon}
-            className="h-3.5 w-3.5 text-muted-foreground"
+            className="h-3.5 w-3.5 text-clay/40"
           />
           {plant.name}
         </Link>
-        <span className="text-sm text-muted-foreground">— {reason}</span>
+        <span className="font-serif text-[13px] text-clay/60">— {reason}</span>
       </div>
-      <div className="mt-0.5 flex items-center gap-3 pl-5 text-[11px]">
+      <div className="mt-0.5 flex items-center gap-3 pl-5 font-serif text-[10px]">
         {evidence && (
-          <span className={evidenceColor[evidence]}>
-            Evidens: {evidenceLabel[evidence]}
+          <span className="text-clay/35">
+            evidens: {evidenceLabel[evidence]}
           </span>
         )}
         {citations && citations.length > 0 && (
-          <span className="text-muted-foreground/50">
+          <span className="text-clay/25">
             {citations.map((c, i) => (
               <span key={i}>
                 {i > 0 && " · "}
