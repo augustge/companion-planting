@@ -5,6 +5,7 @@ import type {
   PlantCategory,
   Compatibility,
   Citation,
+  EvidenceLevel,
   CompanionEdge,
 } from "@/lib/types";
 
@@ -34,6 +35,7 @@ export function getCompanions(
   plant: Plant;
   compatibility: Compatibility;
   reason: string;
+  evidence: EvidenceLevel;
   citations: Citation[];
 }[] {
   return companions
@@ -47,6 +49,7 @@ export function getCompanions(
         plant,
         compatibility: edge.compatibility,
         reason: edge.reason,
+        evidence: edge.evidence,
         citations: edge.citations,
       };
     })

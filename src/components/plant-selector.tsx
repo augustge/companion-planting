@@ -9,6 +9,8 @@ const categories: { value: PlantCategory | "all"; label: string }[] = [
   { value: "vegetable", label: "Grønnsaker" },
   { value: "herb", label: "Urter" },
   { value: "flower", label: "Blomster" },
+  { value: "berry", label: "Bær" },
+  { value: "houseplant", label: "Inneplanter" },
 ];
 
 export function PlantSelector({

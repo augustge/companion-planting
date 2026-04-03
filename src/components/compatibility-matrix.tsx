@@ -137,6 +137,9 @@ export function CompatibilityMatrix({
               <p className="mt-0.5 text-muted-foreground">
                 {activeCell.edge.reason}
               </p>
+              <p className="mt-0.5 text-[11px] text-muted-foreground/60">
+                Evidens: {activeCell.edge.evidence === "high" ? "sterk" : activeCell.edge.evidence === "moderate" ? "middels" : "svak"}
+              </p>
               {activeCell.edge.citations.length > 0 && (
                 <p className="mt-0.5 text-[11px] text-muted-foreground/50">
                   {activeCell.edge.citations.map((c, i) => (

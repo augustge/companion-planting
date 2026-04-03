@@ -1,10 +1,11 @@
 import { CompanionRow } from "@/components/companion-row";
-import type { Plant, Compatibility, Citation } from "@/lib/types";
+import type { Plant, Compatibility, Citation, EvidenceLevel } from "@/lib/types";
 
 type CompanionEntry = {
   plant: Plant;
   compatibility: Compatibility;
   reason: string;
+  evidence: EvidenceLevel;
   citations: Citation[];
 };
 
@@ -45,6 +46,7 @@ export function CompanionList({
                     key={entry.plant.slug}
                     plant={entry.plant}
                     reason={entry.reason}
+                    evidence={entry.evidence}
                     citations={entry.citations}
                   />
                 ))}
